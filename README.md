@@ -1,4 +1,4 @@
-## Radix WordPress Theme
+## Radix WordPress Starter Theme
 Clean WordPress Starter Theme based on bootstrap 3 for use as a starting template for building custom themes. (WordPress repository)
 
 ## What it offeres
