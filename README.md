@@ -38,7 +38,7 @@ Third-Party Plugins:
 
 
 ## Screenshot
-![screenshot](http://www.croti.com/images/rookie-starter-wordpress-bootstrap.png)
+![screenshot](http://cdn.croti.com/Radix-screenshot.png)
 
 ## Demo
 [Demo](http://starter.croti.com/)
