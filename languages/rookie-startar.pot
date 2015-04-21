@@ -1,0 +1,2269 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Rookie 1.0\n"
+"POT-Creation-Date: 2015-04-09 12:35-0500\n"
+"PO-Revision-Date: 2015-04-09 12:35-0500\n"
+"Last-Translator: \n"
+"Language-Team: Abukwaik <abukwaikabeer@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\starter\\wp-content\\themes\\_rookie-starter\n"
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/404.php:18
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/breadcrumbs.php:122
+msgid "Error 404"
+msgstr "Error clueless"
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/404.php:19
+msgid "It looks like nothing was found at this location."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/404.php:20
+msgid "Go Back"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/404.php:27
+msgid "Or maybe try a search?"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/extensions/customizer/extension_customizer.php:469
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:1799
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/extensions/customizer/extension_customizer.php:470
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:1807
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/extensions/customizer/extension_customizer.php:471
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:1823
+msgid "Your current options will be replaced with the values of this preset. Would you like to proceed?"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/extensions/customizer/extension_customizer.php:504
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/extensions/customizer/extension_customizer.php:505
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/extensions/customizer/extension_customizer.php:506
+msgid "Your current options will be replaced with the values of this preset.  Would you like to proceed?"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:171
+#, php-format
+msgid "Options panel created using %1$s"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:171
+msgid "Redux Framework"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:175
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:179
+msgid "Options"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:1255
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:1256
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:3400
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:3479
+msgid "System Info"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:1815
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:1830
+msgid "Please Wait"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:1976
+msgid "Hints"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:1977
+msgid "<p>"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:2101
+msgid "Default"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:3151
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:3198
+msgid "Developer Mode Enabled"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:3226
+msgid "Expand"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:3228
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:3536
+msgid "Save Changes"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:3232
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:3540
+msgid "Reset Section"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:3234
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:3542
+msgid "Reset All"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:3239
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:3547
+msgid "Working..."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:3259
+msgid "Settings Imported!"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:3274
+msgid "All Defaults Restored!"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:3288
+msgid "Section Defaults Restored!"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:3302
+msgid "Settings Saved!"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:3320
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:3328
+msgid "error(s) were found!"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/framework.php:3336
+msgid "warning(s) were found!"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/class.redux_filesystem.php:22
+msgid "Unable to create a required directory. Please ensure that"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/class.redux_filesystem.php:24
+msgid "has the proper read/write permissions or enter your FTP information below."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/class.redux_functions.php:253
+msgid "Dismiss"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/debug.php:41
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/debug.php:69
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/debug.php:76
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/debug.php:77
+msgid "Options Object"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/debug.php:54
+msgid "Show Object in Javascript Console Object"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/background/field_background.php:124
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/color/field_color.php:72
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:79
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:91
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/color_rgba/field_color_rgba.php:77
+msgid "Transparent"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/background/field_background.php:141
+msgid "Background Repeat"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/background/field_background.php:157
+msgid "Background Clip"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/background/field_background.php:173
+msgid "Background Origin"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/background/field_background.php:188
+msgid "Background Size"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/background/field_background.php:203
+msgid "Background Attachment"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/background/field_background.php:223
+msgid "Background Position"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/background/field_background.php:277
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/media/field_media.php:116
+msgid "No media selected"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/background/field_background.php:314
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/media/field_media.php:159
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/slides/field_slides.php:126
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/slides/field_slides.php:188
+msgid "Upload"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/background/field_background.php:321
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/media/field_media.php:166
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/multi_text/field_multi_text.php:69
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/multi_text/field_multi_text.php:73
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/multi_text/field_multi_text.php:76
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/slides/field_slides.php:133
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/slides/field_slides.php:190
+msgid "Remove"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/border/field_border.php:114
+msgid "All"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/border/field_border.php:127
+msgid "Top"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/border/field_border.php:134
+msgid "Right"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/border/field_border.php:141
+msgid "Bottom"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/border/field_border.php:148
+msgid "Left"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/border/field_border.php:162
+msgid "Border style"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:68
+msgid "From "
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:82
+msgid "To "
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/dimensions/field_dimensions.php:161
+msgid "Width"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/dimensions/field_dimensions.php:177
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:465
+msgid "Height"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/dimensions/field_dimensions.php:188
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/dimensions/field_dimensions.php:189
+msgid "Units"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/link_color/field_link_color.php:87
+msgid "Regular"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/link_color/field_link_color.php:91
+msgid "Hover"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/link_color/field_link_color.php:95
+msgid "Visited"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/link_color/field_link_color.php:99
+msgid "Active"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/multi_text/field_multi_text.php:61
+msgid "Add More"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/select/field_select.php:82
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/select_image/field_select_image.php:62
+msgid "Select an item"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/select/field_select.php:126
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/select_image/field_select_image.php:143
+msgid "No items of this type were found."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/slides/field_slides.php:68
+msgid "Slide"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/slides/field_slides.php:73
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/slides/field_slides.php:145
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/slides/field_slides.php:200
+msgid "Title"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/slides/field_slides.php:149
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/slides/field_slides.php:204
+msgid "Description"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/slides/field_slides.php:153
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/slides/field_slides.php:207
+msgid "URL"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/slides/field_slides.php:167
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/slides/field_slides.php:220
+#, php-format
+msgid "Delete %s"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/slides/field_slides.php:223
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/switch/field_switch.php:41
+msgid "On"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/switch/field_switch.php:44
+msgid "Off"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:256
+msgid "Font Family"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:257
+msgid "Font family"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:283
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:284
+msgid "Backup Font Family"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:298
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:305
+msgid "Font style"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:299
+msgid "Font Weight &amp; Style"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:305
+msgid "Style"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:345
+msgid "Font subsets"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:347
+msgid "Font Subsets"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:348
+msgid "Subsets"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:348
+msgid "Font script"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:365
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:366
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:367
+msgid "Text Align"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:388
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:389
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:390
+msgid "Text Transform"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:411
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:412
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:413
+msgid "Font Variant"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:431
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:432
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:433
+msgid "Text Decoration"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:455
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:456
+msgid "Font Size"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:456
+msgid "Size"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:464
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:465
+msgid "Line Height"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:473
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:474
+msgid "Word Spacing"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:482
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:483
+msgid "Letter Spacing"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:501
+msgid "Font Color"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:503
+msgid "Font color"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:861
+msgid "Standard Fonts"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/fields/typography/field_typography.php:968
+msgid "Google Webfonts"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/import_export.php:78
+msgid "Import / Export Options"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/import_export.php:81
+msgid "Import Options"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/import_export.php:82
+msgid "Import from file"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/import_export.php:82
+msgid "Import from URL"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/import_export.php:85
+msgid "Input your backup file below and hit Import to restore your sites options from a backup."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/import_export.php:90
+msgid "Input the URL to another sites options set and hit Import to load the options from that site."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/import_export.php:94
+msgid "Import"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/import_export.php:94
+msgid "WARNING! This will overwrite all existing option values, please proceed with caution!"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/import_export.php:97
+msgid "Export Options"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/import_export.php:100
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as you can use it as a backup should anything go wrong, or you can "
+"use it to restore your settings on this site (or any other site)."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/import_export.php:104
+msgid "Copy"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/import_export.php:104
+msgid "Download"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/import_export.php:104
+msgid "Copy Link"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/import_export.php:140
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/import_export.php:149
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/import_export.php:150
+msgid "Import / Export"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/tracking.php:130
+msgid "Help improve Our Panel"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/tracking.php:131
+msgid ""
+"Please helps us improve our panel by allowing us to gather anonymous usage stats so we know which configurations, plugins and themes to "
+"test to ensure compatibility."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/tracking.php:136
+msgid "Allow tracking"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/tracking.php:141
+msgid "Do not allow tracking"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/tracking.php:152
+msgid "Welcome to the Redux Demo Panel"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/tracking.php:153
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:125
+msgid "Getting Started"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/tracking.php:153
+#, php-format
+msgid "This panel demonstrates the many features of Redux.  Before digging in, we suggest you get up to speed by reviewing %1$s."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/tracking.php:153
+msgid "our documentation"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/tracking.php:154
+msgid "Redux Generator"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/tracking.php:154
+#, php-format
+msgid ""
+"Want to get a head start? Use the %1$s. It will create a customized boilerplate theme or a standalone admin folder complete with all "
+"things Redux (with the help of Underscores and TGM). Save yourself a headache and try it today."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/tracking.php:155
+msgid "Redux Extensions"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/tracking.php:155
+#, php-format
+msgid "Did you know we have extensions, which greatly enhance the features of Redux?  Visit our %1$s to learn more!"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/tracking.php:155
+msgid "extensions directory"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/tracking.php:156
+msgid "Like Redux?"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/tracking.php:156
+#, php-format
+msgid "If so, please %1$s and consider making a %2$s to keep development of Redux moving forward."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/tracking.php:156
+msgid "leave us a favorable review on WordPress.org"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/tracking.php:156
+msgid "donation"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/tracking.php:157
+msgid "Newsletter"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/tracking.php:157
+msgid "If you'd like to keep up to with all things Redux, please subscribe to our newsletter"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/tracking.php:158
+msgid "Email address"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/tracking.php:158
+msgid "Subscribe"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/tracking.php:167
+msgid "Close"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/validation/color/validation_color.php:15
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/validation/color_rgba/validation_color_rgba.php:14
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/validation/colorrgba/validation_colorrgba.php:16
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/validation/comma_numeric/validation_comma_numeric.php:16
+msgid "You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/validation/date/validation_date.php:16
+msgid "This field must be a valid date."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/validation/email/validation_email.php:16
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/validation/email_not_empty/validation_email_not_empty.php:16
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/validation/no_html/validation_no_html.php:15
+msgid "You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/validation/no_special_chars/validation_no_special_chars.php:16
+msgid "You must not enter any special characters in this field, all special characters have been removed."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/validation/not_empty/validation_not_empty.php:16
+msgid "This field cannot be empty. Please provide a value."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/validation/numeric/validation_numeric.php:16
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/validation/numeric_not_empty/validation_numeric_not_empty.php:16
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/validation/url/validation_url.php:16
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:40
+msgid "Welcome to Redux Framework"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:45
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:259
+msgid "Redux Framework Changelog"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:50
+msgid "Getting started with Redux Framework"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:55
+msgid "The people that develop Redux Framework"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:122
+msgid "What's New"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:128
+msgid "Changelog"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:131
+msgid "Credits"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:148
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:291
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:410
+#, php-format
+msgid "Welcome to Redux Framework %s"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:149
+#, php-format
+msgid "Thank you for updating to the latest version! Redux Framework %s is ready to <add description>"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:150
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:261
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:293
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:412
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:155
+msgid "Some Feature"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:159
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:162
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:174
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:177
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:180
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:185
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:196
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:199
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:204
+msgid "Feature"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:169
+msgid "Some feature"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:192
+msgid "More Features"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:197
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:200
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:205
+msgid "description"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:211
+msgid "Additional Updates"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:215
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:218
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:223
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:226
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:231
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:234
+msgid "Cool thing"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:216
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:219
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:224
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:227
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:232
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:235
+msgid "cool thing description."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:241
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:274
+msgid "Go to Redux Framework"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:242
+msgid "View the Full Changelog"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:260
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:292
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:411
+#, php-format
+msgid "Thank you for updating to the latest version! Redux Framework %s is ready to make your <description>"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:266
+msgid "Full Changelog"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:297
+msgid "Use the tips below to get started using Redux Framework. You'll be up and running in no time!"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:300
+msgid "Creating Your First Panel"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:306
+#, php-format
+msgid "<a href=\"%s\">%s &rarr; Add New</a>"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:307
+#, php-format
+msgid ""
+"The %s menu is your access point for all aspects of your Easy Digital Downloads product creation and setup. To create your first product, "
+"simply click Add New and then fill out the product details."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:309
+msgid "Product Price"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:310
+msgid ""
+"Products can have simple prices or variable prices if you wish to have more than one price point for a product. For a single price, simply "
+"enter the price. For multiple price points, click <em>Enable variable pricing</em> and enter the options."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:312
+msgid "Download Files"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:313
+msgid ""
+"Uploading the downloadable files is simple. Click <em>Upload File</em> in the Download Files section and choose your download file. To add "
+"more than one file, simply click the <em>Add New</em> button."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:319
+msgid "Display a Product Grid"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:325
+msgid "Flexible Product Grids"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:326
+msgid "The [downloads] shortcode will display a product grid that works with any theme, no matter the size. It is even responsive!"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:328
+msgid "Change the Number of Columns"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:329
+msgid "You can easily change the number of columns by adding the columns=\"x\" parameter:"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:332
+msgid "Additional Display Options"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:333
+#, php-format
+msgid "The product grids can be customized in any way you wish and there is <a href=\"%s\">extensive documentation</a> to assist you."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:338
+msgid "Purchase Buttons Anywhere"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:344
+msgid "The <em>[purchase_link]</em> Shortcode"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:345
+msgid ""
+"With easily accessible shortcodes to display purchase buttons, you can add a Buy Now or Add to Cart button for any product anywhere on "
+"your site in seconds."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:347
+msgid "Buy Now Buttons"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:348
+msgid ""
+"Purchase buttons can behave as either Add to Cart or Buy Now buttons. With Buy Now buttons customers are taken straight to PayPal, giving "
+"them the most frictionless purchasing experience possible."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:354
+msgid "Need Help?"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:358
+msgid "Phenomenal Support"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:359
+msgid ""
+"We do our best to provide the best support we can. If you encounter a problem or have a question, post a question in the <a href=\"https://"
+"easydigitaldownloads.com/support\">support forums</a>."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:361
+msgid "Need Even Faster Support?"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:362
+msgid ""
+"Our <a href=\"https://easydigitaldownloads.com/support/pricing/\">Priority Support forums</a> are there for customers that need faster and/"
+"or more in-depth assistance."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:368
+msgid "Stay Up to Date"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:372
+msgid "Get Notified of Extension Releases"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:373
+msgid ""
+"New extensions that make Easy Digital Downloads even more powerful are released nearly every single week. Subscribe to the newsletter to "
+"stay up to date with our latest releases. <a href=\"http://eepurl.com/kaerz\" target=\"_blank\">Signup now</a> to ensure you do not miss a "
+"release!"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:375
+msgid "Get Alerted About New Tutorials"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:376
+msgid ""
+"<a href=\"http://eepurl.com/kaerz\" target=\"_blank\">Signup now</a> to hear about the latest tutorial releases that explain how to take "
+"Easy Digital Downloads further."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:382
+msgid "Extensions for Everything"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:386
+msgid "Over 250 Extensions"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:387
+msgid ""
+"Add-on plugins are available that greatly extend the default functionality of Easy Digital Downloads. There are extensions for payment "
+"processors, such as Stripe and PayPal, extensions for newsletter integrations, and many, many more."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:389
+msgid "Visit the Extension Store"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:390
+msgid ""
+"<a href=\"https://easydigitaldownloads.com/extensions\" target=\"_blank\">The Extensions store</a> has a list of all available extensions, "
+"including convenient category filters so you can find exactly what you are looking for."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:416
+msgid "Redux Framework is created by a worldwide team of developers who <something witty here>"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:436
+msgid "No valid changlog was found."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/inc/welcome.php:474
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/redux-config.php:119
+msgid "Section via hook"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/redux-config.php:120
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the sections array. Can be used by child themes to add/remove "
+"sections from the options.</p>"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/redux-config.php:171
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/redux-config.php:310
+msgid "Documentation"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/redux-config.php:172
+msgid "http://www.croti.com/starter.html"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/redux-config.php:172
+msgid "<p>Go to <a href=\""
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/redux-config.php:177
+msgid "Issues tracker"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/redux-config.php:178
+msgid "https://github.com/abukwaik/_rookie-starter/issues"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/redux-config.php:178
+msgid "<p>If you have any issue do not hesitate to join the <a href=\""
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/redux-config.php:182
+msgid "Donation "
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/redux-config.php:183
+msgid "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JUXUWMEFUEJPW"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/redux-config.php:183
+msgid "<p>Please consider <a href=\""
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/redux-config.php:186
+msgid "<p>Got a problem?</p>"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/redux-config.php:209
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/redux-config.php:210
+msgid "Rookie Options"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/redux-config.php:316
+msgid "Support"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/redux-config.php:349
+#, php-format
+msgid ""
+"<p>Did you know that Redux sets a global variable for you? To access any of your saved options from within your code you can use your "
+"global variable: <strong>$%1$s</strong></p>"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/redux-config.php:351
+msgid ""
+"<p>This text is displayed above the options panel. It isn't required, but more info is always better! The intro_text field accepts all "
+"HTML.</p>"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:11
+msgid "General"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:17
+msgid "Welcome to Rookie Theme Option Panel"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:19
+msgid "From here you can config your theme in the way you like."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:25
+msgid "Install Demo Data<br>"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:33
+msgid "Favicon"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:34
+msgid "Upload your favicon here"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:35
+msgid "Should be 16 x 16px Supported formats: .ico .gif .png"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:43
+msgid "Apple Touch Icon"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:44
+msgid "Upload icon for the Apple touch"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:45
+msgid "Size: 57 x 57px Supported formats: .ico .gif .png"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:52
+msgid "Scroll to top button"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:53
+msgid "Check if you want to disable scroll to top button"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:59
+msgid "Tracking Code"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:60
+msgid "Paste your google analytics tracking code or any other javascript related tracking code"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:61
+msgid "This will be placed into the footer."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:72
+msgid "Header"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:73
+msgid "These are options to modify and style your header area"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:79
+msgid "Logo"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:80
+msgid "Upload your logo image here, or leave empty to show website title instead"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:81
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1123
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1132
+msgid "Note: Allowed extensions are .jpg, .png and .gif"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:87
+msgid "Logo Width"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:88
+msgid "Specify your logo width."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:98
+msgid "Logo Height"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:99
+msgid "Specify your logo height."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:109
+msgid "Display site description"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:110
+msgid "Check if you want to display site description."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:111
+msgid "Note: It will apply only if You remove logo image. You can change your site description inside <a href=\""
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:117
+msgid "Sticky header"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:118
+msgid "Check if you want to disable sticky navigation."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:124
+msgid "Show Menu Search"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:125
+msgid "Check if you want to disable search from nav menu."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:133
+msgid "<h4 style=\"margin: 3px;\">Top Header </h4>"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:138
+msgid "Show Top Header Area"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:139
+msgid "Check if you want to remove top bar."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:145
+msgid "Header Text color"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:146
+msgid "Specify header Text color"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:154
+msgid "Header Background color"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:155
+msgid "Specify header background color"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:164
+msgid "Header Background Image"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:165
+msgid "Upload a custom background for your header."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:172
+msgid "Background Image Style"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:174
+msgid "Select your header background style."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:176
+msgid "no-repeat"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:177
+msgid "repeat-x"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:178
+msgid "repeat-y"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:179
+msgid "repeat"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:188
+msgid "<h4 style=\"margin: 3px;\">Top Header Text</h4>"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:194
+msgid "Header Phone Number"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:195
+msgid "Insert your phone number here."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:196
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:205
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:215
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:407
+msgid "Leave it empty to hide it."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:203
+msgid "Header Email Address"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:204
+msgid "Insert your email address here."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:213
+msgid "Custom Header Link"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:214
+msgid "Insert your custom link here."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:222
+msgid "Custom Header Link URL"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:223
+msgid "Insert your custom link url here."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:230
+msgid "Custom Link color"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:231
+msgid "Change the custom link color."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:239
+msgid "Custom Link color hover"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:240
+msgid "custom link color hover."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:250
+msgid "<h4 style=\"margin: 3px;\">Sub Header </h4>"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:255
+msgid "Show Sub Header Area"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:256
+msgid "Check if you want to remove sub header area including breadcrumbs."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:257
+msgid "Note: You can hide breadcrumbs separately in Body section."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:264
+msgid "Sub Header background pattern"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:265
+msgid "Choose sub header background pattern or image."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:272
+msgid "Sub Header Background color"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:273
+msgid "Specify the sub header background color"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:275
+msgid "If there is no Background image the default value is #615e95."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:282
+msgid "Sub Header Text Color"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:283
+msgid "Change the default sub-header text color."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:284
+msgid "Note: this will be applied on breadcrumbs text color too."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:292
+msgid "Show Breadcrumb "
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:293
+msgid "Check if you want to remove breadcrumb from pages"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:300
+msgid "Breadcrumbs Link Color"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:301
+msgid "Change the default breadcrumbs link color."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:309
+msgid "Breadcrumbs Link Hover Color"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:310
+msgid "Change the default breadcrumbs link hover color."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:321
+msgid "Body"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:322
+msgid "These are options to modify and style your body area"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:327
+msgid "Comments on pages"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:328
+msgid "turn off comments on pages"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:335
+msgid "Body background Image"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:336
+msgid "Choose body background pattern or image."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:343
+msgid "Background Style"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:344
+msgid "Select your body background style."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:353
+msgid "a link color"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:354
+msgid "Color for a links"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:361
+msgid "a link color hover"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:362
+msgid "Hover color for a links"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:373
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/breadcrumbs.php:30
+msgid "Blog"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:374
+msgid "These are options to modify and style your main content area only"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:379
+msgid "Excerpt Length Limits"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:380
+msgid "Enter the number of excerpt length limit to display."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:390
+msgid "Enable Post Views"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:391
+msgid "Enable / Disable post views count"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:397
+msgid "Post Social Share"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:398
+msgid "Check if you want to remove social share on single posts"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:404
+msgid "Post Social Text"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:405
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:501
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:673
+msgid "Change post social text here."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:408
+msgid "You feel socially?"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:413
+msgid "Show post navigation"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:414
+msgid "Check if you want to remove post navigation on single post"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:422
+msgid "<h4 style=\"margin: 3px;\">Single Post style</h4>"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:427
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:474
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:554
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:628
+msgid "Background color"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:428
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:475
+msgid "Specify content area background color"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:435
+msgid "Post title color"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:436
+msgid "This color will apply to post title heading, which is (H2) by default."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:443
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:483
+msgid "Content text color"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:444
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:484
+msgid "This color will apply to text color in the content area only"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:451
+msgid "Meta text color"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:452
+msgid "This color will apply to your meta data (secondary text)"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:462
+msgid "<h4 style=\"margin: 3px;\">Author Box</h4>"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:467
+msgid "Enable author Bio"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:468
+msgid "Enable / Disable author box"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:492
+msgid "Author Social Share"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:493
+msgid "Check if you want to remove social share from author box"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:500
+msgid "Author Social Text"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:509
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:962
+msgid "Facebook"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:510
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:963
+msgid "Insert your Facebook fanpage here."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:518
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:971
+msgid "Twitter"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:519
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:972
+msgid "Insert your Twitter URL here."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:527
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1043
+msgid "Linkedin"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:528
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1044
+msgid "Insert your Linkedin URL here."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:536
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:989
+msgid "Google Plus"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:537
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:990
+msgid "Insert your Google Plus URL here."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:548
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/core/register.php:92
+msgid "Sidebar"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:549
+msgid "These are global styling settings for the sidebar area"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:555
+msgid "Specify sidebar background color"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:562
+msgid "Sidebar titles color"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:563
+msgid "This color will apply to your sidebar titles."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:570
+msgid "a links color"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:571
+msgid "This color will apply to sidebar links."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:578
+msgid "a links color hover"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:579
+msgid "This color will apply to sidebar links hover."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:586
+msgid "Hide Default Widgets"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:587
+msgid "Check if you want to show the default widgets"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:596
+msgid "Footer"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:597
+msgid "Manage settings for footer area"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:604
+msgid "Enable Footer"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:605
+msgid "Check if you want to include footer area in your theme."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:612
+msgid "Footer Widget Columns"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:613
+msgid "Choose columns you want for your footer widgets."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:614
+msgid "You can manage footer area content in <a href=\""
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:629
+msgid "Specify the footer background color"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:637
+msgid "Footer titles color"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:638
+msgid "This color will apply to your footer titles."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:646
+msgid "Footer a links color"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:647
+msgid "This color will apply to footer links."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:655
+msgid "Footer a links color hover"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:656
+msgid "This color will apply to footer links hover."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:664
+msgid "Enable Footer Socials"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:665
+msgid "Check if you want to hide footer socials bar"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:672
+msgid "Footer Social Text"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:680
+msgid "Enable Copyright Area"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:681
+msgid "Check if you want to include copyright area below footer"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:687
+msgid "Enable Footer Menu"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:688
+msgid "Check if you want to show footer menu inside copyright area"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:689
+msgid "Note: you need to set footer menu inside <a href=\""
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:700
+msgid "Typography"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:701
+msgid "Manage fonts and typography settings"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:707
+msgid "Main text font"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:717
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:908
+msgid "Typography option with each property can be called individually."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:737
+msgid "<h4 style=\"margin: 3px;\">Heading Style</h4>"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:742
+msgid "H1 font"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:751
+msgid "Specify the H1 tag font properties."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:768
+msgid "H2 font"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:777
+msgid "Specify the H2 tag font properties."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:794
+msgid "H3 font"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:803
+msgid "Specify the H3 tag font properties."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:820
+msgid "H4 font"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:829
+msgid "Specify the H4 tag font properties."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:846
+msgid "H5 font"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:855
+msgid "Specify the H5 tag font properties."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:872
+msgid "H6 font"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:881
+msgid "Specify the H6 tag font properties."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:898
+msgid "Navigation font"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:930
+msgid "Social Networks"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:931
+msgid "Manage your social settings"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:936
+msgid "Show header social Icons"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:937
+msgid "Check if you want to remove header social icons."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:938
+msgid "Note: You can set your social links in socials section."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:944
+msgid "Header socials icons color."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:945
+msgid "Change header socials icons color."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:954
+msgid "NOTE!"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:957
+msgid "If you leave any field empty, icon will not show.<br> Please note that these icons are used for footer social bar as well."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:980
+msgid "Dribbble"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:981
+msgid "Insert your Dribbble URL here."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:998
+msgid "Pinterest"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:999
+msgid "Insert your Pinterest URL here."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1007
+msgid "Flickr"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1008
+msgid "Insert your Flickr URL here."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1016
+msgid "Instagram"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1017
+msgid "Insert your Instagram URL here."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1025
+msgid "Vimeo"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1026
+msgid "Insert your Vimeo URL here."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1034
+msgid "Rss"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1035
+msgid "Insert your Rss URL here."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1056
+msgid "Advanced Options"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1057
+msgid "Advanced options for avanced users here"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1065
+msgid "<h4 style=\"margin: 3px;\">Page Speed Optimization</h4>"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1070
+msgid "Dynamic Stylesheets"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1071
+msgid "Disable dynamic CSS loading"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1072
+msgid "My best solution to <a href=\""
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1078
+msgid "Defer loading of JavaScript"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1079
+msgid "Enable defer parsing for javascript"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1080
+msgid "Improve your page speed loading time by allawing <a href=\""
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1088
+msgid "<h4 style=\"margin: 3px;\">Custom Codes</h4>"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1093
+msgid "Additional CSS"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1094
+msgid "Use this field to write or paste CSS code and modify default theme styling"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1102
+msgid "Additional JavaScript"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1103
+msgid "Use this field to write or paste additional JavaScript code to this theme"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1114
+msgid "Custom Login"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1115
+msgid "Manage login page"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1121
+msgid "Custom Login Logo"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1122
+msgid "Upload your custom login logo image here"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1130
+msgid "Custom Login Background"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1131
+msgid "Upload your custom background image here"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1141
+msgid "Maintenance Mode"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1142
+msgid "Basic maintenance mode"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1147
+msgid "Maintenance mode"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1148
+msgid "Enable maintenance mode."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/ReduxCore/sections.php:1149
+msgid "Check if you want to enable the default wordpress maintenance mode."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/core/clean.php:94
+#, php-format
+msgid "Posts by %s"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/core/register.php:94
+msgid "The default sidebar, place widgets here will show in all posts"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/core/register.php:101
+msgid "Pages Sidebar"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/core/register.php:103
+msgid "The second sidebar, place widgets here will show in all pages"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/core/register.php:114
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/core/register.php:126
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/core/register.php:138
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/core/register.php:150
+msgid "Footer Widget 1"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/core/register.php:116
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/core/register.php:128
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/core/register.php:140
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/core/register.php:152
+msgid "The first Row of Footer Widgets, place widgets as per no. of footer widgets setting you set in Theme Options"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/core/snippets.php:72
+msgid "Views"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/core/snippets.php:106
+msgid "This post is password protected. To view it please enter your password below:"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/core/snippets.php:106
+msgid "Password:"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/admin/core/snippets.php:106
+msgid "Submit"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/comments.php:10
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/comments.php:15
+msgid "No Comments on "
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/comments.php:15
+msgid "1 Comment on "
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/comments.php:15
+msgid "% Comments on "
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/comments.php:33
+msgid "What do you think?"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/comments.php:34
+#, php-format
+msgid "Reply to %s"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/comments.php:35
+msgid "Cancel Reply"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/comments.php:36
+msgid "Submit Comment"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/comments.php:37
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to submit a comment."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/comments.php:38
+#, php-format
+msgid ""
+"<a href=\"%1$s\" class=\"btn btn-success btn-sm\"><i class=\"fa fa-user fa-fw\"></i>%2$s</a> <a href=\"%3$s\" title=\"Log out of this "
+"account\" class=\"btn btn-primary btn-sm\"><i class=\"fa fa-sign-out fa-fw\"></i>Logout</a>"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/comments.php:39
+msgid "Note: Your email address will not be published"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/comments.php:40
+msgid "You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes:"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/comments.php:64
+msgid "Pings&#47;Trackbacks"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/comments.php:66
+msgid "for"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/footer.php:31
+msgid "Copyright &copy; "
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/footer.php:36
+msgid "All rights reserved."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/functions.php:57
+msgid "Primary"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/functions.php:58
+msgid "Footer Menu"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/header.php:47
+msgid "Toggle navigation"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/image.php:25
+msgid "Full resolution"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/image.php:34
+msgid "<i class=\"fa fa-chevron-left\"></i> Previous"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/image.php:35
+msgid "Next <i class=\"fa fa-chevron-right\"></i>"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/image.php:51
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/loop/content-page.php:27
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/loop/content-single.php:30
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/loop/content.php:34
+msgid "Pages:"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/bootstrap-pagination.php:58
+msgid "First"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/bootstrap-pagination.php:60
+msgid "previous"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/bootstrap-pagination.php:73
+msgid "next"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/bootstrap-pagination.php:76
+msgid "Last"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/breadcrumbs.php:52
+msgid "Archive by category: \""
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/breadcrumbs.php:56
+msgid "Search results for: \""
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/breadcrumbs.php:56
+msgid "\""
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/breadcrumbs.php:114
+msgid "Posts tagged: \""
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/breadcrumbs.php:119
+msgid "Author"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/breadcrumbs.php:140
+msgid "Page"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/template-tags.php:26
+msgid "<i class=\"fa fa-chevron-left fa-fw\"></i> Older Comments"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/template-tags.php:30
+msgid "Newer Comments <i class=\"fa fa-chevron-right fa-fw\"></i>"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/template-tags.php:72
+msgid "<i class=\"fa fa-chevron-left\"></i>"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/template-tags.php:73
+msgid "<i class=\"fa fa-chevron-right\"></i>"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/template-tags.php:78
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/template-tags.php:82
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/template-tags.php:110
+msgid "Post navigation"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/template-tags.php:113
+msgid "<i class=\"fa fa-chevron-left\"></i> %title"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/template-tags.php:114
+msgid "%title <i class=\"fa fa-chevron-right\"></i>"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/template-tags.php:132
+msgid "Featured"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/template-tags.php:134
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/loop/content-page.php:38
+msgid "Edit"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/template-tags.php:161
+msgid ", <span class=\"updated-on\"><i class=\"fa fa-refresh\"></i> updated on</span>"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/template-tags.php:164
+#, php-format
+msgid ""
+"<span class=\"posted-on\"><i class=\"fa fa-calendar\"></i> Posted %1$s </span><span class=\"byline\" itemtype=\"http://schema.org/Person\" "
+"itemscope=\"itemscope\" itemprop=\"author\"> by <i class=\"fa fa-user\"></i> %2$s </span>"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/template-tags.php:168
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/template-tags.php:188
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/template-tags.php:196
+msgid ", "
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/template-tags.php:191
+msgid "Categories"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/template-tags.php:192
+#, php-format
+msgid "Categories %1$s "
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/template-tags.php:199
+msgid "Tags"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/template-tags.php:200
+#, php-format
+msgid "Tagged in %1$s "
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/template-tags.php:214
+msgid "Leave a comment "
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/template-tags.php:214
+msgid "1 Comment"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/template-tags.php:214
+msgid "% Comments "
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/includes/template-tags.php:231
+msgid "You must specify the output you want - either \"link\" or \"post_content\"."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/loop/content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/loop/content-none.php:17
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/loop/content-none.php:21
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/loop/content-none.php:28
+msgid "It seems we did not find what you are looking for. Perhaps searching can help."
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/loop/content-page.php:22
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/loop/content-single.php:25
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/loop/content.php:29
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/search.php:21
+msgid " Search Results found for"
+msgstr ""
+
+#: C:\wamp\www\starter\wp-content\themes\_rookie-starter/searchform.php:12
+msgid "Search"
+msgstr ""
