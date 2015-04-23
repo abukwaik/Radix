@@ -1,0 +1,2636 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Radix 1.0.0\n"
+"POT-Creation-Date: 2015-04-22 19:33-0500\n"
+"PO-Revision-Date: 2015-04-22 19:34-0500\n"
+"Last-Translator: \n"
+"Language-Team: Abukwaik <abukwaikabeer@gmail.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.1\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e;_x\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../radix/404.php:18 ../radix/includes/breadcrumbs.php:122
+msgid "Error 404"
+msgstr ""
+
+#: ../radix/404.php:19
+msgid "It looks like nothing was found at this location."
+msgstr ""
+
+#: ../radix/404.php:20
+msgid "Go Back"
+msgstr ""
+
+#: ../radix/404.php:27
+msgid "Or maybe try a search?"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/core/enqueue.php:397
+#: ../radix/admin/ReduxCore/extensions/customizer/extension_customizer.php:530
+#: ../radix/admin/ReduxCore/inc/extensions/customizer/extension_customizer.php:566
+msgid "You have changes that are not saved. Would you like to save them now?"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/core/enqueue.php:405
+#: ../radix/admin/ReduxCore/extensions/customizer/extension_customizer.php:531
+#: ../radix/admin/ReduxCore/inc/extensions/customizer/extension_customizer.php:567
+msgid "Are you sure? Resetting will lose all custom values."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/core/enqueue.php:413
+msgid "Are you sure? Resetting will lose all custom values in this section."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/core/enqueue.php:421
+#: ../radix/admin/ReduxCore/extensions/customizer/extension_customizer.php:532
+#: ../radix/admin/ReduxCore/inc/extensions/customizer/extension_customizer.php:568
+msgid ""
+"Your current options will be replaced with the values of this preset. Would you like to proceed?"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/core/enqueue.php:428
+msgid "Please Wait"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/core/enqueue.php:439
+msgid "There was an error saving. Here is the result of your action:"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/core/enqueue.php:440
+msgid "There was a problem with your action. Please try again or reload the page."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/core/panel.php:65
+msgid "Warning- This options panel will not work properly without javascript!"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/core/panel.php:141
+msgid "Settings Imported!"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/core/panel.php:156
+msgid "All Defaults Restored!"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/core/panel.php:170
+msgid "Section Defaults Restored!"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/core/panel.php:184
+msgid "Settings Saved!"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/core/panel.php:204
+msgid "Settings have changed, you should save them!"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/core/panel.php:212
+msgid "error(s) were found!"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/core/panel.php:220
+msgid "warning(s) were found!"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/core/panel.php:340
+msgid ""
+"<strong>Your panel has bundled outdated copies of Redux Framework template files</strong> "
+"&#8211; if you encounter functionality issues this could be the reason. Ensure you update or "
+"remove them."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/extensions/customizer/extension_customizer.php:565
+#: ../radix/admin/ReduxCore/inc/extensions/customizer/extension_customizer.php:601
+msgid "You have changes that are not saved.  Would you like to save them now?"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/extensions/customizer/extension_customizer.php:566
+#: ../radix/admin/ReduxCore/inc/extensions/customizer/extension_customizer.php:602
+msgid "Are you sure?  Resetting will lose all custom values."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/extensions/customizer/extension_customizer.php:567
+#: ../radix/admin/ReduxCore/inc/extensions/customizer/extension_customizer.php:603
+msgid ""
+"Your current options will be replaced with the values of this preset.  Would you like to "
+"proceed?"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/extensions/edd/edd_license/EDD_License_Handler.php:112
+#, php-format
+msgid "%1$s License Key"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/extensions/edd/edd_license/EDD_License_Handler.php:218
+#: ../radix/admin/ReduxCore/extensions/edd/edd_license/field_edd_license.php:142
+msgid "Deactivate License"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/extensions/edd/edd_license/EDD_SL_Theme_Updater.php:54
+msgid ""
+"Updating this theme will lose any customizations you have made. 'Cancel' to stop, 'OK' to "
+"update."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/extensions/edd/edd_license/field_edd_license.php:110
+#: ../radix/admin/ReduxCore/extensions/edd/extension_edd.php:170
+msgid "Not Activated"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/extensions/edd/edd_license/field_edd_license.php:114
+#: ../radix/admin/ReduxCore/extensions/edd/extension_edd.php:173
+msgid "Deactivated"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/extensions/edd/edd_license/field_edd_license.php:116
+#: ../radix/admin/ReduxCore/extensions/edd/extension_edd.php:77
+#: ../radix/admin/ReduxCore/extensions/edd/extension_edd.php:119
+#: ../radix/admin/ReduxCore/extensions/edd/extension_edd.php:176
+msgid "Valid"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/extensions/edd/edd_license/field_edd_license.php:123
+msgid "License Status"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/extensions/edd/edd_license/field_edd_license.php:132
+msgid "Verify License"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/extensions/edd/edd_license/field_edd_license.php:137
+msgid "Activate License"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/extensions/edd/extension_edd.php:179
+msgid "Not Valid"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/framework.php:220
+#, php-format
+msgid "Options panel created using %1$s"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/framework.php:220
+msgid "Redux Framework"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/framework.php:224 ../radix/admin/ReduxCore/framework.php:228
+msgid "Options"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/framework.php:1404
+#: ../radix/admin/ReduxCore/templates/panel/menu_container.tpl.php:63
+msgid "System Info"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/framework.php:1707
+msgid "Enable"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/framework.php:1712
+msgid "Disable"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/framework.php:1718
+msgid "moving the mouse over"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/framework.php:1720
+msgid "clicking"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/framework.php:1724
+#, php-format
+msgid ""
+"Hints are tooltips that popup when %d the hint icon, offering addition information about the "
+"field in which they appear.  They can be %d d by using the link below."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/framework.php:1729
+msgid "Hints"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/framework.php:1856 ../twentyfifteen/inc/customizer.php:92
+msgid "Default"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/framework.php:2695
+msgid "Invalid security credential, please reload the page and try again."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/framework.php:2781
+msgid "Your panel has no fields. Nothing to save."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/class.redux_filesystem.php:23
+msgid "Unable to modify required files. Please ensure that"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/class.redux_filesystem.php:25
+msgid "has the proper read/write permissions or enter your FTP information below."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/class.redux_functions.php:237
+msgid "Dismiss"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/class.redux_helpers.php:589
+#, php-format
+msgid ""
+"<code>%s</code> version <strong style=\"color:red\">%s</strong> is out of date. The core "
+"version is %s"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/class.redux_themecheck.php:61
+#, php-format
+msgid ""
+"The theme you are testing has %s embedded. We invite you to read the %sTheme-Check Documentation"
+"%s to understand some warnings you will see because of Redux."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/class.redux_themecheck.php:109
+msgid ""
+"The following directories & files are still located in your <strong>Redux</strong>  directory. "
+"They may cause errors in Theme-Check."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/extensions/import_export/extension_import_export.php:120
+#: ../radix/admin/ReduxCore/inc/import_export.php:140
+#: ../radix/admin/ReduxCore/inc/import_export.php:149
+#: ../radix/admin/ReduxCore/inc/import_export.php:150
+msgid "Import / Export"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:103
+#: ../radix/admin/ReduxCore/inc/import_export.php:81
+msgid "Import Options"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:104
+msgid "Import from File"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:104
+#: ../radix/admin/ReduxCore/inc/import_export.php:82
+msgid "Import from URL"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:107
+#: ../radix/admin/ReduxCore/inc/import_export.php:85
+msgid "Input your backup file below and hit Import to restore your sites options from a backup."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:112
+#: ../radix/admin/ReduxCore/inc/import_export.php:90
+msgid ""
+"Input the URL to another sites options set and hit Import to load the options from that site."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:116
+#: ../radix/admin/ReduxCore/inc/import_export.php:94
+msgid "Import"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:116
+#: ../radix/admin/ReduxCore/inc/import_export.php:94
+msgid "WARNING! This will overwrite all existing option values, please proceed with caution!"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:119
+#: ../radix/admin/ReduxCore/inc/import_export.php:97
+msgid "Export Options"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:121
+#: ../radix/admin/ReduxCore/inc/import_export.php:100
+msgid ""
+"Here you can copy/download your current option settings. Keep this safe as you can use it as a "
+"backup should anything go wrong, or you can use it to restore your settings on this site (or "
+"any other site)."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:126
+msgid "Copy Data"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:126
+msgid "Download Data File"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/extensions/import_export/import_export/field_import_export.php:126
+msgid "Copy Export URL"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/background/field_background.php:124
+#: ../radix/admin/ReduxCore/inc/fields/color/field_color.php:73
+#: ../radix/admin/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:79
+#: ../radix/admin/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:91
+msgid "Transparent"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/background/field_background.php:141
+msgid "Background Repeat"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/background/field_background.php:157
+msgid "Background Clip"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/background/field_background.php:173
+msgid "Background Origin"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/background/field_background.php:188
+msgid "Background Size"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/background/field_background.php:203
+msgid "Background Attachment"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/background/field_background.php:223
+msgid "Background Position"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/background/field_background.php:277
+#: ../radix/admin/ReduxCore/inc/fields/media/field_media.php:149
+msgid "No media selected"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/background/field_background.php:314
+#: ../radix/admin/ReduxCore/inc/fields/media/field_media.php:198
+#: ../radix/admin/ReduxCore/inc/fields/slides/field_slides.php:126
+#: ../radix/admin/ReduxCore/inc/fields/slides/field_slides.php:188
+msgid "Upload"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/background/field_background.php:321
+#: ../radix/admin/ReduxCore/inc/fields/media/field_media.php:205
+#: ../radix/admin/ReduxCore/inc/fields/multi_text/field_multi_text.php:69
+#: ../radix/admin/ReduxCore/inc/fields/multi_text/field_multi_text.php:73
+#: ../radix/admin/ReduxCore/inc/fields/multi_text/field_multi_text.php:76
+#: ../radix/admin/ReduxCore/inc/fields/slides/field_slides.php:133
+#: ../radix/admin/ReduxCore/inc/fields/slides/field_slides.php:190
+msgid "Remove"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/border/field_border.php:125
+#: ../radix/admin/ReduxCore/inc/fields/spacing/field_spacing.php:191
+msgid "All"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/border/field_border.php:138
+#: ../radix/admin/ReduxCore/inc/fields/spacing/field_spacing.php:215
+msgid "Top"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/border/field_border.php:145
+#: ../radix/admin/ReduxCore/inc/fields/spacing/field_spacing.php:222
+msgid "Right"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/border/field_border.php:152
+#: ../radix/admin/ReduxCore/inc/fields/spacing/field_spacing.php:229
+msgid "Bottom"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/border/field_border.php:159
+#: ../radix/admin/ReduxCore/inc/fields/spacing/field_spacing.php:236
+msgid "Left"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/border/field_border.php:173
+msgid "Border style"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:68
+msgid "From "
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/color_gradient/field_color_gradient.php:82
+msgid "To "
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/dimensions/field_dimensions.php:162
+msgid "Width"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/dimensions/field_dimensions.php:178
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:442
+msgid "Height"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/dimensions/field_dimensions.php:189
+#: ../radix/admin/ReduxCore/inc/fields/dimensions/field_dimensions.php:190
+#: ../radix/admin/ReduxCore/inc/fields/spacing/field_spacing.php:245
+#: ../radix/admin/ReduxCore/inc/fields/spacing/field_spacing.php:246
+msgid "Units"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/gallery/field_gallery.php:73
+msgid "Add/Edit Gallery"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/gallery/field_gallery.php:74
+msgid "Clear Gallery"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/link_color/field_link_color.php:87
+msgid "Regular"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/link_color/field_link_color.php:91
+msgid "Hover"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/link_color/field_link_color.php:95
+msgid "Visited"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/link_color/field_link_color.php:99
+msgid "Active"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/multi_text/field_multi_text.php:61
+msgid "Add More"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/password/field_password.php:62
+msgid "Password"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/password/field_password.php:63
+msgid "Username"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/select/field_select.php:83
+#: ../radix/admin/ReduxCore/inc/fields/select_image/field_select_image.php:63
+msgid "Select an item"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/select/field_select.php:134
+#: ../radix/admin/ReduxCore/inc/fields/select_image/field_select_image.php:144
+msgid "No items of this type were found."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/slides/field_slides.php:68
+msgid "Slide"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/slides/field_slides.php:73
+#: ../radix/admin/ReduxCore/inc/fields/slides/field_slides.php:174
+#, php-format
+msgid "New %s"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/slides/field_slides.php:145
+#: ../radix/admin/ReduxCore/inc/fields/slides/field_slides.php:200
+msgid "Title"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/slides/field_slides.php:149
+#: ../radix/admin/ReduxCore/inc/fields/slides/field_slides.php:204
+msgid "Description"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/slides/field_slides.php:153
+#: ../radix/admin/ReduxCore/inc/fields/slides/field_slides.php:207
+msgid "URL"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/slides/field_slides.php:167
+#: ../radix/admin/ReduxCore/inc/fields/slides/field_slides.php:220
+msgid "Delete"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/slides/field_slides.php:223
+#, php-format
+msgid "Add %s"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/switch/field_switch.php:41
+msgid "On"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/switch/field_switch.php:44
+msgid "Off"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:231
+msgid "Font Family"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:232
+msgid "Font family"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:258
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:259
+msgid "Backup Font Family"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:273
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:281
+msgid "Font style"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:274
+msgid "Font Weight &amp; Style"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:281
+msgid "Style"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:321
+msgid "Font subsets"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:323
+msgid "Font Subsets"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:325
+msgid "Subsets"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:325
+msgid "Font script"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:342
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:343
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:344
+msgid "Text Align"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:365
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:366
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:367
+msgid "Text Transform"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:388
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:389
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:390
+msgid "Font Variant"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:408
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:409
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:410
+msgid "Text Decoration"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:432
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:433
+msgid "Font Size"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:433
+msgid "Size"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:441
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:442
+msgid "Line Height"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:450
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:451
+msgid "Word Spacing"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:459
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:460
+msgid "Letter Spacing"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:478
+msgid "Font Color"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:480
+msgid "Font color"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:879
+msgid "Standard Fonts"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/fields/typography/field_typography.php:980
+msgid "Google Webfonts"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/import_export.php:78
+msgid "Import / Export Options"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/import_export.php:82
+msgid "Import from file"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/import_export.php:104
+msgid "Copy"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/import_export.php:104
+msgid "Download"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/import_export.php:104
+msgid "Copy Link"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/validation/color/validation_color.php:15
+#: ../radix/admin/ReduxCore/inc/validation/color_rgba/validation_color_rgba.php:14
+#: ../radix/admin/ReduxCore/inc/validation/colorrgba/validation_colorrgba.php:16
+msgid "This field must be a valid color value."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/validation/comma_numeric/validation_comma_numeric.php:16
+msgid "You must provide a comma separated list of numerical values for this option."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/validation/css/validation_css.php:38
+msgid "Unsafe strings were found in your CSS and have been filtered out."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/validation/date/validation_date.php:16
+msgid "This field must be a valid date."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/validation/email/validation_email.php:16
+#: ../radix/admin/ReduxCore/inc/validation/email_not_empty/validation_email_not_empty.php:16
+msgid "You must provide a valid email for this option."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/validation/no_html/validation_no_html.php:15
+msgid "You must not enter any HTML in this field, all HTML tags have been removed."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/validation/no_special_chars/validation_no_special_chars.php:16
+msgid ""
+"You must not enter any special characters in this field, all special characters have been "
+"removed."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/validation/not_empty/validation_not_empty.php:16
+msgid "This field cannot be empty. Please provide a value."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/validation/numeric/validation_numeric.php:16
+#: ../radix/admin/ReduxCore/inc/validation/numeric_not_empty/validation_numeric_not_empty.php:16
+msgid "You must provide a numerical value for this option."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/validation/unique_slug/validation_unique_slug.php:16
+#, php-format
+msgid "That URL slug is in use, please choose another. <code>%s</code> is open for use."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/inc/validation/url/validation_url.php:16
+msgid "You must provide a valid URL for this option."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/redux-config.php:119
+msgid "Section via hook"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/redux-config.php:120
+msgid ""
+"<p class=\"description\">This is a section created by adding a filter to the sections array. "
+"Can be used by child themes to add/remove sections from the options.</p>"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/redux-config.php:171 ../radix/admin/ReduxCore/redux-config.php:311
+msgid "Documentation"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/redux-config.php:172
+msgid "http://www.croti.com/starter.html"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/redux-config.php:172
+msgid "<p>Go to <a href=\""
+msgstr ""
+
+#: ../radix/admin/ReduxCore/redux-config.php:177
+msgid "Issues tracker"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/redux-config.php:178
+msgid "https://github.com/abukwaik/_Radix-starter/issues"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/redux-config.php:178
+msgid "<p>If you have any issue do not hesitate to join the <a href=\""
+msgstr ""
+
+#: ../radix/admin/ReduxCore/redux-config.php:182
+msgid "Donation "
+msgstr ""
+
+#: ../radix/admin/ReduxCore/redux-config.php:183
+msgid "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JUXUWMEFUEJPW"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/redux-config.php:183
+msgid "<p>Please consider <a href=\""
+msgstr ""
+
+#: ../radix/admin/ReduxCore/redux-config.php:186
+msgid "<p>Got a problem?</p>"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/redux-config.php:209 ../radix/admin/ReduxCore/redux-config.php:210
+msgid "Radix Options"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/redux-config.php:317
+msgid "Support"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/redux-config.php:350
+#, php-format
+msgid ""
+"<p>Did you know that Redux sets a global variable for you? To access any of your saved options "
+"from within your code you can use your global variable: <strong>$%1$s</strong></p>"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/redux-config.php:352
+msgid ""
+"<p>This text is displayed above the options panel. It isn't required, but more info is always "
+"better! The intro_text field accepts all HTML.</p>"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:11
+msgid "General"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:17
+msgid "Welcome to Radix Theme Option Panel"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:19
+msgid "From here you can config your theme in the way you like."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:25
+msgid "Favicon"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:26
+msgid "Upload your favicon here"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:27
+msgid "Should be 16 x 16px Supported formats: .ico .gif .png"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:35
+msgid "Apple Touch Icon"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:36
+msgid "Upload icon for the Apple touch"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:37
+msgid "Size: 57 x 57px Supported formats: .ico .gif .png"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:44
+msgid "Scroll to top button"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:45
+msgid "Check if you want to disable scroll to top button"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:51
+msgid "Tracking Code"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:52
+msgid "Paste your google analytics tracking code or any other javascript related tracking code"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:53
+msgid "This will be placed into the footer."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:64
+msgid "Header"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:65
+msgid "These are options to modify and style your header area"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:71
+msgid "Logo"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:72
+msgid "Upload your logo image here, or leave empty to show website title instead"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:73
+msgid "Note: Allowed extensions are .jpg, .png and .gif"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:79
+msgid "Logo Width"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:80
+msgid "Specify your logo width."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:90
+msgid "Logo Height"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:91
+msgid "Specify your logo height."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:101
+msgid "Display site description"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:102
+msgid "Check if you want to display site description."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:103
+msgid ""
+"Note: It will apply only if You remove logo image. You can change your site description inside "
+"<array href=\""
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:109
+msgid "Sticky header"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:110
+msgid "Check if you want to disable sticky navigation."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:116
+msgid "Menu Background color"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:117
+msgid "Specify menu background color"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:124
+msgid "Menu Link color"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:125
+msgid "Specify menu link color"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:132
+msgid "Show Menu Search"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:133
+msgid "Check if you want to disable search from nav menu."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:141
+msgid "<h4 style=\"margin: 3px;\">Top Header </h4>"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:146
+msgid "Show Top Header Area"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:147
+msgid "Check if you want to remove top bar."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:153
+msgid "Header Text color"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:154
+msgid "Specify header Text color"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:162
+msgid "Header Background color"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:163
+msgid "Specify header background color"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:172
+msgid "Header Background Image"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:173
+msgid "Upload a custom background for your header."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:180
+msgid "Background Image Style"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:182
+msgid "Select your header background style."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:184
+msgid "no-repeat"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:185
+msgid "repeat-x"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:186
+msgid "repeat-y"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:187
+msgid "repeat"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:196
+msgid "<h4 style=\"margin: 3px;\">Top Header Text</h4>"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:202
+msgid "Header Phone Number"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:203
+msgid "Insert your phone number here."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:204 ../radix/admin/ReduxCore/sections.php:213
+#: ../radix/admin/ReduxCore/sections.php:223
+msgid "Leave it empty to hide it."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:211
+msgid "Header Email Address"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:212
+msgid "Insert your email address here."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:221
+msgid "Custom Header Link"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:222
+msgid "Insert your custom link here."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:230
+msgid "Custom Header Link URL"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:231
+msgid "Insert your custom link url here."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:238
+msgid "Custom Link color"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:239
+msgid "Change the custom link color."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:247
+msgid "Custom Link color hover"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:248
+msgid "custom link color hover."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:258
+msgid "<h4 style=\"margin: 3px;\">Sub Header </h4>"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:263
+msgid "Show Sub Header Area"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:264
+msgid "Check if you want to remove sub header area including breadcrumbs."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:265
+msgid "Note: You can hide breadcrumbs separately in Body section."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:272
+msgid "Sub Header background pattern"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:273
+msgid "Choose sub header background pattern or image."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:280
+msgid "Sub Header Background color"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:281
+msgid "Specify the sub header background color"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:283
+msgid "If there is no Background image the default value is #615e95."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:290
+msgid "Sub Header Text Color"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:291
+msgid "Change the default sub-header text color."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:292
+msgid "Note: this will be applied on breadcrumbs text color too."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:300
+msgid "Show Breadcrumb "
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:301
+msgid "Check if you want to remove breadcrumb from pages"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:308
+msgid "Breadcrumbs Link Color"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:309
+msgid "Change the default breadcrumbs link color."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:317
+msgid "Breadcrumbs Link Hover Color"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:318
+msgid "Change the default breadcrumbs link hover color."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:329
+msgid "Body"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:330
+msgid "These are options to modify and style your body area"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:335
+msgid "Comments on pages"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:336
+msgid "turn off comments on pages"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:343
+msgid "Body background Image"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:344
+msgid "Choose body background pattern or image."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:351
+msgid "Background Style"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:352
+msgid "Select your body background style."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:361
+msgid "a link color"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:362
+msgid "Color for a links"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:369
+msgid "a link color hover"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:370
+msgid "Hover color for a links"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:381 ../radix/includes/breadcrumbs.php:30
+#: ../radix/loop/sub-header.php:15
+msgid "Blog"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:382
+msgid "These are options to modify and style your main content area only"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:387
+msgid "Excerpt Length Limits"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:388
+msgid "Enter the number of excerpt length limit to display."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:398
+msgid "Show post navigation"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:399
+msgid "Check if you want to remove post navigation on single post"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:407
+msgid "<h4 style=\"margin: 3px;\">Single Post style</h4>"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:412 ../radix/admin/ReduxCore/sections.php:459
+#: ../radix/admin/ReduxCore/sections.php:539 ../radix/admin/ReduxCore/sections.php:606
+msgid "Background color"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:413 ../radix/admin/ReduxCore/sections.php:460
+msgid "Specify content area background color"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:420
+msgid "Post title color"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:421
+msgid "This color will apply to post title heading, which is (H2) by default."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:428 ../radix/admin/ReduxCore/sections.php:468
+msgid "Content text color"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:429 ../radix/admin/ReduxCore/sections.php:469
+msgid "This color will apply to text color in the content area only"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:436
+msgid "Meta text color"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:437
+msgid "This color will apply to your meta data (secondary text)"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:447
+msgid "<h4 style=\"margin: 3px;\">Author Box</h4>"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:452
+msgid "Enable author Bio"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:453
+msgid "Enable / Disable author box"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:477
+msgid "Author Social Share"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:478
+msgid "Check if you want to remove social share from author box"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:485
+msgid "Author Social Text"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:486 ../radix/admin/ReduxCore/sections.php:659
+msgid "Change post social text here."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:494 ../radix/admin/ReduxCore/sections.php:947
+msgid "Facebook"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:495 ../radix/admin/ReduxCore/sections.php:948
+msgid "Insert your Facebook fanpage here."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:503 ../radix/admin/ReduxCore/sections.php:956
+msgid "Twitter"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:504 ../radix/admin/ReduxCore/sections.php:957
+msgid "Insert your Twitter URL here."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:512 ../radix/admin/ReduxCore/sections.php:1028
+msgid "Linkedin"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:513 ../radix/admin/ReduxCore/sections.php:1029
+msgid "Insert your Linkedin URL here."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:521 ../radix/admin/ReduxCore/sections.php:974
+msgid "Google Plus"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:522 ../radix/admin/ReduxCore/sections.php:975
+msgid "Insert your Google Plus URL here."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:533 ../radix/admin/core/register.php:77
+msgid "Sidebar"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:534
+msgid "These are global styling settings for the sidebar area"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:540
+msgid "Specify sidebar background color"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:547
+msgid "Sidebar titles color"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:548
+msgid "This color will apply to your sidebar titles."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:555
+msgid "a links color"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:556
+msgid "This color will apply to sidebar links."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:563
+msgid "a links color hover"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:564
+msgid "This color will apply to sidebar links hover."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:574
+msgid "Footer"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:575
+msgid "Manage settings for footer area"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:582
+msgid "Enable Footer Widgets"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:583
+msgid "Check if you want to disable footer widgets area."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:590
+msgid "Footer Widget Columns"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:591
+msgid "Choose columns you want for your footer widgets."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:592
+msgid "You can manage footer area content in <a href=\""
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:607
+msgid "Specify the footer background color"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:615
+msgid "Footer titles color"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:616
+msgid "This color will apply to your footer titles."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:624
+msgid "Footer Text color"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:625
+msgid "This color will apply to footer text."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:633
+msgid "Footer a links color"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:634
+msgid "This color will apply to footer links."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:642
+msgid "Footer a links color hover"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:643
+msgid "This color will apply to footer links hover."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:651
+msgid "Enable Footer Socials"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:652
+msgid "Check if you want to hide footer socials bar"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:658
+msgid "Footer Social Text"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:666
+msgid "Enable Copyright"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:667
+msgid "Check if you want to include copyright area below footer"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:673
+msgid "Enable Footer Menu"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:674
+msgid "Check if you want to show footer menu inside copyright area"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:675
+msgid "Note: you need to set footer menu inside <a href=\""
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:685
+msgid "Typography"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:686
+msgid "Manage fonts and typography settings"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:692
+msgid "Main text font"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:702 ../radix/admin/ReduxCore/sections.php:893
+msgid "Typography option with each property can be called individually."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:722
+msgid "<h4 style=\"margin: 3px;\">Heading Style</h4>"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:727
+msgid "H1 font"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:736
+msgid "Specify the H1 tag font properties."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:753
+msgid "H2 font"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:762
+msgid "Specify the H2 tag font properties."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:779
+msgid "H3 font"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:788
+msgid "Specify the H3 tag font properties."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:805
+msgid "H4 font"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:814
+msgid "Specify the H4 tag font properties."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:831
+msgid "H5 font"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:840
+msgid "Specify the H5 tag font properties."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:857
+msgid "H6 font"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:866
+msgid "Specify the H6 tag font properties."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:883
+msgid "Navigation font"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:915
+msgid "Social Networks"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:916
+msgid "Manage your social settings"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:921
+msgid "Show header social Icons"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:922
+msgid "Check if you want to remove header social icons."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:923
+msgid "Note: You can set your social links in socials section."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:929
+msgid "Header socials icons color."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:930
+msgid "Change header socials icons color."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:939
+msgid "NOTE!"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:942
+msgid ""
+"If you leave any field empty, icon will not show.<br> Please note that these icons are used for "
+"footer social bar as well."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:965
+msgid "Dribbble"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:966
+msgid "Insert your Dribbble URL here."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:983
+msgid "Pinterest"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:984
+msgid "Insert your Pinterest URL here."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:992
+msgid "Flickr"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:993
+msgid "Insert your Flickr URL here."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:1001
+msgid "Instagram"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:1002
+msgid "Insert your Instagram URL here."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:1010
+msgid "Vimeo"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:1011
+msgid "Insert your Vimeo URL here."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:1019
+msgid "Rss"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:1020
+msgid "Insert your Rss URL here."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:1041
+msgid "Advanced Options"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:1042
+msgid "Advanced options for avanced users here"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:1049
+msgid "<h4 style=\"margin: 3px;\">Custom Codes</h4>"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:1054
+msgid "Additional CSS"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:1055
+msgid "Use this field to write or paste CSS code and modify default theme styling"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:1063
+msgid "Additional JavaScript"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:1064
+msgid "Use this field to write or paste additional JavaScript code to this theme"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:1075
+msgid "Maintenance Mode"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:1076
+msgid "Basic maintenance mode"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:1081
+msgid "Maintenance mode"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:1082
+msgid "Enable maintenance mode."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/sections.php:1083
+msgid "Check if you want to enable the default wordpress maintenance mode."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/templates/panel/footer.tpl.php:47
+#: ../radix/admin/ReduxCore/templates/panel/header_stickybar.tpl.php:20
+msgid "Save Changes"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/templates/panel/footer.tpl.php:50
+#: ../radix/admin/ReduxCore/templates/panel/header_stickybar.tpl.php:22
+msgid "Reset Section"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/templates/panel/footer.tpl.php:51
+#: ../radix/admin/ReduxCore/templates/panel/header_stickybar.tpl.php:23
+msgid "Reset All"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/templates/panel/footer.tpl.php:56
+#: ../radix/admin/ReduxCore/templates/panel/header_stickybar.tpl.php:26
+msgid "Working..."
+msgstr ""
+
+#: ../radix/admin/ReduxCore/templates/panel/header.tpl.php:18
+msgid "Developer Mode Enabled"
+msgstr ""
+
+#: ../radix/admin/ReduxCore/templates/panel/header_stickybar.tpl.php:16
+msgid "Expand"
+msgstr ""
+
+#: ../radix/admin/core/clean.php:76
+#, php-format
+msgid "Posts by %s"
+msgstr ""
+
+#: ../radix/admin/core/register.php:18 ../radix/functions.php:59
+msgid "Primary"
+msgstr ""
+
+#: ../radix/admin/core/register.php:31 ../radix/functions.php:60
+msgid "Footer Menu"
+msgstr ""
+
+#: ../radix/admin/core/register.php:53 ../radix/searchform.php:12 ../twentyfourteen/header.php:48
+msgid "Search"
+msgstr ""
+
+#: ../radix/admin/core/register.php:79
+msgid "The default sidebar, place widgets here will show in all posts"
+msgstr ""
+
+#: ../radix/admin/core/register.php:86
+msgid "Pages Sidebar"
+msgstr ""
+
+#: ../radix/admin/core/register.php:88
+msgid "The second sidebar, place widgets here will show in all pages"
+msgstr ""
+
+#: ../radix/admin/core/register.php:99 ../radix/admin/core/register.php:111
+#: ../radix/admin/core/register.php:123 ../radix/admin/core/register.php:135
+msgid "Footer Widget 1"
+msgstr ""
+
+#: ../radix/admin/core/register.php:101 ../radix/admin/core/register.php:113
+#: ../radix/admin/core/register.php:125 ../radix/admin/core/register.php:137
+msgid ""
+"The first Row of Footer Widgets, place widgets as per no. of footer widgets setting you set in "
+"Theme Options"
+msgstr ""
+
+#: ../radix/admin/core/snippets.php:63
+msgid "This post is password protected. To view it please enter your password below:"
+msgstr ""
+
+#: ../radix/admin/core/snippets.php:63
+msgid "Password:"
+msgstr ""
+
+#: ../radix/admin/core/snippets.php:63
+msgid "Submit"
+msgstr ""
+
+#: ../radix/comments.php:10
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr ""
+
+#: ../radix/comments.php:15
+msgid "No Comments on "
+msgstr ""
+
+#: ../radix/comments.php:15
+msgid "1 Comment on "
+msgstr ""
+
+#: ../radix/comments.php:15
+msgid "% Comments on "
+msgstr ""
+
+#: ../radix/comments.php:33
+msgid "What do you think?"
+msgstr ""
+
+#: ../radix/comments.php:34
+#, php-format
+msgid "Reply to %s"
+msgstr ""
+
+#: ../radix/comments.php:35
+msgid "Cancel Reply"
+msgstr ""
+
+#: ../radix/comments.php:36
+msgid "Submit Comment"
+msgstr ""
+
+#: ../radix/comments.php:37
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to submit a comment."
+msgstr ""
+
+#: ../radix/comments.php:38
+#, php-format
+msgid ""
+"<a href=\"%1$s\" class=\"btn btn-success btn-sm\"><i class=\"fa fa-user fa-fw\"></i>%2$s</a> <a "
+"href=\"%3$s\" title=\"Log out of this account\" class=\"btn btn-primary btn-sm\"><i class=\"fa "
+"fa-sign-out fa-fw\"></i>Logout</a>"
+msgstr ""
+
+#: ../radix/comments.php:39
+msgid "Note: Your email address will not be published"
+msgstr ""
+
+#: ../radix/comments.php:40
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags and attributes:"
+msgstr ""
+
+#: ../radix/comments.php:64
+msgid "Pings&#47;Trackbacks"
+msgstr ""
+
+#: ../radix/comments.php:66
+msgid "for"
+msgstr ""
+
+#: ../radix/footer.php:31
+msgid "Copyright &copy; "
+msgstr ""
+
+#: ../radix/footer.php:36
+msgid "All rights reserved."
+msgstr ""
+
+#: ../radix/header.php:36
+msgid "Toggle navigation"
+msgstr ""
+
+#: ../radix/image.php:22
+#, php-format
+msgid "%3$s (%4$s &times; %5$s)"
+msgstr ""
+
+#: ../radix/image.php:25 ../twentythirteen/image.php:39
+msgid "Full resolution"
+msgstr ""
+
+#: ../radix/image.php:34
+msgid "<i class=\"fa fa-chevron-left\"></i> Previous"
+msgstr ""
+
+#: ../radix/image.php:35
+msgid "Next <i class=\"fa fa-chevron-right\"></i>"
+msgstr ""
+
+#: ../radix/image.php:51 ../radix/loop/content-page.php:27 ../radix/loop/content-single.php:30
+#: ../radix/loop/content.php:34 ../twentyfifteen/content-link.php:36
+#: ../twentyfifteen/content-page.php:25 ../twentyfifteen/content.php:38
+#: ../twentyfifteen/image.php:59 ../twentyfourteen/content-aside.php:53
+#: ../twentyfourteen/content-audio.php:53 ../twentyfourteen/content-gallery.php:53
+#: ../twentyfourteen/content-image.php:53 ../twentyfourteen/content-link.php:53
+#: ../twentyfourteen/content-page.php:22 ../twentyfourteen/content-quote.php:53
+#: ../twentyfourteen/content-video.php:53 ../twentyfourteen/content.php:61
+#: ../twentyfourteen/image.php:54 ../twentythirteen/content-aside.php:20
+#: ../twentythirteen/content-audio.php:31 ../twentythirteen/content-chat.php:30
+#: ../twentythirteen/content-gallery.php:31 ../twentythirteen/content-image.php:30
+#: ../twentythirteen/content-link.php:31 ../twentythirteen/content-quote.php:20
+#: ../twentythirteen/content-status.php:20 ../twentythirteen/content-video.php:30
+#: ../twentythirteen/content.php:48 ../twentythirteen/image.php:70 ../twentythirteen/page.php:35
+msgid "Pages:"
+msgstr ""
+
+#: ../radix/includes/bootstrap-pagination.php:58
+msgid "First"
+msgstr ""
+
+#: ../radix/includes/bootstrap-pagination.php:60
+msgid "previous"
+msgstr ""
+
+#: ../radix/includes/bootstrap-pagination.php:73
+msgid "next"
+msgstr ""
+
+#: ../radix/includes/bootstrap-pagination.php:76
+msgid "Last"
+msgstr ""
+
+#: ../radix/includes/breadcrumbs.php:52
+msgid "Archive by category: \""
+msgstr ""
+
+#: ../radix/includes/breadcrumbs.php:56
+msgid "Search results for: \""
+msgstr ""
+
+#: ../radix/includes/breadcrumbs.php:56
+msgid "\""
+msgstr ""
+
+#: ../radix/includes/breadcrumbs.php:114
+msgid "Posts tagged: \""
+msgstr ""
+
+#: ../radix/includes/breadcrumbs.php:119 ../twentyfifteen/inc/template-tags.php:85
+msgid "Author"
+msgstr ""
+
+#: ../radix/includes/breadcrumbs.php:140 ../twentyfifteen/archive.php:51
+#: ../twentyfifteen/content-link.php:40 ../twentyfifteen/content-page.php:29
+#: ../twentyfifteen/content.php:42 ../twentyfifteen/image.php:63 ../twentyfifteen/index.php:48
+#: ../twentyfifteen/search.php:40
+msgid "Page"
+msgstr ""
+
+#: ../radix/includes/template-tags.php:26
+msgid "<i class=\"fa fa-chevron-left fa-fw\"></i> Older Comments"
+msgstr ""
+
+#: ../radix/includes/template-tags.php:30
+msgid "Newer Comments <i class=\"fa fa-chevron-right fa-fw\"></i>"
+msgstr ""
+
+#: ../radix/includes/template-tags.php:72
+msgid "<i class=\"fa fa-chevron-left\"></i>"
+msgstr ""
+
+#: ../radix/includes/template-tags.php:73
+msgid "<i class=\"fa fa-chevron-right\"></i>"
+msgstr ""
+
+#: ../radix/includes/template-tags.php:78 ../twentythirteen/functions.php:270
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: ../radix/includes/template-tags.php:82 ../twentythirteen/functions.php:274
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../radix/includes/template-tags.php:110 ../twentyfourteen/inc/template-tags.php:85
+#: ../twentythirteen/functions.php:300
+msgid "Post navigation"
+msgstr ""
+
+#: ../radix/includes/template-tags.php:113
+msgid "<i class=\"fa fa-chevron-left\"></i> %title"
+msgstr ""
+
+#: ../radix/includes/template-tags.php:114
+msgid "%title <i class=\"fa fa-chevron-right\"></i>"
+msgstr ""
+
+#: ../radix/includes/template-tags.php:132 ../twentyfifteen/inc/template-tags.php:49
+msgid "Featured"
+msgstr ""
+
+#: ../radix/includes/template-tags.php:134 ../radix/loop/content-page.php:38
+#: ../twentyfifteen/content-link.php:56 ../twentyfifteen/content-page.php:35
+#: ../twentyfifteen/content-search.php:28 ../twentyfifteen/content-search.php:33
+#: ../twentyfifteen/content.php:57 ../twentyfifteen/image.php:71
+#: ../twentyfourteen/content-aside.php:40 ../twentyfourteen/content-audio.php:40
+#: ../twentyfourteen/content-gallery.php:40 ../twentyfourteen/content-image.php:40
+#: ../twentyfourteen/content-link.php:40 ../twentyfourteen/content-page.php:28
+#: ../twentyfourteen/content-quote.php:40 ../twentyfourteen/content-video.php:40
+#: ../twentyfourteen/content.php:42 ../twentyfourteen/image.php:34
+#: ../twentyfourteen/page-templates/contributors.php:35 ../twentythirteen/content-aside.php:27
+#: ../twentythirteen/content-aside.php:35 ../twentythirteen/content-audio.php:38
+#: ../twentythirteen/content-chat.php:36 ../twentythirteen/content-gallery.php:46
+#: ../twentythirteen/content-image.php:42 ../twentythirteen/content-link.php:19
+#: ../twentythirteen/content-quote.php:32 ../twentythirteen/content-status.php:26
+#: ../twentythirteen/content-video.php:42 ../twentythirteen/content.php:31
+#: ../twentythirteen/image.php:44 ../twentythirteen/page.php:39
+msgid "Edit"
+msgstr ""
+
+#: ../radix/includes/template-tags.php:161
+msgid ", <span class=\"updated-on\"><i class=\"fa fa-refresh\"></i> updated on</span>"
+msgstr ""
+
+#: ../radix/includes/template-tags.php:164
+#, php-format
+msgid ""
+"<span class=\"posted-on\"><i class=\"fa fa-calendar\"></i> Posted %1$s </span><span class="
+"\"byline\" itemtype=\"http://schema.org/Person\" itemscope=\"itemscope\" itemprop=\"author\"> "
+"by <i class=\"fa fa-user\"></i> %2$s </span>"
+msgstr ""
+
+#: ../radix/includes/template-tags.php:168 ../twentyfifteen/author-bio.php:34
+#: ../twentythirteen/functions.php:343
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: ../radix/includes/template-tags.php:188 ../radix/includes/template-tags.php:196
+#: ../twentyfifteen/inc/template-tags.php:91 ../twentyfifteen/inc/template-tags.php:99
+#: ../twentyfourteen/content-aside.php:17 ../twentyfourteen/content-audio.php:17
+#: ../twentyfourteen/content-featured-post.php:28 ../twentyfourteen/content-gallery.php:17
+#: ../twentyfourteen/content-image.php:17 ../twentyfourteen/content-link.php:17
+#: ../twentyfourteen/content-quote.php:17 ../twentyfourteen/content-video.php:17
+#: ../twentyfourteen/content.php:19 ../twentythirteen/functions.php:328
+#: ../twentythirteen/functions.php:334
+msgid ", "
+msgstr ""
+
+#: ../radix/includes/template-tags.php:191 ../twentyfifteen/inc/template-tags.php:94
+msgid "Categories"
+msgstr ""
+
+#: ../radix/includes/template-tags.php:192
+#, php-format
+msgid "Categories %1$s "
+msgstr ""
+
+#: ../radix/includes/template-tags.php:199 ../twentyfifteen/inc/template-tags.php:102
+msgid "Tags"
+msgstr ""
+
+#: ../radix/includes/template-tags.php:200
+#, php-format
+msgid "Tagged in %1$s "
+msgstr ""
+
+#: ../radix/includes/template-tags.php:208
+msgid "Leave a comment "
+msgstr ""
+
+#: ../radix/includes/template-tags.php:208 ../twentyfifteen/inc/template-tags.php:122
+#: ../twentyfourteen/content-aside.php:37 ../twentyfourteen/content-audio.php:37
+#: ../twentyfourteen/content-gallery.php:37 ../twentyfourteen/content-image.php:37
+#: ../twentyfourteen/content-link.php:37 ../twentyfourteen/content-quote.php:37
+#: ../twentyfourteen/content-video.php:37 ../twentyfourteen/content.php:38
+#: ../twentyfourteen/inc/widgets.php:194
+msgid "1 Comment"
+msgstr ""
+
+#: ../radix/includes/template-tags.php:208
+msgid "% Comments "
+msgstr ""
+
+#: ../radix/includes/template-tags.php:225
+msgid "You must specify the output you want - either \"link\" or \"post_content\"."
+msgstr ""
+
+#: ../radix/loop/content-none.php:12 ../twentyfifteen/content-none.php:15
+#: ../twentyfourteen/content-none.php:12 ../twentythirteen/content-none.php:12
+msgid "Nothing Found"
+msgstr ""
+
+#: ../radix/loop/content-none.php:17 ../twentyfifteen/content-none.php:22
+#: ../twentyfourteen/content-none.php:18 ../twentythirteen/content-none.php:18
+#, php-format
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../radix/loop/content-none.php:21 ../twentyfifteen/content-none.php:26
+#: ../twentyfourteen/content-none.php:22
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr ""
+
+#: ../radix/loop/content-none.php:28
+msgid "It seems we did not find what you are looking for. Perhaps searching can help."
+msgstr ""
+
+#. translators: %s: Name of current post
+#: ../radix/loop/content-page.php:22 ../radix/loop/content-single.php:25
+#: ../radix/loop/content.php:29 ../twentyfifteen/content-link.php:31
+#: ../twentyfifteen/content.php:33 ../twentyfifteen/inc/template-tags.php:237
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: ../radix/search.php:21
+msgid " Search Results found for"
+msgstr ""
+
+#: ../twentyfifteen/404.php:17
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../twentyfifteen/404.php:21 ../twentyfourteen/404.php:21 ../twentythirteen/404.php:22
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: ../twentyfifteen/archive.php:49 ../twentyfifteen/index.php:46 ../twentyfifteen/search.php:38
+msgid "Previous page"
+msgstr ""
+
+#: ../twentyfifteen/archive.php:50 ../twentyfifteen/index.php:47 ../twentyfifteen/search.php:39
+msgid "Next page"
+msgstr ""
+
+#: ../twentyfifteen/author-bio.php:12
+msgid "Published by"
+msgstr ""
+
+#: ../twentyfifteen/comments.php:53 ../twentyfourteen/comments.php:59
+#: ../twentythirteen/comments.php:52
+msgid "Comments are closed."
+msgstr ""
+
+#: ../twentyfifteen/content-none.php:31 ../twentyfourteen/content-none.php:27
+#: ../twentythirteen/content-none.php:27
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr ""
+
+#: ../twentyfifteen/footer.php:25
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: ../twentyfifteen/footer.php:25 ../twentyfourteen/footer.php:21 ../twentythirteen/footer.php:19
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: ../twentyfifteen/functions.php:85 ../twentyfourteen/header.php:52
+msgid "Primary Menu"
+msgstr ""
+
+#: ../twentyfifteen/functions.php:86
+msgid "Social Links Menu"
+msgstr ""
+
+#: ../twentyfifteen/functions.php:133
+msgid "Widget Area"
+msgstr ""
+
+#: ../twentyfifteen/functions.php:135
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#. translators: If there are characters in your language that are not supported by Noto Sans, translate this to 'off'. Do not translate into your own language.
+#. translators: If there are characters in your language that are not supported by Noto Serif, translate this to 'off'. Do not translate into your own language.
+#. translators: If there are characters in your language that are not supported by Inconsolata, translate this to 'off'. Do not translate into your own language.
+#: ../twentyfifteen/functions.php:158 ../twentyfifteen/functions.php:163
+#: ../twentyfifteen/functions.php:168 ../twentyfourteen/functions.php:213
+#: ../twentythirteen/functions.php:128 ../twentythirteen/functions.php:134
+msgid "on"
+msgstr ""
+
+#. translators: To add an additional character subset specific to your language, translate this to 'greek', 'cyrillic', 'devanagari' or 'vietnamese'. Do not translate into your own language.
+#: ../twentyfifteen/functions.php:173
+msgid "no-subset"
+msgstr ""
+
+#: ../twentyfifteen/functions.php:231
+msgid "expand child menu"
+msgstr ""
+
+#: ../twentyfifteen/functions.php:232
+msgid "collapse child menu"
+msgstr ""
+
+#: ../twentyfifteen/header.php:27 ../twentyfourteen/header.php:53 ../twentythirteen/header.php:44
+msgid "Skip to content"
+msgstr ""
+
+#: ../twentyfifteen/header.php:44
+msgid "Menu and widgets"
+msgstr ""
+
+#: ../twentyfifteen/image.php:24 ../twentyfourteen/image.php:65
+msgid "Previous Image"
+msgstr ""
+
+#: ../twentyfifteen/image.php:24 ../twentyfourteen/image.php:66
+msgid "Next Image"
+msgstr ""
+
+#: ../twentyfifteen/image.php:84
+msgid "<span class=\"meta-nav\">Published in</span><span class=\"post-title\">%title</span>"
+msgstr ""
+
+#: ../twentyfifteen/inc/back-compat.php:37 ../twentyfifteen/inc/back-compat.php:47
+#: ../twentyfifteen/inc/back-compat.php:60
+#, php-format
+msgid ""
+"Twenty Fifteen requires at least WordPress version 4.1. You are running version %s. Please "
+"upgrade and try again."
+msgstr ""
+
+#: ../twentyfifteen/inc/customizer.php:31
+msgid "Base Color Scheme"
+msgstr ""
+
+#: ../twentyfifteen/inc/customizer.php:46
+msgid "Header and Sidebar Text Color"
+msgstr ""
+
+#: ../twentyfifteen/inc/customizer.php:47 ../twentyfifteen/inc/customizer.php:63
+#: ../twentyfifteen/inc/customizer.php:68
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr ""
+
+#: ../twentyfifteen/inc/customizer.php:62
+msgid "Header and Sidebar Background Color"
+msgstr ""
+
+#: ../twentyfifteen/inc/customizer.php:103
+msgid "Dark"
+msgstr ""
+
+#: ../twentyfifteen/inc/customizer.php:114
+msgid "Yellow"
+msgstr ""
+
+#: ../twentyfifteen/inc/customizer.php:125
+msgid "Pink"
+msgstr ""
+
+#: ../twentyfifteen/inc/customizer.php:136
+msgid "Purple"
+msgstr ""
+
+#: ../twentyfifteen/inc/customizer.php:147
+msgid "Blue"
+msgstr ""
+
+#: ../twentyfifteen/inc/template-tags.php:23 ../twentyfourteen/comments.php:34
+#: ../twentyfourteen/comments.php:52 ../twentythirteen/comments.php:45
+msgid "Comment navigation"
+msgstr ""
+
+#: ../twentyfifteen/inc/template-tags.php:26
+msgid "Older Comments"
+msgstr ""
+
+#: ../twentyfifteen/inc/template-tags.php:30
+msgid "Newer Comments"
+msgstr ""
+
+#: ../twentyfifteen/inc/template-tags.php:55
+msgid "Format"
+msgstr ""
+
+#: ../twentyfifteen/inc/template-tags.php:76
+msgid "Posted on"
+msgstr ""
+
+#: ../twentyfifteen/inc/template-tags.php:113
+msgid "Full size"
+msgstr ""
+
+#: ../twentyfifteen/inc/template-tags.php:122 ../twentyfourteen/content-aside.php:37
+#: ../twentyfourteen/content-audio.php:37 ../twentyfourteen/content-gallery.php:37
+#: ../twentyfourteen/content-image.php:37 ../twentyfourteen/content-link.php:37
+#: ../twentyfourteen/content-quote.php:37 ../twentyfourteen/content-video.php:37
+#: ../twentyfourteen/content.php:38 ../twentyfourteen/inc/widgets.php:194
+#: ../twentythirteen/content-gallery.php:43 ../twentythirteen/content-image.php:39
+#: ../twentythirteen/content-quote.php:29 ../twentythirteen/content-video.php:39
+#: ../twentythirteen/content.php:56
+msgid "Leave a comment"
+msgstr ""
+
+#: ../twentyfifteen/inc/template-tags.php:122 ../twentyfourteen/content-aside.php:37
+#: ../twentyfourteen/content-audio.php:37 ../twentyfourteen/content-gallery.php:37
+#: ../twentyfourteen/content-image.php:37 ../twentyfourteen/content-link.php:37
+#: ../twentyfourteen/content-quote.php:37 ../twentyfourteen/content-video.php:37
+#: ../twentyfourteen/content.php:38 ../twentyfourteen/inc/widgets.php:194
+msgid "% Comments"
+msgstr ""
+
+#: ../twentyfifteen/search.php:18 ../twentyfourteen/search.php:18 ../twentythirteen/search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: ../twentyfifteen/single.php:33 ../twentyfourteen/functions.php:259
+msgid "Next"
+msgstr ""
+
+#: ../twentyfifteen/single.php:34
+msgid "Next post:"
+msgstr ""
+
+#: ../twentyfifteen/single.php:36 ../twentyfourteen/functions.php:258
+msgid "Previous"
+msgstr ""
+
+#: ../twentyfifteen/single.php:37
+msgid "Previous post:"
+msgstr ""
+
+#: ../twentyfourteen/404.php:17 ../twentythirteen/404.php:16
+msgid "Not Found"
+msgstr ""
+
+#: ../twentyfourteen/archive.php:31 ../twentythirteen/archive.php:29
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: ../twentyfourteen/archive.php:34 ../twentythirteen/archive.php:31
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: ../twentyfourteen/archive.php:34 ../twentythirteen/archive.php:31
+msgid "F Y"
+msgstr ""
+
+#: ../twentyfourteen/archive.php:37 ../twentythirteen/archive.php:33
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: ../twentyfourteen/archive.php:37 ../twentythirteen/archive.php:33
+msgid "Y"
+msgstr ""
+
+#: ../twentyfourteen/archive.php:40 ../twentyfourteen/taxonomy-post_format.php:51
+#: ../twentythirteen/archive.php:35
+msgid "Archives"
+msgstr ""
+
+#: ../twentyfourteen/author.php:31 ../twentythirteen/author.php:31
+#, php-format
+msgid "All posts by %s"
+msgstr ""
+
+#: ../twentyfourteen/category.php:20 ../twentythirteen/category.php:19
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: ../twentyfourteen/comments.php:35 ../twentyfourteen/comments.php:53
+#: ../twentythirteen/comments.php:46
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../twentyfourteen/comments.php:36 ../twentyfourteen/comments.php:54
+#: ../twentythirteen/comments.php:47
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#. translators: %s: Name of current post
+#. translators: %s: Name of current post
+#: ../twentyfourteen/content-aside.php:48 ../twentyfourteen/content-audio.php:48
+#: ../twentyfourteen/content-gallery.php:48 ../twentyfourteen/content-image.php:48
+#: ../twentyfourteen/content-link.php:48 ../twentyfourteen/content-quote.php:48
+#: ../twentyfourteen/content-video.php:48 ../twentyfourteen/content.php:56
+#: ../twentyfourteen/inc/template-tags.php:219 ../twentythirteen/content-aside.php:16
+#: ../twentythirteen/content-audio.php:27 ../twentythirteen/content-chat.php:26
+#: ../twentythirteen/content-gallery.php:27 ../twentythirteen/content-image.php:26
+#: ../twentythirteen/content-link.php:27 ../twentythirteen/content-quote.php:16
+#: ../twentythirteen/content-status.php:16 ../twentythirteen/content-video.php:26
+#: ../twentythirteen/content.php:44 ../twentythirteen/functions.php:478
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../twentyfourteen/footer.php:21 ../twentythirteen/footer.php:19
+msgid "http://wordpress.org/"
+msgstr ""
+
+#: ../twentyfourteen/functions.php:83
+msgid "Top primary menu"
+msgstr ""
+
+#: ../twentyfourteen/functions.php:84
+msgid "Secondary menu in left sidebar"
+msgstr ""
+
+#: ../twentyfourteen/functions.php:171
+msgid "Primary Sidebar"
+msgstr ""
+
+#: ../twentyfourteen/functions.php:173
+msgid "Main sidebar that appears on the left."
+msgstr ""
+
+#: ../twentyfourteen/functions.php:180
+msgid "Content Sidebar"
+msgstr ""
+
+#: ../twentyfourteen/functions.php:182
+msgid "Additional sidebar that appears on the right."
+msgstr ""
+
+#: ../twentyfourteen/functions.php:189
+msgid "Footer Widget Area"
+msgstr ""
+
+#: ../twentyfourteen/functions.php:191 ../twentythirteen/functions.php:233
+msgid "Appears in the footer section of the site."
+msgstr ""
+
+#: ../twentyfourteen/functions.php:495 ../twentythirteen/functions.php:218
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../twentyfourteen/inc/back-compat.php:37 ../twentyfourteen/inc/back-compat.php:47
+#: ../twentyfourteen/inc/back-compat.php:60
+#, php-format
+msgid ""
+"Twenty Fourteen requires at least WordPress version 3.6. You are running version %s. Please "
+"upgrade and try again."
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:24
+msgid "Site Title Color"
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:27
+msgid "Display Site Title &amp; Tagline"
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:31 ../twentyfourteen/inc/customizer.php:32
+msgid "May only be visible on wide screens."
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:34 ../twentyfourteen/inc/customizer.php:35
+msgid "Background may only be visible on wide screens."
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:40 ../twentyfourteen/inc/featured-content.php:403
+msgid "Featured Content"
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:41 ../twentyfourteen/inc/featured-content.php:404
+#, php-format
+msgid ""
+"Use a <a href=\"%1$s\">tag</a> to feature your posts. If no posts match the tag, <a href=\"%2$s"
+"\">sticky posts</a> will be displayed instead."
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:42 ../twentyfourteen/inc/customizer.php:108
+#: ../twentyfourteen/inc/featured-content.php:405 ../twentyfourteen/inc/featured-content.php:414
+#: ../twentyfourteen/inc/featured-content.php:474
+msgid "featured"
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:56
+msgid "Layout"
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:60
+msgid "Grid"
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:61
+msgid "Slider"
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:105
+msgid "Twenty Fourteen"
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:108
+#, php-format
+msgid ""
+"The home page features your choice of up to 6 posts prominently displayed in a grid or slider, "
+"controlled by a <a href=\"%1$s\">tag</a>; you can change the tag and layout in <a href=\"%2$s"
+"\">Appearance &rarr; Customize</a>. If no posts match the tag, <a href=\"%3$s\">sticky posts</"
+"a> will be displayed instead."
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:109
+#, php-format
+msgid ""
+"Enhance your site design by using <a href=\"%s\">Featured Images</a> for posts you&rsquo;d like "
+"to stand out (also known as post thumbnails). This allows you to associate an image with your "
+"post without inserting it. Twenty Fourteen uses featured images for posts and pages&mdash;above "
+"the title&mdash;and in the Featured Content area on the home page."
+msgstr ""
+
+#: ../twentyfourteen/inc/customizer.php:110
+#, php-format
+msgid ""
+"For an in-depth tutorial, and more tips and tricks, visit the <a href=\"%s\">Twenty Fourteen "
+"documentation</a>."
+msgstr ""
+
+#: ../twentyfourteen/inc/featured-content.php:426
+msgid "Tag Name"
+msgstr ""
+
+#: ../twentyfourteen/inc/featured-content.php:431
+msgid "Don&rsquo;t display tag on front end."
+msgstr ""
+
+#: ../twentyfourteen/inc/template-tags.php:50
+msgid "&larr; Previous"
+msgstr ""
+
+#: ../twentyfourteen/inc/template-tags.php:51
+msgid "Next &rarr;"
+msgstr ""
+
+#: ../twentyfourteen/inc/template-tags.php:58 ../twentythirteen/functions.php:266
+msgid "Posts navigation"
+msgstr ""
+
+#: ../twentyfourteen/inc/template-tags.php:89
+msgid "<span class=\"meta-nav\">Published In</span>%title"
+msgstr ""
+
+#: ../twentyfourteen/inc/template-tags.php:91
+msgid "<span class=\"meta-nav\">Previous Post</span>%title"
+msgstr ""
+
+#: ../twentyfourteen/inc/template-tags.php:92
+msgid "<span class=\"meta-nav\">Next Post</span>%title"
+msgstr ""
+
+#: ../twentyfourteen/inc/template-tags.php:109 ../twentythirteen/functions.php:322
+msgid "Sticky"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:34
+msgid "Twenty Fourteen Ephemera"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:36
+msgid ""
+"Use this widget to list your recent Aside, Quote, Video, Audio, Image, Gallery, and Link posts."
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:54 ../twentyfourteen/taxonomy-post_format.php:33
+msgid "Images"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:55
+msgid "More images"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:58 ../twentyfourteen/taxonomy-post_format.php:36
+msgid "Videos"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:59
+msgid "More videos"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:62 ../twentyfourteen/taxonomy-post_format.php:39
+msgid "Audio"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:63
+msgid "More audio"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:66 ../twentyfourteen/taxonomy-post_format.php:42
+msgid "Quotes"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:67
+msgid "More quotes"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:70 ../twentyfourteen/taxonomy-post_format.php:45
+msgid "Links"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:71
+msgid "More links"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:74 ../twentyfourteen/taxonomy-post_format.php:48
+msgid "Galleries"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:75
+msgid "More galleries"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:79 ../twentyfourteen/taxonomy-post_format.php:30
+msgid "Asides"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:80
+msgid "More asides"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:127 ../twentyfourteen/inc/widgets.php:172
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#. translators: used with More archives link
+#: ../twentyfourteen/inc/widgets.php:206
+#, php-format
+msgid "%s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:255
+msgid "Title:"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:258
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../twentyfourteen/inc/widgets.php:261
+msgid "Post format to show:"
+msgstr ""
+
+#: ../twentyfourteen/tag.php:22 ../twentythirteen/tag.php:21
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: ../twentythirteen/404.php:21
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr ""
+
+#: ../twentythirteen/author-bio.php:26
+#, php-format
+msgid "About %s"
+msgstr ""
+
+#: ../twentythirteen/author-bio.php:30
+#, php-format
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../twentythirteen/content-gallery.php:43 ../twentythirteen/content-image.php:39
+#: ../twentythirteen/content-quote.php:29 ../twentythirteen/content-video.php:39
+#: ../twentythirteen/content.php:56
+msgid "One comment so far"
+msgstr ""
+
+#: ../twentythirteen/content-gallery.php:43 ../twentythirteen/content-image.php:39
+#: ../twentythirteen/content-quote.php:29 ../twentythirteen/content-video.php:39
+#: ../twentythirteen/content.php:56
+#, php-format
+msgid "View all % comments"
+msgstr ""
+
+#: ../twentythirteen/content-none.php:22
+msgid "Sorry, but nothing matched your search terms. Please try again with different keywords."
+msgstr ""
+
+#: ../twentythirteen/functions.php:97
+msgid "Navigation Menu"
+msgstr ""
+
+#: ../twentythirteen/functions.php:231
+msgid "Main Widget Area"
+msgstr ""
+
+#: ../twentythirteen/functions.php:241
+msgid "Secondary Widget Area"
+msgstr ""
+
+#: ../twentythirteen/functions.php:243
+msgid "Appears on posts and pages in the sidebar."
+msgstr ""
+
+#: ../twentythirteen/functions.php:303
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr ""
+
+#: ../twentythirteen/functions.php:304
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../twentythirteen/functions.php:363
+#, php-format
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: ../twentythirteen/functions.php:369
+#, php-format
+msgid "Permalink to %s"
+msgstr ""
+
+#: ../twentythirteen/header.php:43
+msgid "Menu"
+msgstr ""
+
+#: ../twentythirteen/image.php:22
+#, php-format
+msgid ""
+"<span class=\"attachment-meta\">Published on <time class=\"entry-date\" datetime=\"%1$s\">%2$s</"
+"time> in <a href=\"%3$s\" title=\"Return to %4$s\" rel=\"gallery\">%5$s</a></span>"
+msgstr ""
+
+#: ../twentythirteen/image.php:51
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr ""
+
+#: ../twentythirteen/image.php:52
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: ../twentythirteen/inc/back-compat.php:37 ../twentythirteen/inc/back-compat.php:47
+#: ../twentythirteen/inc/back-compat.php:60
+#, php-format
+msgid ""
+"Twenty Thirteen requires at least WordPress version 3.6. You are running version %s. Please "
+"upgrade and try again."
+msgstr ""
+
+#: ../twentythirteen/inc/custom-header.php:49
+msgid "Circle"
+msgstr ""
+
+#: ../twentythirteen/inc/custom-header.php:54
+msgid "Diamond"
+msgstr ""
+
+#: ../twentythirteen/inc/custom-header.php:59
+msgid "Star"
+msgstr ""
+
+#: ../twentythirteen/taxonomy-post_format.php:23
+#, php-format
+msgid "%s Archives"
+msgstr ""

@@ -23,11 +23,11 @@ function Radix_comment_nav() {
 	<nav class="comment-navigation" role="navigation">
 		<ul class="pager">
 			<?php
-			if ( $prev_link = get_previous_comments_link( __( '<i class="fa fa-chevron-left fa-fw"></i> Older Comments', 'Radix' ) ) ) :
+			if ( $prev_link = get_previous_comments_link( __( '<i class="fa fa-chevron-left fa-fw"></i> Older Comments', 'radix' ) ) ) :
 				printf( '<li class="nav-previous previous">%s</li>', $prev_link );
 			endif;
 
-			if ( $next_link = get_next_comments_link( __( 'Newer Comments <i class="fa fa-chevron-right fa-fw"></i>', 'Radix' ) ) ) :
+			if ( $next_link = get_next_comments_link( __( 'Newer Comments <i class="fa fa-chevron-right fa-fw"></i>', 'radix' ) ) ) :
 				printf( '<li class="nav-next next">%s</li>', $next_link );
 			endif;
 			?>
@@ -69,17 +69,17 @@ function Radix_content_nav( $nav_id ) {
 
 			<?php if ( is_single() ) : // navigation links for single posts ?>
 
-				<?php previous_post_link( '<li class="nav-previous previous">%link</li>', '<span class="meta-nav">' . __( '<i class="fa fa-chevron-left"></i>', 'Previous post link', 'Radix' ) . '</span> %title' ); ?>
-				<?php next_post_link( '<li class="nav-next next">%link</li>', '%title <span class="meta-nav">' . __( '<i class="fa fa-chevron-right"></i>', 'Next post link', 'Radix' ) . '</span>' ); ?>
+				<?php previous_post_link( '<li class="nav-previous previous">%link</li>', '<span class="meta-nav">' . __( '<i class="fa fa-chevron-left"></i>', 'Previous post link', 'radix' ) . '</span> %title' ); ?>
+				<?php next_post_link( '<li class="nav-next next">%link</li>', '%title <span class="meta-nav">' . __( '<i class="fa fa-chevron-right"></i>', 'Next post link', 'radix' ) . '</span>' ); ?>
 
 			<?php elseif ( $wp_query->max_num_pages > 1 && ( is_home() || is_archive() || is_search() ) ) : // navigation links for home, archive, and search pages ?>
 
 				<?php if ( get_next_posts_link() ) : ?>
-					<li class="nav-previous previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'Radix' ) ); ?></li>
+					<li class="nav-previous previous"><?php next_posts_link( __( '<span class="meta-nav">&larr;</span> Older posts', 'radix' ) ); ?></li>
 				<?php endif; ?>
 
 				<?php if ( get_previous_posts_link() ) : ?>
-					<li class="nav-next next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'Radix' ) ); ?></li>
+					<li class="nav-next next"><?php previous_posts_link( __( 'Newer posts <span class="meta-nav">&rarr;</span>', 'radix' ) ); ?></li>
 				<?php endif; ?>
 
 			<?php endif; ?>
@@ -107,11 +107,11 @@ function Radix_post_nav() {
 	}
 	?>
 	<nav class="navigation post-navigation">
-		<h3 class="screen-reader-text"><?php _e( 'Post navigation', 'Radix' ); ?></h3>
+		<h3 class="screen-reader-text"><?php _e( 'Post navigation', 'radix' ); ?></h3>
 		<div class="nav-links">
 			<?php
-				previous_post_link( '<div class="nav-previous">%link</div>', _e( '<i class="fa fa-chevron-left"></i> %title', 'Previous post link', 'Radix' ) );
-				next_post_link(     '<div class="nav-next">%link</div>',     _e( '%title <i class="fa fa-chevron-right"></i>', 'Next post link',     'Radix' ) );
+				previous_post_link( '<div class="nav-previous">%link</div>', _e( '<i class="fa fa-chevron-left"></i> %title', 'Previous post link', 'radix' ) );
+				next_post_link(     '<div class="nav-next">%link</div>',     _e( '%title <i class="fa fa-chevron-right"></i>', 'Next post link',     'radix' ) );
 			?>
 		</div><!-- .nav-links -->
 	</nav><!-- .navigation -->
@@ -129,9 +129,9 @@ if ( ! function_exists( 'Radix_posted_on' ) ) :
 function Radix_posted_on() {
 
 	if ( is_sticky() && is_home() && ! is_paged() ) {
-		printf( '<span class="sticky-post"><i class="fa fa-star"></i> %s </span>', __( 'Featured', 'Radix' ) );
+		printf( '<span class="sticky-post"><i class="fa fa-star"></i> %s </span>', __( 'Featured', 'radix' ) );
 	} ?>
-	<?php edit_post_link( __( 'Edit', 'Radix' ), '<span class="edit-link pull-right">', ' <i class="fa fa-pencil"></i></span>' ); ?>
+	<?php edit_post_link( __( 'Edit', 'radix' ), '<span class="edit-link pull-right">', ' <i class="fa fa-pencil"></i></span>' ); ?>
 	<?php
 
 	$time_string = '<time class="entry-date published" itemprop="datePublished" datetime="%1$s">%2$s</time>';
@@ -158,14 +158,14 @@ function Radix_posted_on() {
 			esc_attr( get_the_time() ),
 			$time_string_update
 		);
-		$time_string .= __(', <span class="updated-on"><i class="fa fa-refresh"></i> updated on</span>', 'Radix') . $time_string_update;
+		$time_string .= __(', <span class="updated-on"><i class="fa fa-refresh"></i> updated on</span>', 'radix') . $time_string_update;
 	}
 
-	printf( __( '<span class="posted-on"><i class="fa fa-calendar"></i> Posted %1$s </span><span class="byline" itemtype="http://schema.org/Person" itemscope="itemscope" itemprop="author"> by <i class="fa fa-user"></i> %2$s </span>', 'Radix' ),
+	printf( __( '<span class="posted-on"><i class="fa fa-calendar"></i> Posted %1$s </span><span class="byline" itemtype="http://schema.org/Person" itemscope="itemscope" itemprop="author"> by <i class="fa fa-user"></i> %2$s </span>', 'radix' ),
 		$time_string,
 		sprintf( '<span class="author vcard"><a class="url fn" rel="author" href="%1$s" title="%2$s" itemprop="url"><span itemprop="name"> %3$s </span></a></span>',
 			esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
-			esc_attr( sprintf( __( 'View all posts by %s', 'Radix' ), get_the_author() ) ),
+			esc_attr( sprintf( __( 'View all posts by %s', 'radix' ), get_the_author() ) ),
 			esc_html( get_the_author() )
 		)
 	);
@@ -185,19 +185,19 @@ function Radix_entry_footer() {
 
 	if ( 'post' == get_post_type() ) {
 
-		$categories_list = get_the_category_list( __( ', ', 'Radix' ) );
+		$categories_list = get_the_category_list( __( ', ', 'radix' ) );
 		if ( $categories_list && Radix_categorized_blog()) { ?>
 			<span class="cat-links">
-				<i class="fa fa-folder-open" title="<?php __( 'Categories', 'Radix' ); ?>"></i>
-				<?php printf( __( 'Categories %1$s ', 'Radix' ), $categories_list ); ?>
+				<i class="fa fa-folder-open" title="<?php __( 'Categories', 'radix' ); ?>"></i>
+				<?php printf( __( 'Categories %1$s ', 'radix' ), $categories_list ); ?>
 			</span>
 		<?php } 
 
-		$tags_list = get_the_tag_list( '', __( ', ', 'Radix' ) );
+		$tags_list = get_the_tag_list( '', __( ', ', 'radix' ) );
 		if ( $tags_list ) { ?>
 			<span class="tags-links">
-				<i class="fa fa-tags" title="<?php __( 'Tags', 'Radix' ); ?>"></i>
-				<?php printf( __( 'Tagged in %1$s ', 'Radix' ), $tags_list ); ?>
+				<i class="fa fa-tags" title="<?php __( 'Tags', 'radix' ); ?>"></i>
+				<?php printf( __( 'Tagged in %1$s ', 'radix' ), $tags_list ); ?>
 			</span>
 		<?php }
 
@@ -205,7 +205,7 @@ function Radix_entry_footer() {
 
 	if ( ! is_single() && ! post_password_required() && ( comments_open() || get_comments_number() ) ) { ?>
 		<span class="comments-link" itemprop="interactionCount"><i class="fa fa-comment"></i>
-			<?php comments_popup_link( __( 'Leave a comment ', 'Radix' ), __( '1 Comment', 'Radix' ), __( '% Comments ', 'Radix' ) ); ?>
+			<?php comments_popup_link( __( 'Leave a comment ', 'radix' ), __( '1 Comment', 'radix' ), __( '% Comments ', 'radix' ) ); ?>
 		</span>
 	<?php }
 }
@@ -222,7 +222,7 @@ if ( ! function_exists( 'Radix_link_format_helper' ) ) :
 function Radix_link_format_helper( $output = false ) {
 
 	if ( ! $output )
-		_doing_it_wrong( __FUNCTION__, __( 'You must specify the output you want - either "link" or "post_content".', 'Radix' ), '1.0.1' );
+		_doing_it_wrong( __FUNCTION__, __( 'You must specify the output you want - either "link" or "post_content".', 'radix' ), '1.0.1' );
 
 	$post_content = get_the_content();
 	$link_start = stristr( $post_content, "http" );

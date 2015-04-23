@@ -18,7 +18,7 @@ if ( is_active_sidebar( 'sidebar' ) ) {
 		<div id="primary" class="content-area <?php echo $col; ?>" itemtype="http://schema.org/SearchResultsPage" itemscope="itemscope">
 			<?php if ( have_posts() ) : ?>
 				<header class="entry-header">
-					<h2 class="search-title"><?php $allsearch = new WP_Query("s=$s&showposts=-1"); $key = esc_html($s, 1); $count = $allsearch->post_count;  echo $count . ' '; wp_reset_query(); ?><?php printf( __( ' Search Results found for' , 'Radix') . '<span class="text-muted"> %s</span>', get_search_query() ); ?></h2>
+					<h2 class="search-title"><?php $allsearch = new WP_Query("s=$s&showposts=-1"); $key = esc_html($s, 1); $count = $allsearch->post_count;  echo $count . ' '; wp_reset_query(); ?><?php printf( __( ' Search Results found for' , 'radix') . '<span class="text-muted"> %s</span>', get_search_query() ); ?></h2>
 				</header>
 				<?php /* Start the Loop */ ?>
 				<?php while ( have_posts() ) : the_post(); ?>

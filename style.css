@@ -4,11 +4,11 @@ Theme URI: http://starter.croti.com/
 Author: Abukwaik
 Author URI: http://www.croti.com/
 Description: Fully Responsive starter WordPress Theme based on twitter bootstrap 3. Radix is built with clean HTML5 and CSS3. Simple, super flexible theme designed for Multi-Purpose, and comes packed with powerful options panel.
-Version: 1.0.0
+Version: 1.0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: theme-options, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, sticky-post, threaded-comments, translation-ready
-Text Domain: Radix
+Text Domain: radix
 
 This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
@@ -699,6 +699,7 @@ ul li span.menu-toggler {
   transition: all .5s ease 0s;
   -webkit-transition: all .5s ease 0s;
 }
+
 .hentry:hover .edit-link { opacity: 1 }
 
 .page-title:before {
@@ -727,9 +728,12 @@ ul li span.menu-toggler {
 
 .entry-meta {
   border-bottom: 1px solid #eee;
+}
+
+.entry-meta, .entry-footer {
   border-top: 1px solid #eee;
-  font-size: 10px;
-  font-weight: 700;
+  font-size: 11px;
+  font-weight: 600;
   position: relative;
   text-transform: uppercase
 }
@@ -767,13 +771,6 @@ ul li span.menu-toggler {
   padding: 10px
 }
 
-.entry-footer {
-  border-top: 1px solid #eee;
-  font-size: 10px;
-  font-weight: 700;
-  position: relative;
-  text-transform: uppercase
-}
 
 .entry-footer:after {
   border-bottom: 1px solid #ccc;
@@ -789,48 +786,23 @@ ul li span.menu-toggler {
 .entry-footer { padding: 10px 0 }
 
 .entry-meta i, 
-.entry-footer i { padding-right: 1px }
+.entry-footer i { 
+  padding-right: 2px; 
+  padding-left: 2px 
+}
 
 .sticky-post, 
 .byline, 
 .cat-links, 
 .comments-link, 
 .posted-on, 
-.tags-links, 
-.post-views, 
+.tags-links,
 .updated-on, 
 .vcard {
   margin-right: 5px
 }
 
 .bypostauthor { display:block }
-
-ul.post-share-buttons {
-  border-top: 1px solid rgba(0,0,0,.07);
-  padding: 15px 10px 0 0;
-  margin: 2em 0 0;
-  width: 100%;
-  float: left
-}
-
-ul.post-share-buttons li { 
-  float: left; 
-  margin: 0 15px 0 0
-}
-
-ul.post-share-buttons li.social-question { width: auto}
-ul.post-share-buttons li.twitter { width: 80px}
-ul.post-share-buttons li.facebook { width: 125px}
-ul.post-share-buttons li.google { width: 75px}
-ul.post-share-buttons li.pinterest { width: 80px}
-ul.post-share-buttons li.twitter iframe { margin:0}
-
-@media (max-width:480px) {
-  ul.post-share-buttons li {
-    float: none;
-    margin: 10px 0
-  }
-}
 
 .entry-attachment img { width:100% }
 
@@ -1107,11 +1079,6 @@ img.footer-logo {
   content: "\f105";
   font-family: FontAwesome;
   padding-right: 5px
-}
-
-#footer-socials {
-  margin: 0;
-  padding: 0
 }
 
 .social-bar {

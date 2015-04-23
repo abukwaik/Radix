@@ -16,8 +16,8 @@
 */
 /* Change customize link to theme options instead of live customizer */
 function ro_change_customize_link($themes) {
-	if(array_key_exists('Radix', $themes)) {
-		$themes['Radix']['actions']['customize'] = admin_url('admin.php?page=radix_options');
+	if(array_key_exists('radix', $themes)) {
+		$themes['radix']['actions']['customize'] = admin_url('admin.php?page=radix_options');
 	}
 	return $themes;
 }

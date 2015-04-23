@@ -23,7 +23,6 @@
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?> itemscope="itemscope" itemtype="http://schema.org/WebPage">
-<?php $logo = ro_get_option('logo'); ?>
 <?php if (ro_get_option('sticky_header')) { ?>
 <header id="header-wrap" itemscope="itemscope" itemtype="http://schema.org/Organization" role="banner">
 <?php } ?>
@@ -34,13 +33,14 @@
         <div class="container clearfix">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only"><?php _e('Toggle navigation', 'Radix'); ?></span>
+                    <span class="sr-only"><?php _e('Toggle navigation', 'radix'); ?></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
                 <div id="navbar-brand">
                     <div class="logo">
+                        <?php $logo = ro_get_option('logo'); ?>
                         <?php $logo_width = ro_get_option( 'logo_width', '110' ); $logo_height = ro_get_option( 'logo_height', '30' ); ?>        
                         <?php if(!empty($logo['url'])) : ?>
                             <a itemprop="url" href="<?php echo esc_url( home_url( '/' )); ?>" title="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" >

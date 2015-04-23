@@ -37,3 +37,6 @@
 	position: relative
 }
 
+.redux-container-image_select ul.redux-image-select li {
+    padding: 2px 5px 2px 0;
+}

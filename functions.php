@@ -10,7 +10,7 @@
  * @author Abukwaik http://www.croti.com
  * @copyright Copyright (c) 2015, RADIX
  * @license http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
- * @since RADIX 1.0
+ * @since Radix 1.0
  *
  */
 
@@ -18,7 +18,7 @@ define('RADIX_THEME_DIR', get_template_directory());
 define('RADIX_THEME_URI', get_template_directory_uri());
 define('RADIX_THEME_NAME', 'Radix');
 define('RADIX_THEME_SLUG', 'radix');
-define('RADIX_THEME_VERSION', '1.0.0');
+define('RADIX_THEME_VERSION', '1.0.1');
 define('RADIX_THEME_OPTIONS', 'ro_settings');
 define('RADIX_JS_URI',  RADIX_THEME_URI . '/includes/js');
 define('RADIX_CSS_URI', RADIX_THEME_URI . '/includes/css');
@@ -50,14 +50,14 @@ if ( !function_exists( 'Radix_setup' ) ) {
     add_theme_support( 'title-tag' );
     add_theme_support( 'post-formats', array( 'audio', 'gallery', 'image', 'video' ));
     add_theme_support( 'post-thumbnails');
-    load_theme_textdomain( 'Radix', RADIX_THEME_DIR . '/languages' );
+    load_theme_textdomain( 'radix', RADIX_THEME_DIR . '/languages' );
     add_editor_style( RADIX_CSS_URI . '/editor-style.css' );
 
     // Register Menus
     register_nav_menus(
       array(
-        'primary'     => __( 'Primary', 'Radix' ),
-        'footer-menu' => __( 'Footer Menu', 'Radix' ),
+        'primary'     => __( 'Primary', 'radix' ),
+        'footer-menu' => __( 'Footer Menu', 'radix' ),
         ) 
       );
 
@@ -79,11 +79,9 @@ add_action( 'after_setup_theme', 'Radix_setup' );
   Title backwards compatibility for old WP versions
 */
 if ( ! function_exists( '_wp_render_title_tag' ) ) {
-  function theme_slug_render_title() {
-?>
+  function theme_slug_render_title() { ?>
 <title><?php wp_title( '|', true, 'right' ); ?></title>
-<?php
-  }
+<?php }
   add_action( 'wp_head', 'theme_slug_render_title' );
 }
 

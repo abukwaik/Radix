@@ -32,16 +32,6 @@
                     require_once $this->field['include'] ;
                 }
 
-                // if ( ! empty( $this->field['content'] ) && isset( $this->field['content'] ) ) {
-                //     if ( isset( $this->field['markdown'] ) && $this->field['markdown'] == true ) {
-                //         require_once dirname( __FILE__ ) . "/parsedown.php";
-                //         $Parsedown = new Parsedown();
-                //         echo $Parsedown->text( $this->field['content'] );
-                //     } else {
-                //         echo $this->field['content'];
-                //     }
-                // }
-
                 do_action( 'redux-field-raw-' . $this->parent->args['opt_name'] . '-' . $this->field['id'] );
 
             }

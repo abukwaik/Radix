@@ -116,8 +116,8 @@
             function dynamic_section( $sections ) {
                 //$sections = array();
                 $sections[] = array(
-                    'title'  => __( 'Section via hook', 'Radix' ),
-                    'desc'   => __( '<p class="description">This is a section created by adding a filter to the sections array. Can be used by child themes to add/remove sections from the options.</p>', 'Radix' ),
+                    'title'  => __( 'Section via hook', 'radix' ),
+                    'desc'   => __( '<p class="description">This is a section created by adding a filter to the sections array. Can be used by child themes to add/remove sections from the options.</p>', 'radix' ),
                     'icon'   => 'el el-icon-paper-clip',
                     // Leave this as a blank section, no options just some intro text set above.
                     'fields' => array()
@@ -168,22 +168,22 @@
                 // Custom page help tabs, displayed using the help API. Tabs are shown in order of definition.
                 $this->args['help_tabs'][] = array(
                     'id'      => 'redux-help-tab-1',
-                    'title'   => __( 'Documentation', 'Radix' ),
-                    'content' => __( '<p>Go to <a href="' . esc_url(__('http://www.croti.com/starter.html', 'Radix')) . '" target="_blank">Radix Documentation</a> to learn more about Radix features.</p>', 'Radix' )
+                    'title'   => __( 'Documentation', 'radix' ),
+                    'content' => __( '<p>Go to <a href="' . esc_url(__('http://www.croti.com/starter.html', 'radix')) . '" target="_blank">Radix Documentation</a> to learn more about Radix features.</p>', 'radix' )
                 );
 
                 $this->args['help_tabs'][] = array(
                     'id'      => 'redux-help-tab-2',
-                    'title'   => __( 'Issues tracker', 'Radix' ),
-                    'content' => __( '<p>If you have any issue do not hesitate to join the <a href="' . esc_url(__('https://github.com/abukwaik/_Radix-starter/issues', 'Radix')) . '" target="_blank">issues tracker</a></p>', 'Radix' )
+                    'title'   => __( 'Issues tracker', 'radix' ),
+                    'content' => __( '<p>If you have any issue do not hesitate to join the <a href="' . esc_url(__('https://github.com/abukwaik/_Radix-starter/issues', 'radix')) . '" target="_blank">issues tracker</a></p>', 'radix' )
                 );
                 $this->args['help_tabs'][] = array(
                     'id'      => 'redux-help-tab-3',
-                    'title'   => __( 'Donation ', 'Radix' ),
-                    'content' => __( '<p>Please consider <a href="' . esc_url(__('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JUXUWMEFUEJPW', 'Radix')) . '" target="_blank">donating</a> so we can keep this as a free theme and add more features in the future</p>', 'Radix' )
+                    'title'   => __( 'Donation ', 'radix' ),
+                    'content' => __( '<p>Please consider <a href="' . esc_url(__('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JUXUWMEFUEJPW', 'radix')) . '" target="_blank">donating</a> so we can keep this as a free theme and add more features in the future</p>', 'radix' )
                 );
                 // Set the help sidebar
-                $this->args['help_sidebar'] = __( '<p>Got a problem?</p>', 'Radix' );
+                $this->args['help_sidebar'] = __( '<p>Got a problem?</p>', 'radix' );
             }
 
             /**
@@ -206,8 +206,8 @@
                     //Specify if the admin menu should appear or not. Options: menu or submenu (Under appearance only)
                     'allow_sub_menu'       => false,
                     // Show the sections below the admin menu item or not
-                    'menu_title'        => __( 'Radix Options', 'Radix' ),
-                    'page'              => __( 'Radix Options', 'Radix' ),
+                    'menu_title'        => __( 'Radix Options', 'radix' ),
+                    'page'              => __( 'Radix Options', 'radix' ),
                     // You will need to generate a Google API key to use this feature.
                     // Please visit: https://developers.google.com/fonts/docs/developer_api#Auth
                     'google_api_key'       => 'AIzaSyDTpC3HmS1J0CSAayIl3uGunpLGWcVeCjk',
@@ -308,18 +308,18 @@
                 $this->args['admin_bar_links'][] = array(
                     'id'    => 'redux-docs',
                     'href'   => 'http://www.croti.com/starter.html',
-                    'title' => __( 'Documentation', 'Radix' ),
+                    'title' => __( 'Documentation', 'radix' ),
                 );
 
                 $this->args['admin_bar_links'][] = array(
                     //'id'    => 'redux-support',
-                    'href'   => 'https://github.com/abukwaik/_Radix-starter/issues',
-                    'title' => __( 'Support', 'Radix' ),
+                    'href'   => 'https://github.com/abukwaik/Radix/issues',
+                    'title' => __( 'Support', 'radix' ),
                 );
 
                 // SOCIAL ICONS -> Setup custom links in the footer for quick links in your panel footer icons.
                 $this->args['share_icons'][] = array(
-                    'url'   => 'https://github.com/abukwaik/Radix-starter',
+                    'url'   => 'https://github.com/abukwaik/radix',
                     'title' => 'GitHub Source',
                     'icon'  => 'el el-icon-github'
                     //'img'   => '', // You can use icon OR img. IMG needs to be a full URL.
@@ -347,9 +347,9 @@
                     } else {
                         $v = str_replace( '-', '_', $this->args['opt_name'] );
                     }
-                    $this->args['intro_text'] = sprintf( __( '<p>Did you know that Redux sets a global variable for you? To access any of your saved options from within your code you can use your global variable: <strong>$%1$s</strong></p>', 'Radix' ), $v );
+                    $this->args['intro_text'] = sprintf( __( '<p>Did you know that Redux sets a global variable for you? To access any of your saved options from within your code you can use your global variable: <strong>$%1$s</strong></p>', 'radix' ), $v );
                 } else {
-                    $this->args['intro_text'] = __( '<p>This text is displayed above the options panel. It isn\'t required, but more info is always better! The intro_text field accepts all HTML.</p>', 'Radix' );
+                    $this->args['intro_text'] = __( '<p>This text is displayed above the options panel. It isn\'t required, but more info is always better! The intro_text field accepts all HTML.</p>', 'radix' );
                 }
 
                 // Add content after the form.

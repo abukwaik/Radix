@@ -13,8 +13,6 @@ Nothing special that much:
 * Pages slidebar
 * Custom headers
 * Custom search result
-* Custom Login
-* Post views
 * 100% SEO Optimized
 * Page speed optimized, Score between 95-100/100 [link](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fstarter.croti.com%2F)
 * HTML5 validation ready [link](http://validator.w3.org/check?uri=http%3A%2F%2Fstarter.croti.com%2F&charset=%28detect+automatically%29&doctype=Inline&group=0)
@@ -32,7 +30,7 @@ Third-Party Plugins:
 * Animate.css
 * Font Awesome v4.3
 * jQuery Easing Plugin v1.3
-* WOW.js v1.0.3
+* WOW.js v1.1.2
 * jQuery nicescroll v3.6.0
 * prettyPhoto v3.1.5
 
@@ -44,7 +42,7 @@ Third-Party Plugins:
 [Demo](http://starter.croti.com/)
 
 ## Changelog
-* 21-04-2015 [v1.0.3](https://github.com/abukwaik/Radix/blob/master/CHANGELOG.md#106)
+* 21-04-2015 [v1.0.1](https://github.com/abukwaik/Radix/blob/master/CHANGELOG.md#106)
 
 ## Credit
 

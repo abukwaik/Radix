@@ -15,16 +15,16 @@ get_header(); ?>
 				<div class="container clearfix">
 					<div class="row">
 						<div class="error-404-box">
-							<div class="error-message"><?php echo __( 'Error 404', 'Radix' ); ?></div>
-							<p class="lead"><?php echo __( 'It looks like nothing was found at this location.', 'Radix' ); ?></p>
-							<input type="button" value="<?php echo __( 'Go Back', 'Radix' ); ?>" onclick="history.back(-1)" />
+							<div class="error-message"><?php echo __( 'Error 404', 'radix' ); ?></div>
+							<p class="lead"><?php echo __( 'It looks like nothing was found at this location.', 'radix' ); ?></p>
+							<input type="button" value="<?php echo __( 'Go Back', 'radix' ); ?>" onclick="history.back(-1)" />
 						</div>
 					</div>
 				</div>
 				<div class="container clearfix">
 					<div class="row">
 						<span class="search-text">
-						<p><?php echo __( 'Or maybe try a search?', 'Radix' ); ?></p>
+						<p><?php echo __( 'Or maybe try a search?', 'radix' ); ?></p>
 						</span>
 						<?php get_search_form(); ?>
 					</div>
