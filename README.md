@@ -42,7 +42,7 @@ Third-Party Plugins:
 [Demo](http://starter.croti.com/)
 
 ## Changelog
-* 21-04-2015 [v1.0.1](https://github.com/abukwaik/Radix/blob/master/CHANGELOG.md#106)
+* 04-05-2015 [v1.0.2](https://github.com/abukwaik/Radix/blob/master/CHANGELOG.md#106)
 
 ## Credit
 
