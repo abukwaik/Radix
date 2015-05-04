@@ -10,7 +10,7 @@
 
 ## 1.0.2
 * Added: Define the Theme's textdomain for easy modification
-* Added: Function 'has_nav_menu' if there is no navigation menu assigned, the nav element will not be presented
+* Added: Function `has_nav_menu` if there is no navigation menu assigned, the nav element will not be presented
 * Added: Skip to content link
 * Added: `<label>` element to all form fields
 * Added: `aria-hidden` for all font-aweome icons so it's not read out to users of screen readers
