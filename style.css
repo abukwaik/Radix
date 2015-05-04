@@ -1254,12 +1254,12 @@ ul.author-social-bar li a:hover { color: #fff }
   display: none;
   border-radius: 10%;
   text-align: center;
-  padding-top: 12px;
+  line-height: 40px;
   position: fixed;
-  bottom: 4rem;
-  right: 2rem;
-  width: 4.2rem;
-  height: 4.2rem;
+  bottom: 10%;
+  right: 8%;
+  width: 40px;
+  height: 40px;
   color: #fff;
   background-color: rgba(0,0,0,.1);
   cursor: pointer
