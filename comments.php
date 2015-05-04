@@ -42,7 +42,7 @@
       '<textarea class="form-control" id="text_area" name="comment" rows="8" aria-required="true" placeholder="Start commenting..."></textarea>' . '</label></div>' ,
 
       'fields' => apply_filters( 'comment_form_default_fields', array(
-        'author' => '<div class="row"><div class="col-md-6 col-xs-6"><label> for="Name"<span class="screen-reader-text">' . sprintf( __('Name', RTD) ) . '</span>' .
+        'author' => '<div class="row"><div class="col-md-6 col-xs-6"><label for="Name"><span class="screen-reader-text">' . sprintf( __('Name', RTD) ) . '</span>' .
         '<div class="input-group"><span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>'.
         '<input class="form-control" placeholder="Your name" id="author" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) .
         '" size="30" aria-required="true" /></div>' .
