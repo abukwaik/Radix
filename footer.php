@@ -28,24 +28,24 @@
         <div class="container-fluid clearfix">
             <div class="row-fluid">         
                 <div class="copyright-text col-md-6">
-                    <?php _e( 'Copyright &copy; ', 'radix' ); ?>
+                    <?php _e( 'Copyright &copy; ', RTD ); ?>
                     <span itemprop="copyrightYear">
                         <?php echo date( 'Y' ); ?>
                     </span>
                     <a href="<?php echo esc_url( home_url() ); ?>" itemprop="url"><span itemprop="copyrightHolder"><?php echo esc_attr( get_bloginfo( 'name' ) ); ?></span></a>
-                    <?php _e( 'All rights reserved.', 'radix' ); ?>
+                    <?php _e( 'All rights reserved.', RTD ); ?>
                 </div> 
-                <nav class="footer-nav col-md-6" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" role="navigation">
-                    <?php if (has_nav_menu('footer-menu') && ro_get_option('enable_footer_menu')) : ?>
+                <?php if ( has_nav_menu('footer-menu') && ro_get_option('enable_footer_menu')) : ?>
+                    <nav class="footer-nav col-md-6" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" role="navigation">
                         <?php Radix_footer_nav(); ?>
-                    <?php endif; ?>
-                </nav>
+                    </nav>
+                <?php endif; ?>
             </div>
         </div>
     </footer>
 <?php endif; ?>
 <?php if(ro_get_option('scroll_to_top')): ?>
-    <a href="#" class="to-top"><i class="fa fa-arrow-up"></i></a>
+    <a href="#" class="to-top"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
 <?php endif; ?>
 <?php wp_footer(); ?>
 </body>

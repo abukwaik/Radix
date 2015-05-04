@@ -106,7 +106,7 @@ function ro_wp_footer(){
 	if(!empty($custom_js)) {
 		echo '<script type="text/javascript">
 			/* <![CDATA[ */
-				'.$custom_js.'
+				' . $custom_js . '
 			/* ]]> */
 			</script>';
 	}

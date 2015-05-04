@@ -1,6 +1,5 @@
 /**
- * Rookie jQuery functions
- * version: 1.0
+ * Radix jQuery functions
  */
 
 (function($){

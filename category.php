@@ -21,7 +21,7 @@ if ( is_active_sidebar( 'sidebar' ) ) {
 			<?php } else { ?>
 			<?php get_template_part( 'loop/content', 'none' ); ?>
 			<?php } ?>
-		</div> <!--/#content -->
+		</div> <!-- #primary -->
 	<?php get_sidebar(); ?>
-	</div> <!--/.row -->
+	</div> <!-- row-fluid -->
 <?php get_footer();

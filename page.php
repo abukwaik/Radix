@@ -27,7 +27,7 @@ if ( is_active_sidebar( 'sidebar-2' ) ) {
 				comments_template(); ?>
 				<?php } ?> 
 			<?php endwhile; // end of the loop. ?>
-		</div> <!--/#content -->
+		</div> <!--/#primary -->
 		<?php get_sidebar('page'); ?>
-	</div>
+	</div> <!-- row-fluid -->
 <?php get_footer(); ?>

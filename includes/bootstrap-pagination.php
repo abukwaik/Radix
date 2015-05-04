@@ -17,8 +17,8 @@ if( ! function_exists('Radix_pagination')) {
 		$defaults = array(
 			'range'     	  => 4,
 			'custom_query'    => FALSE,
-			'previous_string' => '<i class="fa fa-chevron-left"></i>', 'radix',
-			'next_string' 	  => '<i class="fa fa-chevron-right"></i>', 'radix',
+			'previous_string' => '<i class="fa fa-chevron-left" aria-hidden="true"></i>', RTD,
+			'next_string' 	  => '<i class="fa fa-chevron-right" aria-hidden="true"></i>', RTD,
 			'before_output'   => '<div class="post-nav"><ul class="pager">',
 			'after_output' 	  => '</ul></div>'
 			);
@@ -55,9 +55,9 @@ if( ! function_exists('Radix_pagination')) {
 		$previous = esc_attr( get_pagenum_link($previous) );
 		$firstpage = esc_attr( get_pagenum_link(1) );
 		if ( $firstpage && (1 != $page) )
-			$echo .= '<li class="previous"><a href="' . $firstpage . '">' . __( 'First', 'radix' ) . '</a></li>';
+			$echo .= '<li class="previous"><a href="' . $firstpage . '">' . __( 'First', RTD ) . '</a></li>';
 		if ( $previous && (1 != $page) )
-			$echo .= '<li><a href="' . $previous . '" title="' . __( 'previous', 'radix') . '">' . $args['previous_string'] . '</a></li>';
+			$echo .= '<li><a href="' . $previous . '" title="' . __( 'Previous', RTD) . '">' . $args['previous_string'] . '</a></li>';
 		if ( !empty($min) && !empty($max) ) {
 			for( $i = $min; $i <= $max; $i++ ) {
 				if ($page == $i) {
@@ -70,10 +70,10 @@ if( ! function_exists('Radix_pagination')) {
 		$next = intval($page) + 1;
 		$next = esc_attr( get_pagenum_link($next) );
 		if ($next && ($count != $page) )
-			$echo .= '<li><a href="' . $next . '" title="' . __( 'next', 'radix') . '">' . $args['next_string'] . '</a></li>';
+			$echo .= '<li><a href="' . $next . '" title="' . __( 'Next', RTD) . '">' . $args['next_string'] . '</a></li>';
 		$lastpage = esc_attr( get_pagenum_link($count) );
 		if ( $lastpage ) {
-			$echo .= '<li class="next"><a href="' . $lastpage . '">' . __( 'Last', 'radix' ) . '</a></li>';
+			$echo .= '<li class="next"><a href="' . $lastpage . '">' . __( 'Last', RTD ) . '</a></li>';
 		}
 		if ( isset($echo) )
 			echo $args['before_output'] . $echo . $args['after_output'];

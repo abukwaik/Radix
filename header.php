@@ -24,7 +24,8 @@
 </head>
 <body <?php body_class(); ?> itemscope="itemscope" itemtype="http://schema.org/WebPage">
 <?php if (ro_get_option('sticky_header')) { ?>
-<header id="header-wrap" itemscope="itemscope" itemtype="http://schema.org/Organization" role="banner">
+<header id="header-wrap" class="site" itemscope="itemscope" itemtype="http://schema.org/Organization" role="banner">
+    <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', RTD ); ?></a>
 <?php } ?>
     <?php if (ro_get_option('hide_top_header')) { ?>
     <?php get_template_part( 'loop/top-header' ); ?>
@@ -33,7 +34,7 @@
         <div class="container clearfix">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only"><?php _e('Toggle navigation', 'radix'); ?></span>
+                    <span class="sr-only"><?php _e('Toggle navigation', RTD); ?></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -47,9 +48,9 @@
                                 <img itemprop="logo" width="<?php echo esc_attr( $logo_width ); ?>" height="<?php echo esc_attr( $logo_height ); ?>" src="<?php echo esc_url( $logo['url'] ); ?>" alt="<?php bloginfo( 'name' ); ?>" />
                             </a>                 
                         <?php else: ?>
-                            <h2 class="site-title" itemprop="headline">
+                            <h1 class="site-title" itemprop="headline">
                                 <a href="<?php echo esc_url( home_url( '/' )); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>
-                            </h2>
+                            </h1>
                             <?php if (ro_get_option('header_description')) { ?>                              
                             <p class="site-desc" itemprop="description"><?php echo get_bloginfo('description'); ?></p>
                             <?php } ?>
@@ -57,9 +58,11 @@
                     </div> <!-- Logo -->
                 </div> <!-- navbar-brand -->
             </div> <!-- navbar-header -->
-            <nav id="desktop-menu" class="collapse navbar-collapse navbar-right" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" role="navigation">
-                <?php Radix_main_nav(); ?>
-            </nav> <!-- desktop-menu -->
+            <?php if ( has_nav_menu( 'primary' ) ) : ?>
+                <nav id="desktop-menu" class="collapse navbar-collapse navbar-right" itemscope="itemscope" itemtype="http://schema.org/SiteNavigationElement" role="navigation">
+                    <?php Radix_main_nav(); ?>
+                </nav> <!-- desktop-menu -->
+            <?php endif; ?>
         </div>  <!-- navbar navbar-default -->
     </nav> <!-- container -->
 </header>  <!-- wrap -->

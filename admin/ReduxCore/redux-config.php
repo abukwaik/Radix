@@ -116,8 +116,8 @@
             function dynamic_section( $sections ) {
                 //$sections = array();
                 $sections[] = array(
-                    'title'  => __( 'Section via hook', 'radix' ),
-                    'desc'   => __( '<p class="description">This is a section created by adding a filter to the sections array. Can be used by child themes to add/remove sections from the options.</p>', 'radix' ),
+                    'title'  => __( 'Section via hook', RTD ),
+                    'desc'   => __( '<p class="description">This is a section created by adding a filter to the sections array. Can be used by child themes to add/remove sections from the options.</p>', RTD ),
                     'icon'   => 'el el-icon-paper-clip',
                     // Leave this as a blank section, no options just some intro text set above.
                     'fields' => array()
@@ -168,22 +168,22 @@
                 // Custom page help tabs, displayed using the help API. Tabs are shown in order of definition.
                 $this->args['help_tabs'][] = array(
                     'id'      => 'redux-help-tab-1',
-                    'title'   => __( 'Documentation', 'radix' ),
-                    'content' => __( '<p>Go to <a href="' . esc_url(__('http://www.croti.com/starter.html', 'radix')) . '" target="_blank">Radix Documentation</a> to learn more about Radix features.</p>', 'radix' )
+                    'title'   => __( 'Documentation', RTD ),
+                    'content' => __( '<p>Go to <a class="external" href="' . esc_url(__('http://www.croti.com/starter.html', RTD)) . '" target="_blank">Radix Documentation</a> to learn more about Radix features.</p>', RTD )
                 );
 
                 $this->args['help_tabs'][] = array(
                     'id'      => 'redux-help-tab-2',
-                    'title'   => __( 'Issues tracker', 'radix' ),
-                    'content' => __( '<p>If you have any issue do not hesitate to join the <a href="' . esc_url(__('https://github.com/abukwaik/_Radix-starter/issues', 'radix')) . '" target="_blank">issues tracker</a></p>', 'radix' )
+                    'title'   => __( 'Issues tracker', RTD ),
+                    'content' => __( '<p>If you have any issue do not hesitate to join the <a class="external" href="' . esc_url(__('https://github.com/abukwaik/_Radix-starter/issues', RTD)) . '" target="_blank">issues tracker</a></p>', RTD )
                 );
                 $this->args['help_tabs'][] = array(
                     'id'      => 'redux-help-tab-3',
-                    'title'   => __( 'Donation ', 'radix' ),
-                    'content' => __( '<p>Please consider <a href="' . esc_url(__('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JUXUWMEFUEJPW', 'radix')) . '" target="_blank">donating</a> so we can keep this as a free theme and add more features in the future</p>', 'radix' )
+                    'title'   => __( 'Donation ', RTD ),
+                    'content' => __( '<p>Please consider <a class="external" href="' . esc_url(__('https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JUXUWMEFUEJPW', RTD)) . '" target="_blank">donating</a> so we can keep this as a free theme and add more features in the future</p>', RTD )
                 );
                 // Set the help sidebar
-                $this->args['help_sidebar'] = __( '<p>Got a problem?</p>', 'radix' );
+                $this->args['help_sidebar'] = __( '<p>Got a problem?</p>', RTD );
             }
 
             /**
@@ -206,8 +206,8 @@
                     //Specify if the admin menu should appear or not. Options: menu or submenu (Under appearance only)
                     'allow_sub_menu'       => false,
                     // Show the sections below the admin menu item or not
-                    'menu_title'        => __( 'Radix Options', 'radix' ),
-                    'page'              => __( 'Radix Options', 'radix' ),
+                    'menu_title'        => __( 'Radix Options', RTD ),
+                    'page'              => __( 'Radix Options', RTD ),
                     // You will need to generate a Google API key to use this feature.
                     // Please visit: https://developers.google.com/fonts/docs/developer_api#Auth
                     'google_api_key'       => 'AIzaSyDTpC3HmS1J0CSAayIl3uGunpLGWcVeCjk',
@@ -308,13 +308,13 @@
                 $this->args['admin_bar_links'][] = array(
                     'id'    => 'redux-docs',
                     'href'   => 'http://www.croti.com/starter.html',
-                    'title' => __( 'Documentation', 'radix' ),
+                    'title' => __( 'Documentation', RTD ),
                 );
 
                 $this->args['admin_bar_links'][] = array(
                     //'id'    => 'redux-support',
                     'href'   => 'https://github.com/abukwaik/Radix/issues',
-                    'title' => __( 'Support', 'radix' ),
+                    'title' => __( 'Support', RTD ),
                 );
 
                 // SOCIAL ICONS -> Setup custom links in the footer for quick links in your panel footer icons.
@@ -347,9 +347,9 @@
                     } else {
                         $v = str_replace( '-', '_', $this->args['opt_name'] );
                     }
-                    $this->args['intro_text'] = sprintf( __( '<p>Did you know that Redux sets a global variable for you? To access any of your saved options from within your code you can use your global variable: <strong>$%1$s</strong></p>', 'radix' ), $v );
+                    $this->args['intro_text'] = sprintf( __( '<p>Did you know that Redux sets a global variable for you? To access any of your saved options from within your code you can use your global variable: <strong>$%1$s</strong></p>', RTD ), $v );
                 } else {
-                    $this->args['intro_text'] = __( '<p>This text is displayed above the options panel. It isn\'t required, but more info is always better! The intro_text field accepts all HTML.</p>', 'radix' );
+                    $this->args['intro_text'] = __( '<p>This text is displayed above the options panel. It isn\'t required, but more info is always better! The intro_text field accepts all HTML.</p>', RTD );
                 }
 
                 // Add content after the form.

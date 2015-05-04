@@ -164,7 +164,6 @@ a:hover, a:active, a:focus {
   transition: all .3s
 }
 
-
 <?php // Content Area ////////////////////////////////////////////// ?>
 
 .hentry {

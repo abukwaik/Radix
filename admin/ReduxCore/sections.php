@@ -8,23 +8,23 @@
 /* General */
 $this->sections[] = array(
     'icon'      => 'el el-icon-cog',
-    'title'     => __('General', 'radix'),
+    'title'     => __('General', RTD),
     'fields'    => array(
         array(
             'id'    => 'info_success',
             'type'  => 'info',
             'style' => 'success',
-            'title' => __('Welcome to Radix Theme Option Panel', 'radix'),
+            'title' => __('Welcome to Radix Theme Option Panel', RTD),
             'icon'  => 'el el-icon-smiley',
-            'desc'  => __( 'From here you can config your theme in the way you like.', 'radix')
+            'desc'  => __( 'From here you can config your theme in the way you like.', RTD)
             ),
         array(
             'id' => 'favicon',
             'type' => 'media',
             'url' => true,
-            'title' => __('Favicon', 'radix'), 
-            'subtitle' => __('Upload your favicon here', 'radix'),
-            'desc' => __('Should be 16 x 16px Supported formats: .ico .gif .png', 'radix'),
+            'title' => __('Favicon', RTD), 
+            'subtitle' => __('Upload your favicon here', RTD),
+            'desc' => __('Should be 16 x 16px Supported formats: .ico .gif .png', RTD),
             'default'   => ''
             ),
 
@@ -32,25 +32,25 @@ $this->sections[] = array(
             'id' => 'apple_touch_icon',
             'type' => 'media',
             'url' => true,
-            'title' => __('Apple Touch Icon', 'radix'), 
-            'subtitle' => __('Upload icon for the Apple touch', 'radix'),
-            'desc' => __('Size: 57 x 57px Supported formats: .ico .gif .png', 'radix'),
+            'title' => __('Apple Touch Icon', RTD), 
+            'subtitle' => __('Upload icon for the Apple touch', RTD),
+            'desc' => __('Size: 57 x 57px Supported formats: .ico .gif .png', RTD),
             'default'   => ''
             ),
 
         array(
             'id'        => 'scroll_to_top',
             'type'      => 'switch',
-            'title'     => __('Scroll to top button', 'radix'),
-            'subtitle'  => __('Check if you want to disable scroll to top button', 'radix'),
+            'title'     => __('Scroll to top button', RTD),
+            'subtitle'  => __('Check if you want to disable scroll to top button', RTD),
             'default'   => true
             ),
         array(
             'id'       => 'ga',
             'type'     => 'ace_editor',
-            'title'    => __('Tracking Code', 'radix'),
-            'subtitle' => __('Paste your google analytics tracking code or any other javascript related tracking code', 'radix'),
-            'desc'  => __( 'This will be placed into the footer.', 'radix'),
+            'title'    => __('Tracking Code', RTD),
+            'subtitle' => __('Paste your google analytics tracking code or any other javascript related tracking code', RTD),
+            'desc'  => __( 'This will be placed into the footer.', RTD),
             'mode'     => 'text',
             'theme'    => 'monokai',
             'default'  => ''
@@ -61,23 +61,23 @@ $this->sections[] = array(
 /* Header */
 $this->sections[] = array(
     'icon'      => 'el el-icon-user',
-    'title'     => __('Header', 'radix'),
-    'desc'      => __('These are options to modify and style your header area', 'radix'),
+    'title'     => __('Header', RTD),
+    'desc'      => __('These are options to modify and style your header area', RTD),
     'fields'    => array(
         array(
             'id'        => 'logo',
             'type'      => 'media',
             'url'       => true,
-            'title'     => __('Logo', 'radix'),
-            'subtitle'  => __('Upload your logo image here, or leave empty to show website title instead', 'radix'),
-            'desc'      => __('Note: Allowed extensions are .jpg, .png and .gif', 'radix'),
+            'title'     => __('Logo', RTD),
+            'subtitle'  => __('Upload your logo image here, or leave empty to show website title instead', RTD),
+            'desc'      => __('Note: Allowed extensions are .jpg, .png and .gif', RTD),
             'default'   => ''
             ),
         array(
             'id'        =>'logo_width',
             'type'      => 'slider',       
-            'title'     => __('Logo Width', 'radix'), 
-            'subtitle'  => __('Specify your logo width.', 'radix'),
+            'title'     => __('Logo Width', RTD), 
+            'subtitle'  => __('Specify your logo width.', RTD),
             'validate'  => 'numeric',
             "min"       => "50",
             "step"      => "1",
@@ -87,8 +87,8 @@ $this->sections[] = array(
         array(
             'id'        =>'logo_height',
             'type'      => 'slider',       
-            'title'     => __('Logo Height', 'radix'), 
-            'subtitle'  => __('Specify your logo height.', 'radix'),
+            'title'     => __('Logo Height', RTD), 
+            'subtitle'  => __('Specify your logo height.', RTD),
             'validate'  => 'numeric',
             "min"       => "10",
             "step"      => "1",
@@ -98,39 +98,39 @@ $this->sections[] = array(
         array(
             'id'        => 'header_description',
             'type'      => 'switch',
-            'title'     => __('Display site description', 'radix'),
-            'subtitle'  => __('Check if you want to display site description.', 'radix'),
-            'desc'      => __('Note: It will apply only if You remove logo image. You can change your site description inside <array href="'.admin_url('options-general.php').'">Settings / General</a>', 'radix'),
+            'title'     => __('Display site description', RTD),
+            'subtitle'  => __('Check if you want to display site description.', RTD),
+            'desc'      => __('Note: It will apply only if You remove logo image. You can change your site description inside <array href="'.admin_url('options-general.php').'">Settings / General</a>', RTD),
             'default'   => false,
             ),
         array(
             'id'        => 'sticky_header',
             'type'      => 'switch',
-            'title'     => __('Sticky header', 'radix'),
-            'subtitle'  => __('Check if you want to disable sticky navigation.', 'radix'),
+            'title'     => __('Sticky header', RTD),
+            'subtitle'  => __('Check if you want to disable sticky navigation.', RTD),
             'default'   => true,
             ),
         array(
             'id'        => 'color_nav_bg',
             'type'      => 'color',
-            'title'     => __('Menu Background color', 'radix'),
-            'subtitle'  => __('Specify menu background color', 'radix'),
+            'title'     => __('Menu Background color', RTD),
+            'subtitle'  => __('Specify menu background color', RTD),
             'transparent' => false,
-            'default'   => '#b2afe8'
+            'default'   => '#757399'
             ), 
         array(
             'id'        => 'color_nav_a',
             'type'      => 'color',
-            'title'     => __('Menu Link color', 'radix'),
-            'subtitle'  => __('Specify menu link color', 'radix'),
+            'title'     => __('Menu Link color', RTD),
+            'subtitle'  => __('Specify menu link color', RTD),
             'transparent' => false,
             'default'   => '#fff'
             ), 
         array(
             'id'        => 'navbar_search',
             'type'      => 'switch',
-            'title'     => __('Show Menu Search', 'radix'),
-            'subtitle'  => __('Check if you want to disable search from nav menu.', 'radix'),
+            'title'     => __('Show Menu Search', RTD),
+            'subtitle'  => __('Check if you want to disable search from nav menu.', RTD),
             'default'   => true,
             ), 
         array(
@@ -143,15 +143,15 @@ $this->sections[] = array(
         array(
             'id'        => 'hide_top_header',
             'type'      => 'switch',
-            'title'     => __('Show Top Header Area', 'radix'),
-            'subtitle'  => __('Check if you want to remove top bar.', 'radix'),
+            'title'     => __('Show Top Header Area', RTD),
+            'subtitle'  => __('Check if you want to remove top bar.', RTD),
             'default'   => true,
             ),
         array(
             'id'        => 'color_header_txt',
             'type'      => 'color',
-            'title'     => __('Header Text color', 'radix'),
-            'subtitle'  => __('Specify header Text color', 'radix'),
+            'title'     => __('Header Text color', RTD),
+            'subtitle'  => __('Specify header Text color', RTD),
             'transparent' => false,
             'required'  => array('hide_top_header', '=', true),
             'default'   => '#212121'
@@ -159,8 +159,8 @@ $this->sections[] = array(
         array(
             'id'        => 'color_header_bg',
             'type'      => 'color',
-            'title'     => __('Header Background color', 'radix'),
-            'subtitle'  => __('Specify header background color', 'radix'),
+            'title'     => __('Header Background color', RTD),
+            'subtitle'  => __('Specify header background color', RTD),
             'transparent' => false,
             'required'  => array('hide_top_header', '=', true),
             'default'   => '#eee'
@@ -169,22 +169,22 @@ $this->sections[] = array(
             'id'        => 'header_bg_img',
             'type'      => 'media',
             'url'       => true,
-            'title'     => __('Header Background Image', 'radix'),
-            'subtitle'  => __('Upload a custom background for your header.', 'radix'),
+            'title'     => __('Header Background Image', RTD),
+            'subtitle'  => __('Upload a custom background for your header.', RTD),
             'default'   => '',
             'required'  => array('hide_top_header', '=', true),
             ),
         array(
             'id'        => 'header_bg_style',
             'type'      => 'select',
-            'title'     => __( 'Background Image Style', 'radix' ), 
+            'title'     => __( 'Background Image Style', RTD ), 
             'required'  => array('hide_top_header', '=', true),
-            'subtitle'  => __( 'Select your header background style.', 'radix' ),
+            'subtitle'  => __( 'Select your header background style.', RTD ),
             'options'   => array(
-                'no-repeat'     => __( 'no-repeat', 'radix' ),
-                'repeat-x'      => __( 'repeat-x', 'radix' ),
-                'repeat-y'      => __( 'repeat-y', 'radix' ),
-                'repeat'        => __( 'repeat', 'radix' ),
+                'no-repeat'     => __( 'no-repeat', RTD ),
+                'repeat-x'      => __( 'repeat-x', RTD ),
+                'repeat-y'      => __( 'repeat-y', RTD ),
+                'repeat'        => __( 'repeat', RTD ),
                 ),
             'default'   => 'no-repeat'
             ),
@@ -199,18 +199,18 @@ $this->sections[] = array(
         array(
             'id'        =>'phone_text',
             'type'      => 'text',      
-            'title'     => __('Header Phone Number', 'radix'), 
-            'subtitle'  => __('Insert your phone number here.', 'radix'),
-            'desc'      => __('Leave it empty to hide it.', 'radix'),
+            'title'     => __('Header Phone Number', RTD), 
+            'subtitle'  => __('Insert your phone number here.', RTD),
+            'desc'      => __('Leave it empty to hide it.', RTD),
             'required'  => array('hide_top_header', '=', true),
             'default'   => "1-800-987-654"          
             ),
         array(
             'id'        =>'email_text',
             'type'      => 'text',      
-            'title'     => __('Header Email Address', 'radix'), 
-            'subtitle'  => __('Insert your email address here.', 'radix'),
-            'desc'      => __('Leave it empty to hide it.', 'radix'),
+            'title'     => __('Header Email Address', RTD), 
+            'subtitle'  => __('Insert your email address here.', RTD),
+            'desc'      => __('Leave it empty to hide it.', RTD),
             'default'   => "info@Radix.com",
             'required' => array('hide_top_header', '=', true),
             'validate'  => 'email'
@@ -218,25 +218,25 @@ $this->sections[] = array(
         array(
             'id'        =>'url_text',
             'type'      => 'text',      
-            'title'     => __('Custom Header Link', 'radix'), 
-            'subtitle'  => __('Insert your custom link here.', 'radix'),
-            'desc'      => __('Leave it empty to hide it.', 'radix'),
+            'title'     => __('Custom Header Link', RTD), 
+            'subtitle'  => __('Insert your custom link here.', RTD),
+            'desc'      => __('Leave it empty to hide it.', RTD),
             'required'  => array('hide_top_header', '=', true),
             'default'   => 'custom link'
             ),
         array(
             'id'        =>'custom_text_url',
             'type'      => 'text',      
-            'title'     => __('Custom Header Link URL', 'radix'), 
-            'subtitle'  => __('Insert your custom link url here.', 'radix'),
+            'title'     => __('Custom Header Link URL', RTD), 
+            'subtitle'  => __('Insert your custom link url here.', RTD),
             'required'  => array('hide_top_header', '=', true),
             'default'   => '#'
             ),                                                                              
         array(
             'id'        => 'a_color_header_txt',
             'type'      => 'color',
-            'title'     => __('Custom Link color', 'radix'),
-            'subtitle'  => __('Change the custom link color.', 'radix'),
+            'title'     => __('Custom Link color', RTD),
+            'subtitle'  => __('Change the custom link color.', RTD),
             'transparent' => false,
             'required'  => array('hide_top_header', '=', true),
             'default'   => '#212121'
@@ -244,11 +244,11 @@ $this->sections[] = array(
         array(
             'id'        => 'a_color_header_hov',
             'type'      => 'color',
-            'title'     => __('Custom Link color hover', 'radix'),
-            'subtitle'  => __('custom link color hover.', 'radix'),
+            'title'     => __('Custom Link color hover', RTD),
+            'subtitle'  => __('custom link color hover.', RTD),
             'transparent' => false,
             'required'  => array('hide_top_header', '=', true),
-            'default'   => '#908dbd'
+            'default'   => '#75729a'
             ),
         array(
             'id'        => 'sub_header_style_section',
@@ -260,36 +260,36 @@ $this->sections[] = array(
         array(
             'id'        => 'hide_sub_header',
             'type'      => 'switch',
-            'title'     => __('Show Sub Header Area', 'radix'),
-            'subtitle'  => __('Check if you want to remove sub header area including breadcrumbs.', 'radix'),
-            'desc'      => __('Note: You can hide breadcrumbs separately in Body section.', 'radix'),
+            'title'     => __('Show Sub Header Area', RTD),
+            'subtitle'  => __('Check if you want to remove sub header area including breadcrumbs.', RTD),
+            'desc'      => __('Note: You can hide breadcrumbs separately in Body section.', RTD),
             'default'   => true,
             ),
         array(
             'id'        => 'sub_header_bg_img',
             'type'      => 'media',
             'url'       => true,
-            'title'     => __('Sub Header background pattern', 'radix'),
-            'subtitle'  => __('Choose sub header background pattern or image.', 'radix'),
+            'title'     => __('Sub Header background pattern', RTD),
+            'subtitle'  => __('Choose sub header background pattern or image.', RTD),
             'default'   => array('url' => RADIX_IMG_URI .'/bg-section.jpg'),
             'required'  => array('hide_sub_header', '=', true),
             ),                          
         array(
             'id'        => 'sub_header_bg_color',
             'type'      => 'color',
-            'title'     => __('Sub Header Background color', 'radix'),
-            'subtitle'  => __('Specify the sub header background color', 'radix'),
+            'title'     => __('Sub Header Background color', RTD),
+            'subtitle'  => __('Specify the sub header background color', RTD),
             'transparent' => false,
-            'desc'      => __('If there is no Background image the default value is #615e95.', 'radix'),
+            'desc'      => __('If there is no Background image the default value is #615e95.', RTD),
             'required'  => array('hide_sub_header', '=', true),
             'default'   => '#644c80'
             ),
         array(
             'id'        => 'color_sub_header_txt',
             'type'      => 'color',
-            'title'     => __('Sub Header Text Color', 'radix'),
-            'subtitle'  => __('Change the default sub-header text color.', 'radix'),
-            'desc'      => __('Note: this will be applied on breadcrumbs text color too.', 'radix'),
+            'title'     => __('Sub Header Text Color', RTD),
+            'subtitle'  => __('Change the default sub-header text color.', RTD),
+            'desc'      => __('Note: this will be applied on breadcrumbs text color too.', RTD),
             'transparent' => false,
             'required'  => array('hide_sub_header', '=', true),
             'default'   => '#fff'
@@ -297,16 +297,16 @@ $this->sections[] = array(
         array(
             'id'        => 'hide_breadcrumb',
             'type'      => 'switch',
-            'title'     => __('Show Breadcrumb ', 'radix'),
-            'subtitle'  => __('Check if you want to remove breadcrumb from pages', 'radix'),
+            'title'     => __('Show Breadcrumb ', RTD),
+            'subtitle'  => __('Check if you want to remove breadcrumb from pages', RTD),
             'required'  => array('hide_sub_header', '=', true),
             'default'   => true
             ),        
         array(
             'id'        => 'color_breadcrumbs_txt_a',
             'type'      => 'color',
-            'title'     => __('Breadcrumbs Link Color', 'radix'),
-            'subtitle'  => __('Change the default breadcrumbs link color.', 'radix'),
+            'title'     => __('Breadcrumbs Link Color', RTD),
+            'subtitle'  => __('Change the default breadcrumbs link color.', RTD),
             'transparent' => false,
             'required'  => array('hide_breadcrumb', '=', true),
             'default'   => ''
@@ -314,8 +314,8 @@ $this->sections[] = array(
         array(
             'id'        => 'color_breadcrumbs_txt_a_hover',
             'type'      => 'color',
-            'title'     => __('Breadcrumbs Link Hover Color', 'radix'),
-            'subtitle'  => __('Change the default breadcrumbs link hover color.', 'radix'),
+            'title'     => __('Breadcrumbs Link Hover Color', RTD),
+            'subtitle'  => __('Change the default breadcrumbs link hover color.', RTD),
             'transparent' => false,
             'required'  => array('hide_breadcrumb', '=', true),
             'default'   => ''
@@ -326,48 +326,48 @@ $this->sections[] = array(
 /* Body */
 $this->sections[] = array(
     'icon'      => 'el el-icon-screen',
-    'title'     => __('Body', 'radix'),
-    'desc'     => __('These are options to modify and style your body area', 'radix'),
+    'title'     => __('Body', RTD),
+    'desc'     => __('These are options to modify and style your body area', RTD),
     'fields'    => array(
         array(
             'id'        => 'comments_on_pages',
             'type'      => 'switch',
-            'title'     => __('Comments on pages', 'radix'),
-            'subtitle'  => __('turn off comments on pages', 'radix'),
+            'title'     => __('Comments on pages', RTD),
+            'subtitle'  => __('turn off comments on pages', RTD),
             'default'   => true
             ),                    
         array(
             'id'        => 'body_bg_img',
             'type'      => 'media',
             'url'       => true,
-            'title'     => __('Body background Image', 'radix'),
-            'subtitle'  => __('Choose body background pattern or image.', 'radix'),
+            'title'     => __('Body background Image', RTD),
+            'subtitle'  => __('Choose body background pattern or image.', RTD),
             'default'   => array('url' => ''),
             ),
         array(
             'id'        => 'body_bg_style',
             'type'      => 'background',
             'background-image' => false,
-            'title'     => __( 'Background Style', 'radix' ), 
-            'subtitle'  => __( 'Select your body background style.', 'radix' ),
+            'title'     => __( 'Background Style', RTD ), 
+            'subtitle'  => __( 'Select your body background style.', RTD ),
             'transparent' => false,
             'preview' => false,
             'default'  => array(
-                'background-color' => '#f3f3f3')
+                'background-color' => '#f9f9f9')
             ),
         array(
             'id' => 'color_a_text',
             'type' => 'color',
-            'title' => __('a link color', 'radix'),
-            'subtitle' => __('Color for a links', 'radix'),
+            'title' => __('a link color', RTD),
+            'subtitle' => __('Color for a links', RTD),
             'transparent' => false,
-            'default' => '#908dbd'
+            'default' => '#75729a'
             ),         
         array(
             'id' => 'color_a_hov',
             'type' => 'color',
-            'title' => __('a link color hover', 'radix'),
-            'subtitle' => __('Hover color for a links', 'radix'),
+            'title' => __('a link color hover', RTD),
+            'subtitle' => __('Hover color for a links', RTD),
             'transparent' => false,
             'default' => '#b2afe8'
             ),                
@@ -378,14 +378,14 @@ $this->sections[] = array(
 /* Content */
 $this->sections[] = array(
     'icon'      => 'el el-icon-blogger',
-    'title'     => __('Blog', 'radix'),
-    'desc'     => __('These are options to modify and style your main content area only', 'radix'),
+    'title'     => __('Blog', RTD),
+    'desc'     => __('These are options to modify and style your main content area only', RTD),
     'fields'    => array(
         array(
             'id'        =>'excerpt_length_count',
             'type'      => 'slider',       
-            'title'     => __('Excerpt Length Limits', 'radix'), 
-            'subtitle'  => __('Enter the number of excerpt length limit to display.', 'radix'),
+            'title'     => __('Excerpt Length Limits', RTD), 
+            'subtitle'  => __('Enter the number of excerpt length limit to display.', RTD),
             'validate'  => 'numeric',
             "min"       => "5",
             "step"      => "5",
@@ -395,8 +395,8 @@ $this->sections[] = array(
         array(
             'id'        => 'post_navigation',
             'type'      => 'switch',
-            'title'     => __('Show post navigation', 'radix'),
-            'subtitle'  => __('Check if you want to remove post navigation on single post', 'radix'),
+            'title'     => __('Show post navigation', RTD),
+            'subtitle'  => __('Check if you want to remove post navigation on single post', RTD),
             'default'   => true,
             ),
         array(
@@ -409,32 +409,32 @@ $this->sections[] = array(
         array(
             'id' => 'color_content_bg',
             'type' => 'color',
-            'title' => __('Background color', 'radix'),
-            'subtitle' => __('Specify content area background color', 'radix'),
+            'title' => __('Background color', RTD),
+            'subtitle' => __('Specify content area background color', RTD),
             'transparent' => false,
             'default' => '#ffffff',
             ),
         array(
             'id' => 'color_content_txt_h',
             'type' => 'color',
-            'title' => __('Post title color', 'radix'),
-            'subtitle' => __('This color will apply to post title heading, which is (H2) by default.', 'radix'),
+            'title' => __('Post title color', RTD),
+            'subtitle' => __('This color will apply to post title heading, which is (H2) by default.', RTD),
             'transparent' => false,
             'default' => '#212121'
             ),       
         array(
             'id' => 'color_content_txt',
             'type' => 'color',
-            'title' => __('Content text color', 'radix'),
-            'subtitle' => __('This color will apply to text color in the content area only', 'radix'),
+            'title' => __('Content text color', RTD),
+            'subtitle' => __('This color will apply to text color in the content area only', RTD),
             'transparent' => false,
             'default' => '#212121'
             ),
         array(
             'id' => 'color_content_meta',
             'type' => 'color',
-            'title' => __('Meta text color', 'radix'),
-            'subtitle' => __('This color will apply to your meta data (secondary text)', 'radix'),
+            'title' => __('Meta text color', RTD),
+            'subtitle' => __('This color will apply to your meta data (secondary text)', RTD),
             'transparent' => false,
             'default' => '#888888'
             ),
@@ -449,24 +449,24 @@ $this->sections[] = array(
         array(
             'id'        => 'blog_author_bio',
             'type'      => 'switch',
-            'title'     => __('Enable author Bio', 'radix'),
-            'subtitle'  => __('Enable / Disable author box', 'radix'),
+            'title'     => __('Enable author Bio', RTD),
+            'subtitle'  => __('Enable / Disable author box', RTD),
             'default'   => true,
             ),  
         array(
             'id' => 'author_bg_color',
             'type' => 'color',
-            'title' => __('Background color', 'radix'),
-            'subtitle' => __('Specify content area background color', 'radix'),
+            'title' => __('Background color', RTD),
+            'subtitle' => __('Specify content area background color', RTD),
             'transparent' => false,
             'required'  => array('blog_author_bio', '=', true),
-            'default' => '#352041',
+            'default' => '#362336',
             ),
         array(
             'id' => 'author_txt_color',
             'type' => 'color',
-            'title' => __('Content text color', 'radix'),
-            'subtitle' => __('This color will apply to text color in the content area only', 'radix'),
+            'title' => __('Content text color', RTD),
+            'subtitle' => __('This color will apply to text color in the content area only', RTD),
             'transparent' => false,
             'required'  => array('blog_author_bio', '=', true),
             'default' => '#fff'
@@ -474,16 +474,16 @@ $this->sections[] = array(
         array(
             'id'        => 'author_socials',
             'type'      => 'switch',
-            'title'     => __('Author Social Share', 'radix'),
-            'subtitle'  => __('Check if you want to remove social share from author box', 'radix'),
+            'title'     => __('Author Social Share', RTD),
+            'subtitle'  => __('Check if you want to remove social share from author box', RTD),
             'required'  => array('blog_author_bio', '=', true),
             'default'   => true,
             ),
         array(
             'id'        =>'author_socials_text',
             'type'      => 'text',      
-            'title'     => __('Author Social Text', 'radix'), 
-            'subtitle'  => __('Change post social text here.', 'radix'),
+            'title'     => __('Author Social Text', RTD), 
+            'subtitle'  => __('Change post social text here.', RTD),
             'required'  => array('author_socials', '=', true),
             'desc'      => 'Leave it empty to hide it.',
             'default'   => "Follow me"          
@@ -491,8 +491,8 @@ $this->sections[] = array(
         array(
             'id'        =>'author_facebook',
             'type'      => 'text',      
-            'title'     => __('Facebook', 'radix'), 
-            'subtitle'  => __('Insert your Facebook fanpage here.', 'radix'),
+            'title'     => __('Facebook', RTD), 
+            'subtitle'  => __('Insert your Facebook fanpage here.', RTD),
             'desc'      => 'Leave it empty to hide it.',
             'required'  => array('author_socials', '=', true),
             'default'   => "#"
@@ -500,8 +500,8 @@ $this->sections[] = array(
         array(
             'id'        =>'author_twitter',
             'type'      => 'text',      
-            'title'     => __('Twitter', 'radix'), 
-            'subtitle'  => __('Insert your Twitter URL here.', 'radix'),
+            'title'     => __('Twitter', RTD), 
+            'subtitle'  => __('Insert your Twitter URL here.', RTD),
             'desc'      => 'Leave it empty to hide it.',
             'required'  => array('author_socials', '=', true),
             'default'   => "#"
@@ -509,8 +509,8 @@ $this->sections[] = array(
         array(
             'id'        =>'author_linkedin',
             'type'      => 'text',      
-            'title'     => __('Linkedin', 'radix'), 
-            'subtitle'  => __('Insert your Linkedin URL here.', 'radix'),
+            'title'     => __('Linkedin', RTD), 
+            'subtitle'  => __('Insert your Linkedin URL here.', RTD),
             'desc'      => 'Leave it empty to hide it.',
             'required'  => array('author_socials', '=', true),
             'default'   => "#"
@@ -518,8 +518,8 @@ $this->sections[] = array(
         array(
             'id'        =>'author_google_plus',
             'type'      => 'text',      
-            'title'     => __('Google Plus', 'radix'), 
-            'subtitle'  => __('Insert your Google Plus URL here.', 'radix'),
+            'title'     => __('Google Plus', RTD), 
+            'subtitle'  => __('Insert your Google Plus URL here.', RTD),
             'desc'      => 'Leave it empty to hide it.',
             'required'  => array('author_socials', '=', true),
             'default'   => "#"
@@ -530,38 +530,38 @@ $this->sections[] = array(
 /* Sidebar */
 $this->sections[] = array(
     'icon'      => 'el el-icon-lines',
-    'title'     => __('Sidebar', 'radix'),
-    'desc'      => __('These are global styling settings for the sidebar area', 'radix'),
+    'title'     => __('Sidebar', RTD),
+    'desc'      => __('These are global styling settings for the sidebar area', RTD),
     'fields'    => array(
         array(
             'id' => 'color_sidebar_bg',
             'type' => 'color',
-            'title' => __('Background color', 'radix'),
-            'subtitle' => __('Specify sidebar background color', 'radix'),
+            'title' => __('Background color', RTD),
+            'subtitle' => __('Specify sidebar background color', RTD),
             'transparent' => false,
             'default' => '#ffffff',
             ),
         array(
             'id' => 'color_sidebar_txt_h',
             'type' => 'color',
-            'title' => __('Sidebar titles color', 'radix'),
-            'subtitle' => __('This color will apply to your sidebar titles.', 'radix'),
+            'title' => __('Sidebar titles color', RTD),
+            'subtitle' => __('This color will apply to your sidebar titles.', RTD),
             'transparent' => false,
             'default' => '#212121'
             ),
         array(
             'id' => 'color_sidebar_txt',
             'type' => 'color',
-            'title' => __('a links color', 'radix'),
-            'subtitle' => __('This color will apply to sidebar links.', 'radix'),
+            'title' => __('a links color', RTD),
+            'subtitle' => __('This color will apply to sidebar links.', RTD),
             'transparent' => false,
-            'default' => '#908dbd'
+            'default' => '#75729a'
             ),       
         array(
             'id' => 'color_sidebar_txt_hov',
             'type' => 'color',
-            'title' => __('a links color hover', 'radix'),
-            'subtitle' => __('This color will apply to sidebar links hover.', 'radix'),
+            'title' => __('a links color hover', RTD),
+            'subtitle' => __('This color will apply to sidebar links hover.', RTD),
             'transparent' => false,
             'default' => '#b2afe8'
             ),
@@ -571,25 +571,25 @@ $this->sections[] = array(
 /* Footer */
 $this->sections[] = array(
     'icon'      => 'el el-icon-bookmark',
-    'title'     => __('Footer', 'radix'),
-    'desc'      => __('Manage settings for footer area', 'radix'),
+    'title'     => __('Footer', RTD),
+    'desc'      => __('Manage settings for footer area', RTD),
     'fields'    => array(
 
          array(
             'id'        => 'footer_display',
             'type'      => 'switch',
             'switch'    => true,
-            'title'     => __('Enable Footer Widgets', 'radix'),
-            'subtitle'  => __('Check if you want to disable footer widgets area.', 'radix'),
+            'title'     => __('Enable Footer Widgets', RTD),
+            'subtitle'  => __('Check if you want to disable footer widgets area.', RTD),
             'default'   => true
             ),
         array(
             'id'        => 'footer_col',
             'type'      => 'image_select',
             'compiler'  => true,
-            'title'     => __('Footer Widget Columns', 'radix'),
-            'subtitle'  => __('Choose columns you want for your footer widgets.', 'radix'),
-            'desc'      => __('You can manage footer area content in <a href="'.admin_url('widgets.php').'">Apperance / Widgets</a> settings.', 'radix'),
+            'title'     => __('Footer Widget Columns', RTD),
+            'subtitle'  => __('Choose columns you want for your footer widgets.', RTD),
+            'desc'      => __('You can manage footer area content in <a href="'.admin_url('widgets.php').'">Apperance / Widgets</a> settings.', RTD),
             'options'   => array(
                 '1' => array('alt' => '1 Column ', 'img' => RADIX_IMG_URI . '/1column.png'),
                 '2' => array('alt' => '2 Column ', 'img' => RADIX_IMG_URI . '/2columns.png'),
@@ -603,8 +603,8 @@ $this->sections[] = array(
         array(
             'id'        => 'color_footer_bg',
             'type'      => 'color',
-            'title'     => __('Background color', 'radix'),
-            'subtitle'  => __('Specify the footer background color', 'radix'),
+            'title'     => __('Background color', RTD),
+            'subtitle'  => __('Specify the footer background color', RTD),
             'transparent' => false,
             'required' => array('footer_display', '=', true),
             'default'   => '#222222',
@@ -612,8 +612,8 @@ $this->sections[] = array(
         array(
             'id'        => 'color_footer_txt_h',
             'type'      => 'color',
-            'title'     => __('Footer titles color', 'radix'),
-            'subtitle'  => __('This color will apply to your footer titles.', 'radix'),
+            'title'     => __('Footer titles color', RTD),
+            'subtitle'  => __('This color will apply to your footer titles.', RTD),
             'transparent' => false,
             'required' => array('footer_display', '=', true),
             'default'   => '#fff'
@@ -621,26 +621,26 @@ $this->sections[] = array(
         array(
             'id'        => 'color_footer_txt',
             'type'      => 'color',
-            'title'     => __('Footer Text color', 'radix'),
-            'subtitle'  => __('This color will apply to footer text.', 'radix'),
+            'title'     => __('Footer Text color', RTD),
+            'subtitle'  => __('This color will apply to footer text.', RTD),
             'transparent' => false,
             'required' => array('footer_display', '=', true),
-            'default'   => '#777'
+            'default'   => '#999'
             ),      
         array(
             'id'        => 'color_footer_txt_a',
             'type'      => 'color',
-            'title'     => __('Footer a links color', 'radix'),
-            'subtitle'  => __('This color will apply to footer links.', 'radix'),
+            'title'     => __('Footer a links color', RTD),
+            'subtitle'  => __('This color will apply to footer links.', RTD),
             'transparent' => false,
             'required' => array('footer_display', '=', true),
-            'default'   => '#aaa'
+            'default'   => '#999'
             ),       
         array(
             'id'        => 'color_footer_txt_hov',
             'type'      => 'color',
-            'title'     => __('Footer a links color hover', 'radix'),
-            'subtitle'  => __('This color will apply to footer links hover.', 'radix'),
+            'title'     => __('Footer a links color hover', RTD),
+            'subtitle'  => __('This color will apply to footer links hover.', RTD),
             'transparent' => false,
             'required'  => array('footer_display', '=', true),
             'default'   => '#b2afe8'
@@ -648,31 +648,31 @@ $this->sections[] = array(
          array(
             'id'        => 'enable_footer_social',
             'type'      => 'switch',
-            'title'     => __('Enable Footer Socials', 'radix'),
-            'subtitle'  => __('Check if you want to hide footer socials bar','radix'),
+            'title'     => __('Enable Footer Socials', RTD),
+            'subtitle'  => __('Check if you want to hide footer socials bar',RTD),
             'default'   => true
             ),
         array(
             'id'        =>'footer_socials_text',
             'type'      => 'text',      
-            'title'     => __('Footer Social Text', 'radix'), 
-            'subtitle'  => __('Change post social text here.', 'radix'),
+            'title'     => __('Footer Social Text', RTD), 
+            'subtitle'  => __('Change post social text here.', RTD),
             'required'  => array('footer_display', '=', true),
             'default'   => "Follow us: "          
             ),
          array(
             'id'        => 'enable_copyright',
             'type'      => 'switch',
-            'title'     => __('Enable Copyright', 'radix'),
-            'subtitle'  => __('Check if you want to include copyright area below footer','radix'),
+            'title'     => __('Enable Copyright', RTD),
+            'subtitle'  => __('Check if you want to include copyright area below footer',RTD),
             'default'   => true
             ),
          array(
             'id'        => 'enable_footer_menu',
             'type'      => 'switch',
-            'title'     => __('Enable Footer Menu', 'radix'),
-            'subtitle'  => __('Check if you want to show footer menu inside copyright area', 'radix'),
-            'desc'  => __('Note: you need to set footer menu inside <a href="' . admin_url('nav-menus.php') . '">Apperance / Menu</a>', 'radix'),
+            'title'     => __('Enable Footer Menu', RTD),
+            'subtitle'  => __('Check if you want to show footer menu inside copyright area', RTD),
+            'desc'  => __('Note: you need to set footer menu inside <a href="' . admin_url('nav-menus.php') . '">Apperance / Menu</a>', RTD),
             'default'   => true,
             )
 
@@ -682,14 +682,14 @@ $this->sections[] = array(
 /* Typography */
 $this->sections[] = array(
     'icon'      => 'el el-icon-font',
-    'title'     => __('Typography', 'radix'),
-    'desc'     => __('Manage fonts and typography settings', 'radix'),
+    'title'     => __('Typography', RTD),
+    'desc'     => __('Manage fonts and typography settings', RTD),
     'fields'    => array(
 
         array(
             'id'          => 'main_font',
             'type'        => 'typography', 
-            'title'       => __('Main text font', 'radix'),
+            'title'       => __('Main text font', RTD),
             'google'      => true, 
             'compiler'    => true,
             'font-backup' => false,
@@ -699,7 +699,7 @@ $this->sections[] = array(
             'line-height' => false,
             'text-align'  => false,
             'units'       =>'px',
-            'subtitle'    => __('Typography option with each property can be called individually.', 'radix'),
+            'subtitle'    => __('Typography option with each property can be called individually.', RTD),
             'default'     => array(
                 'google'        => true,
                 'font-weight'   => '300', 
@@ -724,7 +724,7 @@ $this->sections[] = array(
         array(
             'id'          => 'h1_font',
             'type'        => 'typography', 
-            'title'       => __('H1 font', 'radix'),
+            'title'       => __('H1 font', RTD),
             'google'      => true, 
             'font-backup' => false,
             'font-size'   => true,
@@ -733,7 +733,7 @@ $this->sections[] = array(
             'text-align'  => false,
             'subsets'     => false,
             'units'       =>'px',
-            'subtitle'    => __('Specify the H1 tag font properties.', 'radix'),
+            'subtitle'    => __('Specify the H1 tag font properties.', RTD),
             'default'     => array(
                 'google'      => true,
                 'font-weight'  => '300',
@@ -750,7 +750,7 @@ $this->sections[] = array(
         array(
             'id'          => 'h2_font',
             'type'        => 'typography', 
-            'title'       => __('H2 font', 'radix'),
+            'title'       => __('H2 font', RTD),
             'google'      => true, 
             'font-backup' => false,
             'font-size'   => true,
@@ -759,7 +759,7 @@ $this->sections[] = array(
             'text-align'  => false,
             'subsets'     => false,
             'units'       =>'px',
-            'subtitle'    => __('Specify the H2 tag font properties.', 'radix'),
+            'subtitle'    => __('Specify the H2 tag font properties.', RTD),
             'default'     => array(
                 'google'      => true,
                 'font-weight'  => '300',
@@ -776,7 +776,7 @@ $this->sections[] = array(
         array(
             'id'          => 'h3_font',
             'type'        => 'typography', 
-            'title'       => __('H3 font', 'radix'),
+            'title'       => __('H3 font', RTD),
             'google'      => true, 
             'font-backup' => false,
             'font-size'   => true,
@@ -785,7 +785,7 @@ $this->sections[] = array(
             'text-align'  => false,
             'subsets'     => false,
             'units'       =>'px',
-            'subtitle'    => __('Specify the H3 tag font properties.', 'radix'),
+            'subtitle'    => __('Specify the H3 tag font properties.', RTD),
             'default'     => array(
                 'google'      => true,
                 'font-weight'  => '300',
@@ -802,7 +802,7 @@ $this->sections[] = array(
         array(
             'id'          => 'h4_font',
             'type'        => 'typography', 
-            'title'       => __('H4 font', 'radix'),
+            'title'       => __('H4 font', RTD),
             'google'      => true, 
             'font-backup' => false,
             'font-size'   => true,
@@ -811,7 +811,7 @@ $this->sections[] = array(
             'text-align'  => false,
             'subsets'     => false,
             'units'       =>'px',
-            'subtitle'    => __('Specify the H4 tag font properties.', 'radix'),
+            'subtitle'    => __('Specify the H4 tag font properties.', RTD),
             'default'     => array(
                 'google'      => true,
                 'font-weight'  => '300',
@@ -828,7 +828,7 @@ $this->sections[] = array(
         array(
             'id'          => 'h5_font',
             'type'        => 'typography', 
-            'title'       => __('H5 font', 'radix'),
+            'title'       => __('H5 font', RTD),
             'google'      => true, 
             'font-backup' => false,
             'font-size'   => true,
@@ -837,7 +837,7 @@ $this->sections[] = array(
             'text-align'  => false,
             'subsets'     => false,
             'units'       =>'px',
-            'subtitle'    => __('Specify the H5 tag font properties.', 'radix'),
+            'subtitle'    => __('Specify the H5 tag font properties.', RTD),
             'default'     => array(
                 'google'      => true,
                 'font-weight'  => '300',
@@ -854,7 +854,7 @@ $this->sections[] = array(
         array(
             'id'          => 'h6_font',
             'type'        => 'typography', 
-            'title'       => __('H6 font', 'radix'),
+            'title'       => __('H6 font', RTD),
             'google'      => true, 
             'font-backup' => false,
             'font-size'   => true,
@@ -863,7 +863,7 @@ $this->sections[] = array(
             'text-align'  => false,
             'subsets'     => false,
             'units'       =>'px',
-            'subtitle'    => __('Specify the H6 tag font properties.', 'radix'),
+            'subtitle'    => __('Specify the H6 tag font properties.', RTD),
             'default'     => array(
                 'google'      => true,
                 'font-weight'  => '300',
@@ -880,7 +880,7 @@ $this->sections[] = array(
         array(
             'id'            => 'nav_font',
             'type'          => 'typography', 
-            'title'         => __('Navigation font', 'radix'),
+            'title'         => __('Navigation font', RTD),
             'google'        => true, 
             'compiler'      => true,
             'font-backup'   => false,
@@ -890,7 +890,7 @@ $this->sections[] = array(
             'text-align'    => false,
             'subsets'       => false,
             'units'         =>'px',
-            'subtitle'      => __('Typography option with each property can be called individually.', 'radix'),
+            'subtitle'      => __('Typography option with each property can be called individually.', RTD),
             'default'       => array(
                 'google'        => true,
                 'font-weight'   => '300', 
@@ -912,22 +912,22 @@ $this->sections[] = array(
 $this->sections[] = array(
     'icon' => 'el el-icon-group',
     'icon_class' => 'el el-icon-large',
-    'title' => __('Social Networks', 'radix'),
-    'desc'     => __('Manage your social settings', 'radix'),
+    'title' => __('Social Networks', RTD),
+    'desc'     => __('Manage your social settings', RTD),
     'fields' => array(
         array(
             'id'        => 'header_socials',
             'type'      => 'switch',
-            'title'     => __('Show header social Icons', 'radix'),
-            'subtitle'  => __('Check if you want to remove header social icons.', 'radix'),
-            'desc'      => __('Note: You can set your social links in socials section.', 'radix'),
+            'title'     => __('Show header social Icons', RTD),
+            'subtitle'  => __('Check if you want to remove header social icons.', RTD),
+            'desc'      => __('Note: You can set your social links in socials section.', RTD),
             'default'   => true,
             ),
         array(
             'id'        => 'color_header_socials',
             'type'      => 'color',
-            'title'     => __('Header socials icons color.', 'radix'),
-            'subtitle'  => __('Change header socials icons color.', 'radix'),
+            'title'     => __('Header socials icons color.', RTD),
+            'subtitle'  => __('Change header socials icons color.', RTD),
             'transparent' => false,
             'required'  => array('header_socials', '=', true),
             'default'   => '#666666'
@@ -936,16 +936,16 @@ $this->sections[] = array(
             'id'    => 'info_warning',
             'icon'  => 'el el-info-circle',
             'type'  => 'info',
-            'title' => __('NOTE!', 'radix'),
+            'title' => __('NOTE!', RTD),
             'style' => 'warning',
             'required'  => array('header_socials', '=', true),
-            'desc'  => __('If you leave any field empty, icon will not show.<br> Please note that these icons are used for footer social bar as well.', 'radix')
+            'desc'  => __('If you leave any field empty, icon will not show.<br> Please note that these icons are used for footer social bar as well.', RTD)
             ),     
         array(
             'id'        =>'facebook',
             'type'      => 'text',      
-            'title'     => __('Facebook', 'radix'), 
-            'subtitle'  => __('Insert your Facebook fanpage here.', 'radix'),
+            'title'     => __('Facebook', RTD), 
+            'subtitle'  => __('Insert your Facebook fanpage here.', RTD),
             'desc'      => "",
             'required'  => array('header_socials', '=', true),
             'default'   => "#"
@@ -953,8 +953,8 @@ $this->sections[] = array(
         array(
             'id'        =>'twitter',
             'type'      => 'text',      
-            'title'     => __('Twitter', 'radix'), 
-            'subtitle'  => __('Insert your Twitter URL here.', 'radix'),
+            'title'     => __('Twitter', RTD), 
+            'subtitle'  => __('Insert your Twitter URL here.', RTD),
             'desc'      => "",
             'required'  => array('header_socials', '=', true),
             'default'   => "#"
@@ -962,8 +962,8 @@ $this->sections[] = array(
         array(
             'id'        =>'dribbble',
             'type'      => 'text',      
-            'title'     => __('Dribbble', 'radix'), 
-            'subtitle'  => __('Insert your Dribbble URL here.', 'radix'),
+            'title'     => __('Dribbble', RTD), 
+            'subtitle'  => __('Insert your Dribbble URL here.', RTD),
             'desc'      => "",
             'required'  => array('header_socials', '=', true),
             'default'   => "#"
@@ -971,8 +971,8 @@ $this->sections[] = array(
         array(
             'id'        =>'google_plus',
             'type'      => 'text',      
-            'title'     => __('Google Plus', 'radix'), 
-            'subtitle'  => __('Insert your Google Plus URL here.', 'radix'),
+            'title'     => __('Google Plus', RTD), 
+            'subtitle'  => __('Insert your Google Plus URL here.', RTD),
             'desc'      => "",
             'required'  => array('header_socials', '=', true),
             'default'   => "#"
@@ -980,8 +980,8 @@ $this->sections[] = array(
         array(
             'id'        =>'pinterest',
             'type'      => 'text',      
-            'title'     => __('Pinterest', 'radix'), 
-            'subtitle'  => __('Insert your Pinterest URL here.', 'radix'),
+            'title'     => __('Pinterest', RTD), 
+            'subtitle'  => __('Insert your Pinterest URL here.', RTD),
             'desc'      => "",
             'required'  => array('header_socials', '=', true),
             'default'   => "#"
@@ -989,8 +989,8 @@ $this->sections[] = array(
         array(
             'id'        =>'flickr',
             'type'      => 'text',      
-            'title'     => __('Flickr', 'radix'), 
-            'subtitle'  => __('Insert your Flickr URL here.', 'radix'),
+            'title'     => __('Flickr', RTD), 
+            'subtitle'  => __('Insert your Flickr URL here.', RTD),
             'desc'      => "",
             'required'  => array('header_socials', '=', true),
             'default'   => "#"
@@ -998,8 +998,8 @@ $this->sections[] = array(
          array(
             'id'        =>'instagram',
             'type'      => 'text',      
-            'title'     => __('Instagram', 'radix'), 
-            'subtitle'  => __('Insert your Instagram URL here.', 'radix'),
+            'title'     => __('Instagram', RTD), 
+            'subtitle'  => __('Insert your Instagram URL here.', RTD),
             'desc'      => "",
             'required'  => array('header_socials', '=', true),
             'default'   => "#"
@@ -1007,8 +1007,8 @@ $this->sections[] = array(
          array(
             'id'        =>'vimeo',
             'type'      => 'text',      
-            'title'     => __('Vimeo', 'radix'), 
-            'subtitle'  => __('Insert your Vimeo URL here.', 'radix'),
+            'title'     => __('Vimeo', RTD), 
+            'subtitle'  => __('Insert your Vimeo URL here.', RTD),
             'desc'      => "",
             'required'  => array('header_socials', '=', true),
             'default'   => "#"
@@ -1016,8 +1016,8 @@ $this->sections[] = array(
          array(
             'id'        =>'rss',
             'type'      => 'text',      
-            'title'     => __('Rss', 'radix'), 
-            'subtitle'  => __('Insert your Rss URL here.', 'radix'),
+            'title'     => __('Rss', RTD), 
+            'subtitle'  => __('Insert your Rss URL here.', RTD),
             'desc'      => "",
             'required'  => array('header_socials', '=', true),
             'default'   => "#"
@@ -1025,8 +1025,8 @@ $this->sections[] = array(
         array(
             'id'        =>'linkedin',
             'type'      => 'text',      
-            'title'     => __('Linkedin', 'radix'), 
-            'subtitle'  => __('Insert your Linkedin URL here.', 'radix'),
+            'title'     => __('Linkedin', RTD), 
+            'subtitle'  => __('Insert your Linkedin URL here.', RTD),
             'desc'      => "",
             'required'  => array('header_socials', '=', true),
             'default'   => "#"
@@ -1038,8 +1038,8 @@ $this->sections[] = array(
 $this->sections[] = array(
     'icon' => 'el el-icon-cogs',
     'icon_class' => 'el el-icon-large',
-    'title' => __('Advanced Options', 'radix'),
-    'desc'     => __('Advanced options for avanced users here', 'radix'),
+    'title' => __('Advanced Options', RTD),
+    'desc'     => __('Advanced options for avanced users here', RTD),
     'fields' => array(
         array(
             'id'        => 'additional_codes',
@@ -1051,8 +1051,8 @@ $this->sections[] = array(
         array(
             'id'       => 'custom_css',
             'type'     => 'ace_editor',
-            'title'    => __('Additional CSS', 'radix'),
-            'subtitle' => __('Use this field to write or paste CSS code and modify default theme styling', 'radix'),
+            'title'    => __('Additional CSS', RTD),
+            'subtitle' => __('Use this field to write or paste CSS code and modify default theme styling', RTD),
             'mode'     => 'css',
             'theme'    => 'monokai',
             'default' => ".example {\nmargin: 0 auto;\n}"
@@ -1060,8 +1060,8 @@ $this->sections[] = array(
         array(
             'id'       => 'custom_js',
             'type'     => 'ace_editor',
-            'title'    => __('Additional JavaScript', 'radix'),
-            'subtitle' => __('Use this field to write or paste additional JavaScript code to this theme', 'radix'),
+            'title'    => __('Additional JavaScript', RTD),
+            'subtitle' => __('Use this field to write or paste additional JavaScript code to this theme', RTD),
             'mode'     => 'javascript',
             'theme'    => 'chrome',
             'default' => "jQuery(document).ready(function(){\n\n});"
@@ -1072,15 +1072,15 @@ $this->sections[] = array(
 /* maintenance */
 $this->sections[] = array(
     'icon'      => 'el el-icon-warning-sign',
-    'title'     => __('Maintenance Mode', 'radix'),
-    'desc'      => __('Basic maintenance mode', 'radix'),
+    'title'     => __('Maintenance Mode', RTD),
+    'desc'      => __('Basic maintenance mode', RTD),
     'fields'    => array(
         array(
             'id'        => 'maintenance_mode',
             'type'      => 'switch',
-            'title'     => __('Maintenance mode', 'radix'),
-            'subtitle'  => __('Enable maintenance mode.', 'radix'),
-             'desc'  => __('Check if you want to enable the default wordpress maintenance mode.', 'radix'),
+            'title'     => __('Maintenance mode', RTD),
+            'subtitle'  => __('Enable maintenance mode.', RTD),
+             'desc'  => __('Check if you want to enable the default wordpress maintenance mode.', RTD),
             'default'   => false,
             ),
         )

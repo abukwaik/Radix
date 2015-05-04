@@ -4,7 +4,7 @@ Theme URI: http://starter.croti.com/
 Author: Abukwaik
 Author URI: http://www.croti.com/
 Description: Fully Responsive starter WordPress Theme based on twitter bootstrap 3. Radix is built with clean HTML5 and CSS3. Simple, super flexible theme designed for Multi-Purpose, and comes packed with powerful options panel.
-Version: 1.0.1
+Version: 1.0.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: theme-options, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, sticky-post, threaded-comments, translation-ready
@@ -26,6 +26,27 @@ ol.unstyled,
 ul.unstyled {
   list-style: none none;
   margin: 0
+}
+
+.external:before {
+  font-family: 'FontAwesome';
+  content: " \f08e";
+  margin-right: 5px;
+  font-size: 11px
+}
+
+a:hover,
+a:active {
+  outline: 0;
+}
+
+a img {
+  border: 0;
+}
+
+a.post-thumbnail:hover,
+a.post-thumbnail:focus {
+  opacity: 0.85;
 }
 
 img {
@@ -85,7 +106,8 @@ img.aligncenter {
 
 .screen-reader-text {
   clip: rect(1px,1px,1px,1px);
-  position: absolute!important
+  position: absolute!important;
+  width: 1px;
 }
 
 .screen-reader-text:active,
@@ -107,6 +129,36 @@ img.aligncenter {
   top: 5px;
   width: auto;
   z-index: 100000
+}
+
+.site .skip-link {
+  background-color: #f1f1f1;
+  -webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);
+  box-shadow:0 0 2px 2px rgba(0,0,0,.6);
+  color: #21759b;
+  display: block;
+  font-family: "Open Sans", sans-serif;
+  left: -9999em;
+  outline: none;
+  padding: 15px 23px 14px;
+  text-decoration: none;
+  text-transform: none;
+  top: -9999em;
+}
+
+.logged-in .site .skip-link {
+  -webkit-box-shadow:0 0 2px 2px rgba(0,0,0,.6);
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.6);
+  font-family: "Open Sans", sans-serif;
+}
+
+.site .skip-link:focus {
+  clip: auto;
+  height: auto;
+  left: 6px;
+  top: 7px;
+  width: auto;
+  z-index: 100000;
 }
 
 .wp-smiley {
@@ -131,6 +183,34 @@ img.avatar {
   margin-bottom: 0;
   margin-top: 0;
   padding: 0
+}
+
+.entry-content a, 
+.entry-summary a, 
+.page-content a, 
+.comment-content a, 
+.pingback 
+.comment-body > a {
+  border-bottom: 1px solid #ddd;
+}
+
+.entry-content a:hover,
+.entry-content a:focus,
+.entry-summary a:hover,
+.entry-summary a:focus,
+.page-content a:hover,
+.page-content a:focus,
+.comment-content a:hover,
+.comment-content a:focus,
+.pingback .comment-body > a:hover,
+.pingback .comment-body > a:focus {
+  border-bottom: 0;
+}
+
+
+label {
+  display: block;
+  font-weight: 300;
 }
 
 embed,
@@ -310,23 +390,19 @@ p > video {
   border-left: 0;
   box-shadow: inset 0 -2.2px rgba(0,0,0,.12),inset 2px 0 rgba(0,0,0,.1);
   outline: 0;
-  -webkit-outline: 0
+  -webkit-outline: 0;
+  -webkit-transition: all .3s;
+  transition: all .3s
 }
 
 .btn.active, 
 .btn:active {
-  outline: 0;
   background-image: none;
   position: relative;
   box-shadow: inset 0 2px 3px rgba(0,0,0,.125)!important;
   -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.125)!important;
   top: 1px;
   left: -1px
-}
-
-.btn:focus {
-  outline: 0;
-  -webkit-outline: 0;
 }
 
 .btn-xlg {
@@ -352,7 +428,7 @@ p > video {
 
 .btn-default {
   color: #fff;
-  background-color: #b2afe8;
+  background-color: #757399;
   border-color: #644C80
 }
 
@@ -366,9 +442,8 @@ p > video {
 }
 
 @media screen and (max-width: 768px) {
-
   #search_dropdown {
-    display:none !important
+    display: none !important
   }
 
   .container > .navbar-collapse,
@@ -384,14 +459,13 @@ img.alignleft {
 }
 
 .navbar {
-  padding: 10px;
+  padding: 10px 0;
   z-index: 999;
   background: rgba(255,255,255,.9);
   margin-bottom: 0;
   min-height: 0;
   position: relative;
   border-radius: 0;
-  border-color: #eee
 }
 
 .navbar-form input {
@@ -437,7 +511,7 @@ img.alignleft {
 #mobile-menu .navbar-nav > li a:hover,
 #mobile-menu .navbar-nav > li a:focus,
 #mobile-menu .navbar-nav > li a:active{
-  background-color: #b2afe8;
+  background-color: #757399;
   color: #fff
 }
 
@@ -447,7 +521,7 @@ img.alignleft {
 
 #mobile-menu .navbar-collapse .navbar-nav > li > a:focus, 
 #mobile-menu .navbar-collapse .navbar-nav > li > a:hover {
-  background-color: #b2afe8;
+  background-color: #757399;
   color: #fff
 }
 
@@ -488,7 +562,7 @@ ul li span.menu-toggler {
 }
 
 .pager li > a:focus, .pager li > a:hover {
-  background-color: #644C80;
+  background-color: #757399;
   color: #fff
 }
 
@@ -498,7 +572,7 @@ ul li span.menu-toggler {
 .pager > .active > span, 
 .pager > .active > span:focus, 
 .pager > .active > span:hover {
-  background-color: #644C80;
+  background-color: #757399;
   border-color: #eee;
   color: #fff
 }
@@ -564,8 +638,8 @@ ul li span.menu-toggler {
 #top-bar-social a .fa-vimeo-square:hover { color: #0CF }
 #top-bar-social a .fa-rss:hover { color: #ffac3d }
 
-.logo { margin-top: 10px }
-.logo h2.site-title { margin:5px 0 }
+.logo img { margin-top: 10px }
+.logo .site-title { margin: 5px 0 }
 
 .is-sticky {
   z-index: 9999;
@@ -586,18 +660,13 @@ ul li span.menu-toggler {
 }
 
 #sub-header {
-  margin-top: 0;
-  padding: 28px 0
-}
-
-.sub-header-title > h1 {
-  font-size: 20px
+  padding: 3em;
 }
 
 #breadcrumbs {
   text-align: right;
   font-size: 11px;
-  font-weight: 500
+  font-weight: 600
 }
 
 #breadcrumbs a, .current {
@@ -703,7 +772,7 @@ ul li span.menu-toggler {
 .hentry:hover .edit-link { opacity: 1 }
 
 .page-title:before {
-  border-bottom: 1px solid #b2afe8;
+  border-bottom: 1px solid #757399;
   bottom: -1px;
   content: "";
   position: absolute;
@@ -771,7 +840,6 @@ ul li span.menu-toggler {
   padding: 10px
 }
 
-
 .entry-footer:after {
   border-bottom: 1px solid #ccc;
   content: "";
@@ -820,7 +888,7 @@ ul li span.menu-toggler {
   border-radius: 0 12px 12px 12px;
   float: left;
   -webkit-box-shadow: inset 1px -1px rgba(0,0,0,.15);
-  box-shadow: inset 1px -1px rgba(0,0,0,.15);
+  box-shadow: inset 1px -1px rgba(0,0,0,.15)
 }
 
 .format-chat .entry-content > p:nth-child(2n) {
@@ -828,7 +896,19 @@ ul li span.menu-toggler {
   border-radius: 12px 0 12px 12px;
   float: right;
   -webkit-box-shadow: inset 0 -1px rgba(0,0,0,.15);
-  box-shadow: inset 0 -1px rgba(0,0,0,.15);
+  box-shadow: inset 0 -1px rgba(0,0,0,.15)
+}
+
+.post-navigation a:hover:before,
+.post-navigation a:focus:before {
+  opacity: 0.5;
+}
+
+.post-navigation .nav-next,
+.post-navigation .nav-previous {
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
 
 
@@ -837,27 +917,36 @@ ul li span.menu-toggler {
   padding: 20px;
   box-shadow: 0 1px 0 #ccc;
   margin-bottom: 40px;
-  position: relative;
+  position: relative
 }
 
 .author-bio .bio-avatar {
   float: left;
   margin-right: 15px;
   position: relative;
-  width: 64px;
+  width: 64px
 }
 
 .author-bio .bio-avatar img {
-  width: 100%;
+  width: 100%
 }
 
 .author-bio .bio-name {
-  margin-top: 0
+  margin-top: 0;
+  font-weight: 600
+}
+
+.author-bio .bio-name a {
+  color: #b2afe8
+}
+
+.author-bio .bio-name a:hover, 
+.author-bio .bio-name a:focus  {
+  color: #fff
 }
 
 .author-socials {
-  margin-bottom: 5px;
-  text-align: right;
+  text-align: right
 }
 
 ul.author-social-bar {
@@ -882,7 +971,6 @@ ul.author-social-bar li a {
   color: #fff;
   display: inline-block;
   height: 20px;
-  line-height: 18px;
   text-align: center;
   width: 20px;
   transition: all .5s ease 0s;
@@ -890,7 +978,7 @@ ul.author-social-bar li a {
 }
 
 ul.author-social-bar i {
-  font-size: 13px;
+  font-size: 13px
 }
 
 ul.author-social-bar li a:hover { color: #fff }
@@ -942,12 +1030,24 @@ ul.author-social-bar li a:hover { color: #fff }
 
 .commentlist > li .comment-author {
   font-size: 13px;
-  font-weight: 700
+  font-weight: 600
 }
 
 .commentlist > li .comment-meta { font-size: 12px }
 .commentlist > li .comment-meta a { color: #999 }
-.commentlist > li .comment-meta a:hover { color: #644C80 }
+.commentlist > li .comment-meta a:hover, .commentlist > li .comment-meta a:focus { 
+  color: #757399 
+}
+
+.commentlist > li .comment-meta a.comment-edit-link:hover,
+.commentlist > li .comment-meta a.comment-edit-link:focus { 
+  color: #222
+}
+
+.pingback .edit-link a:hover,
+.pingback .edit-link a:focus { 
+  color: #222 
+}
 
 .commentlist > li .reply {
   position: absolute;
@@ -975,10 +1075,6 @@ ul.author-social-bar li a:hover { color: #fff }
   top: -1px
 }
 
-.commentlist > li .comment-meta a.comment-edit-link:hover {
-  color: #222
-}
-
 .wpbs-textarea { margin-top: 15px }
 
 .form-allowed-tags code {
@@ -998,7 +1094,7 @@ ul.author-social-bar li a:hover { color: #fff }
 
 @media screen and (max-width: 480px) {
   aside.widget-area {
-    font-size: 7mm;
+    font-size: 7mm
   }
 }
 
@@ -1017,7 +1113,7 @@ ul.author-social-bar li a:hover { color: #fff }
 }
 
 .widget-title:before {
-  border-bottom: 1px solid #b2afe8;
+  border-bottom: 1px solid #757399;
   bottom: -1px;
   content: "";
   position: absolute;
@@ -1038,13 +1134,8 @@ ul.author-social-bar li a:hover { color: #fff }
 }
 
 /* FOOTER */
-img.footer-logo {
-  float: left;
-  margin: 0 10px
-}
-
 .footer-wrapper {
-  border-top: 3px solid #b2afe8;
+  border-top: 3px solid #757399;
   padding: 20px;
   font-size: 13px
 }
@@ -1052,7 +1143,7 @@ img.footer-logo {
 .footer-widgets { margin: 15px 0 }
 
 .footer-widget-title:before {
-  border-bottom: 1px solid #b2afe8;
+  border-bottom: 1px solid #757399;
   bottom: -1px;
   content: "";
   position: absolute;
@@ -1119,7 +1210,7 @@ img.footer-logo {
 
 .footer-bottom-wrapper {
   font-size: 13px;
-  padding: 10px 0;
+  padding: 10px 0
 }
 
 .footer-nav ul {
@@ -1142,7 +1233,7 @@ img.footer-logo {
 .footer-nav li a {
   padding-left: 8px;
   transition: all .4s ease 0s;
-  -webkit-transition: all .2s ease 0s;
+  -webkit-transition: all .2s ease 0s
 }
 
 .footer-nav li a:hover, 

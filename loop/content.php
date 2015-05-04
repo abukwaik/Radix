@@ -16,7 +16,7 @@
 	<?php Radix_post_thumbnail(); ?>
 
 	<header class="entry-header">
-		<h2 class="entry-title" itemprop="headline"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
+		<h1 class="entry-title" itemprop="headline"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 		<div class="entry-meta">
 			<?php Radix_posted_on(); ?>
 		</div>
@@ -26,15 +26,15 @@
 		<?php
 			/* translators: %s: Name of current post */
 			the_excerpt( sprintf( 
-				__( 'Continue reading %s', 'radix' ),
+				__( 'Continue reading %s', RTD ),
 				the_title( '<span class="screen-reader-text">', '</span>', false )
 				) );
 
 			wp_link_pages( array(
-				'before'      => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'radix' ) . '</span>',
-				'after'       => '</div>',
-				'link_before' => '<span>',
-				'link_after'  => '</span>',
+				'before'      	 => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', RTD ) . '</span>',
+				'after'       	 => '</div>',
+				'link_before' 	 => '<span>',
+				'link_after'  	 => '</span>',
 				'current_before' => '',
 				'current_after'  => '',
 				'pagelink'    	 => '%',

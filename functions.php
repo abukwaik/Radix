@@ -14,12 +14,14 @@
  *
  */
 
-define('RADIX_THEME_DIR', get_template_directory());
-define('RADIX_THEME_URI', get_template_directory_uri());
+
 define('RADIX_THEME_NAME', 'Radix');
 define('RADIX_THEME_SLUG', 'radix');
-define('RADIX_THEME_VERSION', '1.0.1');
+define('RADIX_THEME_VERSION', '1.0.2');
 define('RADIX_THEME_OPTIONS', 'ro_settings');
+define('RTD', 'RADIX_THEME_SLUG'); // Define text domain
+define('RADIX_THEME_DIR', get_template_directory());
+define('RADIX_THEME_URI', get_template_directory_uri());
 define('RADIX_JS_URI',  RADIX_THEME_URI . '/includes/js');
 define('RADIX_CSS_URI', RADIX_THEME_URI . '/includes/css');
 define('RADIX_IMG_DIR', RADIX_THEME_DIR . '/images');
@@ -56,8 +58,8 @@ if ( !function_exists( 'Radix_setup' ) ) {
     // Register Menus
     register_nav_menus(
       array(
-        'primary'     => __( 'Primary', 'radix' ),
-        'footer-menu' => __( 'Footer Menu', 'radix' ),
+        'primary'     => __( 'Primary', RTD ),
+        'footer-menu' => __( 'Footer Menu', RTD ),
         ) 
       );
 
