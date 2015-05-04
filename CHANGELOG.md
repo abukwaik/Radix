@@ -14,7 +14,7 @@
 * Added: Skip to content link
 * Added: `<label>` element to all form fields
 * Added: `aria-hidden` for all font-aweome icons so it's not read out to users of screen readers
-* Modified: Footer/header menus wrapped in a <nav> element
+* Modified: Footer/header menus wrapped in a `<nav>` element
 * Modified: The Heading Hierarchy starts with H1 now instead of H2
 * Updated: WOW.js to v1.1.2
 * Updated: Redux framework to version 3.5.3.1
