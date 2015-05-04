@@ -38,8 +38,8 @@
       'logged_in_as'      => '<p class="logged-in-as">' . sprintf( __( '<a href="%1$s" class="btn btn-success btn-sm"><i class="fa fa-user fa-fw" aria-hidden="true"></i>%2$s</a> <a href="%3$s" title="Log out of this account" class="btn btn-default btn-sm"><i class="fa fa-sign-out fa-fw" aria-hidden="true"></i>Logout</a>', RTD ), admin_url( 'profile.php' ), $user_identity, wp_logout_url( apply_filters( 'the_permalink', get_permalink( ) ) ) ) . '</p>',
       'comment_notes_before' => '<p class="text text-warning">' . __( 'Note: Your email address will not be published', RTD ).'</p>',
       'comment_notes_after'  => '</div><p class="form-allowed-tags">' . sprintf( __( 'You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes:', RTD ), ' '  ) . '<br><code>' . allowed_tags() . '</code></p>',               
-      'comment_field'        => '<div class="row"><div class="wpbs-textarea col-md-12"><label for="Text_area"><span class="screen-reader-text">' . sprintf( __('text_area', RTD) ) . '</span>' .
-      '<textarea class="form-control" id="comment" name="comment" rows="8" aria-required="true" placeholder="Start commenting..."></textarea>' . '</label></div>' ,
+      'comment_field'        => '<div class="row"><div class="wpbs-textarea col-md-12"><label for="text_area"><span class="screen-reader-text">' . sprintf( __('text_area', RTD) ) . '</span>' .
+      '<textarea class="form-control" id="text_area" name="comment" rows="8" aria-required="true" placeholder="Start commenting..."></textarea>' . '</label></div>' ,
 
       'fields' => apply_filters( 'comment_form_default_fields', array(
         'author' => '<div class="row"><div class="col-md-6 col-xs-6"><label> for="Name"<span class="screen-reader-text">' . sprintf( __('Name', RTD) ) . '</span>' .
