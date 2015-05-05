@@ -38,23 +38,26 @@
       'logged_in_as'      => '<p class="logged-in-as">' . sprintf( __( '<a href="%1$s" class="btn btn-success btn-sm"><i class="fa fa-user fa-fw" aria-hidden="true"></i>%2$s</a> <a href="%3$s" title="Log out of this account" class="btn btn-default btn-sm"><i class="fa fa-sign-out fa-fw" aria-hidden="true"></i>Logout</a>', RTD ), admin_url( 'profile.php' ), $user_identity, wp_logout_url( apply_filters( 'the_permalink', get_permalink( ) ) ) ) . '</p>',
       'comment_notes_before' => '<p class="text text-warning">' . __( 'Note: Your email address will not be published', RTD ).'</p>',
       'comment_notes_after'  => '</div><p class="form-allowed-tags">' . sprintf( __( 'You may use these <abbr title="HyperText Markup Language">HTML</abbr> tags and attributes:', RTD ), ' '  ) . '<br><code>' . allowed_tags() . '</code></p>',               
-      'comment_field'        => '<div class="row"><div class="wpbs-textarea col-md-12"><label for="text_area"><span class="screen-reader-text">' . sprintf( __('Text area', RTD) ) . '</span>' .
-      '<textarea class="form-control" id="text_area" name="comment" rows="8" aria-required="true" placeholder="Start commenting..."></textarea>' . '</label></div>' ,
+      'comment_field'        => '<div class="row"><div class="wpbs-textarea col-md-12">' . 
+      '<label for="text_area" class="screen-reader-text">' . sprintf( __('Text area', RTD) ) . '</label>' .
+      '<p><textarea class="form-control" id="text_area" name="comment" rows="8" aria-required="true" placeholder="Start commenting..."></textarea></p></div>' ,
 
       'fields' => apply_filters( 'comment_form_default_fields', array(
-        'author' => '<div class="row"><div class="col-md-6 col-xs-6"><label for="Name"><span class="screen-reader-text">' . sprintf( __('Name', RTD) ) . '</span>' .
-        '<div class="input-group"><span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>'.
-        '<input class="form-control" placeholder="Your name" id="Name" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) .
-        '" size="30" aria-required="true" /></div>' .
-        '</div></label>',
-        'email' => '<div class="col-md-6 col-xs-6">' .
-        '<div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true"></i> </span><label for="email"><span class="screen-reader-text">' . sprintf( __('Email', RTD) ) . '</span>' .
-        '<input class="form-control" placeholder="Your email" id="email" name="email" type="text" value="' . esc_attr(  $commenter['comment_author_email'] ) .
-        '" size="30" aria-required="true"  /></label></div>'.
-        '</div></div>',
+        'author' => '<div class="row">' . 
+          '<div class="col-md-6 col-xs-6">' .
+          '<div class="input-group">' . 
+          '<span class="input-group-addon"><i class="fa fa-user" aria-hidden="true"></i></span>' . 
+          '<label for="name" class="screen-reader-text">' . sprintf( __('Name', RTD) ) . '</label><input class="form-control" placeholder="Your name" id="name" name="author" type="text" value="' . esc_attr( $commenter['comment_author'] ) . '" size="30" aria-required="true" />' .
+          '</div></div>',
+          'email' => '<div class="col-md-6 col-xs-6">' .
+          '<div class="input-group">' . 
+          '<span class="input-group-addon"><i class="fa fa-envelope" aria-hidden="true"></i></span>' . 
+          '<label for="email" class="screen-reader-text">' . sprintf( __('Email', RTD) ) . '</label><input class="form-control" placeholder="Your email" id="email" name="email" type="text" value="' . esc_attr(  $commenter['comment_author_email'] ) . '" size="30" aria-required="true"  />' . 
+          '</div></div>' . 
+          '</div>',
         'url' => ''
-        ) ),          
-        ); 
+        )),          
+      ); 
     ?>
     <?php comment_form($comments_args); ?>
   <?php endif; ?> <!-- comments_open -->
