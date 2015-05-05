@@ -9,7 +9,7 @@
 ?>
 <form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
 	<div class="input-group">
-		<label for="Search">
+		<label for="s">
 			<span class="screen-reader-text"><?php echo __('Search', RTD); ?></span>
 			<input type="text" value="" name="s" id="s" class="form-control" placeholder="<?php _e('Search', RTD); ?>" />
 		</label>

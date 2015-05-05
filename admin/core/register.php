@@ -50,7 +50,7 @@ function Radix_add_search_box($items, $args) {
                 <li>
                     <form class="navbar-form" role="search" action="'. esc_url( get_home_url( '/' ) ) . '">     
                         <div class="input-group">
-                            <label for="Search">
+                            <label for="nav-search">
                                 <span class="screen-reader-text">' . __('Search', RTD) . '</span>
                                 <input type="text" name="s" id="nav-search" class="search-pop form-control" value="" placeholder="' . __( 'Search', RTD) . '"/>
                             </label>
