@@ -100,13 +100,20 @@ $this->sections[] = array(
             'type'      => 'switch',
             'title'     => __('Display site description', RTD),
             'subtitle'  => __('Check if you want to display site description.', RTD),
-            'desc'      => __('Note: It will apply only if You remove logo image. You can change your site description inside <array href="'.admin_url('options-general.php').'">Settings / General</a>', RTD),
+            'desc'      => __('Note: It will apply only if You remove logo image. You can change your site description inside <a href="' . admin_url('options-general.php') . '">Settings / General</a>', RTD),
             'default'   => false,
+            ),
+        array(
+            'id'        => 'nav_text_section',
+            'icon'      => true,
+            'type'      => 'info',
+            'style'     => 'info',
+            'raw'       => __('<h4 style="margin: 3px;">Navigation Menu</h4>'),
             ),
         array(
             'id'        => 'sticky_header',
             'type'      => 'switch',
-            'title'     => __('Sticky header', RTD),
+            'title'     => __('Sticky Menu', RTD),
             'subtitle'  => __('Check if you want to disable sticky navigation.', RTD),
             'default'   => true,
             ),
@@ -146,56 +153,7 @@ $this->sections[] = array(
             'title'     => __('Show Top Header Area', RTD),
             'subtitle'  => __('Check if you want to remove top bar.', RTD),
             'default'   => true,
-            ),
-        array(
-            'id'        => 'color_header_txt',
-            'type'      => 'color',
-            'title'     => __('Header Text color', RTD),
-            'subtitle'  => __('Specify header Text color', RTD),
-            'transparent' => false,
-            'required'  => array('hide_top_header', '=', true),
-            'default'   => '#212121'
-            ),              
-        array(
-            'id'        => 'color_header_bg',
-            'type'      => 'color',
-            'title'     => __('Header Background color', RTD),
-            'subtitle'  => __('Specify header background color', RTD),
-            'transparent' => false,
-            'required'  => array('hide_top_header', '=', true),
-            'default'   => '#eee'
-            ),      
-        array(
-            'id'        => 'header_bg_img',
-            'type'      => 'media',
-            'url'       => true,
-            'title'     => __('Header Background Image', RTD),
-            'subtitle'  => __('Upload a custom background for your header.', RTD),
-            'default'   => '',
-            'required'  => array('hide_top_header', '=', true),
-            ),
-        array(
-            'id'        => 'header_bg_style',
-            'type'      => 'select',
-            'title'     => __( 'Background Image Style', RTD ), 
-            'required'  => array('hide_top_header', '=', true),
-            'subtitle'  => __( 'Select your header background style.', RTD ),
-            'options'   => array(
-                'no-repeat'     => __( 'no-repeat', RTD ),
-                'repeat-x'      => __( 'repeat-x', RTD ),
-                'repeat-y'      => __( 'repeat-y', RTD ),
-                'repeat'        => __( 'repeat', RTD ),
-                ),
-            'default'   => 'no-repeat'
-            ),
-        array(
-            'id'        => 'top_header_text_section',
-            'icon'      => true,
-            'type'      => 'info',
-            'style'     => 'info',
-            'raw'       => __('<h4 style="margin: 3px;">Top Header Text</h4>'),
-            'required'  => array('hide_top_header', '=', true),
-            ),                     
+            ),                 
         array(
             'id'        =>'phone_text',
             'type'      => 'text',      
@@ -225,18 +183,19 @@ $this->sections[] = array(
             'default'   => 'custom link'
             ),
         array(
-            'id'        =>'custom_text_url',
-            'type'      => 'text',      
-            'title'     => __('Custom Header Link URL', RTD), 
-            'subtitle'  => __('Insert your custom link url here.', RTD),
+            'id'        => 'color_header_bg',
+            'type'      => 'color',
+            'title'     => __('Header Background color', RTD),
+            'subtitle'  => __('Specify header background color', RTD),
+            'transparent' => false,
             'required'  => array('hide_top_header', '=', true),
-            'default'   => '#'
-            ),                                                                              
+            'default'   => '#eee'
+            ),                                                                       
         array(
             'id'        => 'a_color_header_txt',
             'type'      => 'color',
-            'title'     => __('Custom Link color', RTD),
-            'subtitle'  => __('Change the custom link color.', RTD),
+            'title'     => __('Top Header links color', RTD),
+            'subtitle'  => __('Change the top header links color.', RTD),
             'transparent' => false,
             'required'  => array('hide_top_header', '=', true),
             'default'   => '#212121'
@@ -244,55 +203,79 @@ $this->sections[] = array(
         array(
             'id'        => 'a_color_header_hov',
             'type'      => 'color',
-            'title'     => __('Custom Link color hover', RTD),
-            'subtitle'  => __('custom link color hover.', RTD),
+            'title'     => __('Top Header links hover color', RTD),
+            'subtitle'  => __('Change the top header links hover color.', RTD),
             'transparent' => false,
             'required'  => array('hide_top_header', '=', true),
             'default'   => '#75729a'
             ),
         array(
+            'id'    => 'info_warning',
+            'icon'  => 'el el-info-circle',
+            'type'  => 'info',
+            'title' => __('NOTE!', RTD),
+            'style' => 'warning',
+            'desc'  => __('Header Social settings are under <strong>Socials Networks Section</strong>', RTD) 
+            ),                                  
+        )
+);
+
+/* Body */
+$this->sections[] = array(
+    'icon'      => 'el el-icon-screen',
+    'title'     => __('Body', RTD),
+    'desc'      => __('These are options to modify and style your body area', RTD),
+    'fields'    => array(
+        array(
             'id'        => 'sub_header_style_section',
             'icon'      => true,
             'type'      => 'info',
             'style'     => 'info',
-            'raw'       => __('<h4 style="margin: 3px;">Sub Header </h4>'),
+            'raw'       => __('<h4 style="margin: 3px;">Page Title Area</h4>'),
             ),
         array(
             'id'        => 'hide_sub_header',
             'type'      => 'switch',
-            'title'     => __('Show Sub Header Area', RTD),
-            'subtitle'  => __('Check if you want to remove sub header area including breadcrumbs.', RTD),
-            'desc'      => __('Note: You can hide breadcrumbs separately in Body section.', RTD),
+            'title'     => __('Show page title Area', RTD),
+            'subtitle'  => __('Check if you want to remove the page title area including breadcrumbs.', RTD),
+            'desc'      => __('Note: You can hide breadcrumbs separately.', RTD),
             'default'   => true,
             ),
         array(
             'id'        => 'sub_header_bg_img',
             'type'      => 'media',
             'url'       => true,
-            'title'     => __('Sub Header background pattern', RTD),
-            'subtitle'  => __('Choose sub header background pattern or image.', RTD),
+            'title'     => __('Custom background', RTD),
+            'subtitle'  => __('Choose background image for page title area.', RTD),
             'default'   => array('url' => RADIX_IMG_URI .'/bg-section.jpg'),
             'required'  => array('hide_sub_header', '=', true),
             ),                          
         array(
             'id'        => 'sub_header_bg_color',
             'type'      => 'color',
-            'title'     => __('Sub Header Background color', RTD),
-            'subtitle'  => __('Specify the sub header background color', RTD),
+            'title'     => __('Background color', RTD),
+            'subtitle'  => __('If there is no Background image, specify the sub header background color', RTD),
             'transparent' => false,
-            'desc'      => __('If there is no Background image the default value is #615e95.', RTD),
+            'desc'      => __('The default value is #615e95.', RTD),
             'required'  => array('hide_sub_header', '=', true),
             'default'   => '#644c80'
             ),
         array(
             'id'        => 'color_sub_header_txt',
             'type'      => 'color',
-            'title'     => __('Sub Header Text Color', RTD),
-            'subtitle'  => __('Change the default sub-header text color.', RTD),
+            'title'     => __('Text Color', RTD),
+            'subtitle'  => __('Change the default text color.', RTD),
             'desc'      => __('Note: this will be applied on breadcrumbs text color too.', RTD),
             'transparent' => false,
             'required'  => array('hide_sub_header', '=', true),
             'default'   => '#fff'
+            ),
+        array(
+            'id'        => 'breadcrumb_section',
+            'icon'      => true,
+            'type'      => 'info',
+            'style'     => 'info',
+            'raw'       => __('<h4 style="margin: 3px;">Breadcrumbs</h4>'),
             ),
         array(
             'id'        => 'hide_breadcrumb',
@@ -319,16 +302,14 @@ $this->sections[] = array(
             'transparent' => false,
             'required'  => array('hide_breadcrumb', '=', true),
             'default'   => ''
-            ),                                        
-    )
-);
-
-/* Body */
-$this->sections[] = array(
-    'icon'      => 'el el-icon-screen',
-    'title'     => __('Body', RTD),
-    'desc'     => __('These are options to modify and style your body area', RTD),
-    'fields'    => array(
+            ),
+        array(
+            'id'        => 'body_style_section',
+            'icon'      => true,
+            'type'      => 'info',
+            'style'     => 'info',
+            'raw'       => __('<h4 style="margin: 3px;">Body Area</h4>'),
+            ), 
         array(
             'id'        => 'comments_on_pages',
             'type'      => 'switch',
@@ -359,7 +340,7 @@ $this->sections[] = array(
             'id' => 'color_a_text',
             'type' => 'color',
             'title' => __('a link color', RTD),
-            'subtitle' => __('Color for a links', RTD),
+            'subtitle' => __('Color for all links', RTD),
             'transparent' => false,
             'default' => '#75729a'
             ),         
@@ -367,7 +348,7 @@ $this->sections[] = array(
             'id' => 'color_a_hov',
             'type' => 'color',
             'title' => __('a link color hover', RTD),
-            'subtitle' => __('Hover color for a links', RTD),
+            'subtitle' => __('Hover color for all links', RTD),
             'transparent' => false,
             'default' => '#b2afe8'
             ),                
@@ -589,7 +570,7 @@ $this->sections[] = array(
             'compiler'  => true,
             'title'     => __('Footer Widget Columns', RTD),
             'subtitle'  => __('Choose columns you want for your footer widgets.', RTD),
-            'desc'      => __('You can manage footer area content in <a href="'.admin_url('widgets.php').'">Apperance / Widgets</a> settings.', RTD),
+            'desc'      => __('You can manage footer area content in <a href="' . admin_url('widgets.php') . '">Apperance / Widgets</a> settings.', RTD),
             'options'   => array(
                 '1' => array('alt' => '1 Column ', 'img' => RADIX_IMG_URI . '/1column.png'),
                 '2' => array('alt' => '2 Column ', 'img' => RADIX_IMG_URI . '/2columns.png'),

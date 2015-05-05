@@ -8,7 +8,7 @@
 
 function Radix_header_socials() { ?>
 	<span class="screen-reader-text"><?php _e('Header Socials', RTD); ?></span>
-	<nav class="top-bar-right social-style-font_icons" id="top-bar-social">
+	<nav id="header_socials" class="top-bar-right pull-right">
 		<?php $twitter = ro_get_option('twitter'); 
 		if (!empty ($twitter) && ro_get_option('twitter')) { ?>
 		<a itemprop="url" title="twitter" href="<?php echo esc_url( $twitter ); ?>">

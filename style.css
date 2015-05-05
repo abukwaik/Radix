@@ -28,12 +28,8 @@ ul.unstyled {
   margin: 0
 }
 
-.external:before {
-  font-family: 'FontAwesome';
-  content: " \f08e";
-  margin-right: 5px;
-  font-size: 11px
-}
+.no-margin { margin: 0 !important }
+.no.padding { padding: 0 !important }
 
 a:hover,
 a:active {
@@ -206,7 +202,6 @@ img.avatar {
 .pingback .comment-body > a:focus {
   border-bottom: 0;
 }
-
 
 label {
   display: block;
@@ -542,7 +537,7 @@ ul li span.menu-toggler {
   color: #8a6d3b
 }
 
-.text-muted {
+/*.text-muted {
   color: inherit;
   text-decoration: none;
   font-weight: 700
@@ -554,7 +549,7 @@ ul li span.menu-toggler {
   font-weight: 700;
   display: inline-block;
   font-size: 11px
-}
+}*/
 
 .pager li > a, 
 .pager li > span {
@@ -590,53 +585,51 @@ ul li span.menu-toggler {
   margin-top: 28px;
 }
 
-#top-bar-wrap {
-  font-size: 12px;
-  margin-bottom: 0
-}
-
 .top-bar-left {
-  float: left;
-  height: 50px;
-  line-height: 50px
+  font-size: 12px;
 }
 
 .top-bar-left span {
+  display: inline-block;
   margin-right: 5px
 }
 
-.top-bar-left span i {
+.top-bar-left .header-phone a:before { 
+  content: '\f095';
+  font-family: FontAwesome;
+  margin-right: 5px
+}
+
+.top-bar-left .header-email a:before { 
+  content: '\f0e0';
+  font-family: FontAwesome;
+  margin-right: 5px
+}
+
+.top-bar-left .header-link a:before { 
+  content: '\f08e';
+  font-family: FontAwesome;
   margin-right: 5px
 }
 
 .top-bar-right {
-  float: right;
-  height: 50px;
-  line-height: 50px
+  font-size: 18px;
 }
 
-#top-bar-social a {
-  display: block;
-  float: left;
-  font-size: 18px;
+.top-bar-right a {
   margin-left: 10px
 }
 
-#top-bar #top-bar-social.top-bar-right a :hover {
-  transition: all .3s ease 0s;
-  -webkit-transition: all .3s ease 0s
-}
-
-#top-bar-social a .fa-facebook:hover { color: #3b559f }
-#top-bar-social a .fa-twitter:hover { color: #00acee }
-#top-bar-social a .fa-linkedin:hover { color: #007bb6 }
-#top-bar-social a .fa-google-plus:hover { color: #dd4c39 }
-#top-bar-social a .fa-dribbble:hover { color: #f36798 }
-#top-bar-social a .fa-pinterest:hover { color: #cc2127 }
-#top-bar-social a .fa-flickr:hover { color: #ff0084 }
-#top-bar-social a .fa-instagram:hover { color: #517fa4 }
-#top-bar-social a .fa-vimeo-square:hover { color: #0CF }
-#top-bar-social a .fa-rss:hover { color: #ffac3d }
+.top-bar-right a .fa-facebook:hover { color: #3b559f }
+.top-bar-right a .fa-twitter:hover { color: #00acee }
+.top-bar-right a .fa-linkedin:hover { color: #007bb6 }
+.top-bar-right a .fa-google-plus:hover { color: #dd4c39 }
+.top-bar-right a .fa-dribbble:hover { color: #f36798 }
+.top-bar-right a .fa-pinterest:hover { color: #cc2127 }
+.top-bar-right a .fa-flickr:hover { color: #ff0084 }
+.top-bar-right a .fa-instagram:hover { color: #517fa4 }
+.top-bar-right a .fa-vimeo-square:hover { color: #0CF }
+.top-bar-right a .fa-rss:hover { color: #ffac3d }
 
 .logo img { margin-top: 10px }
 .logo .site-title { margin: 5px 0 }

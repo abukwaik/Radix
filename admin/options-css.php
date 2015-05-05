@@ -17,13 +17,10 @@
   $nav_font = ro_get_option('nav_font');
 
   // Header
-  $color_header_txt = ro_get_option('color_header_txt');
   $color_header_bg = ro_hex2rgba(ro_get_option('color_header_bg'),ro_get_option('header_bg_opacity'));
   $color_header_socials = ro_hex2rgba(ro_get_option('color_header_socials'), 0.9);
   $a_color_header_txt = ro_get_option('a_color_header_txt');
   $a_color_header_hov = ro_get_option('a_color_header_hov');
-  $header_bg_img = ro_get_option_media('header_bg_img');
-  $header_bg_style = ro_get_option('header_bg_style');
   $color_nav_bg = ro_get_option('color_nav_bg');
   $color_nav_a = ro_get_option('color_nav_a');
 
@@ -34,7 +31,7 @@
   $color_breadcrumbs_txt_a = ro_get_option('color_breadcrumbs_txt_a');
   $color_breadcrumbs_txt_a_hover = ro_get_option('color_breadcrumbs_txt_a_hover');
 
-  //Body
+  // Body
   $color_a_text = ro_get_option('color_a_text');
   $color_a_hov = ro_get_option('color_a_hov');
   $color_body_boxed_bg = ro_get_option('color_body_boxed_bg');
@@ -68,24 +65,22 @@
 <?php // Header Area //////////////////////////////////////////// ?>
 
 #top-bar {
-  <?php if(!empty($header_bg_img)): ?>
-  background: url('<?php echo esc_url($header_bg_img); ?>') <?php echo esc_attr($header_bg_style); ?>;
-  <?php else: ?>
-  background-color: <?php echo esc_attr($color_header_bg); ?>;
-  <?php endif; ?>
-  color : <?php echo esc_attr($color_header_txt); ?>;
+  background: <?php echo esc_attr($color_header_bg); ?>;
+  line-height: 40px
 }
 
-#top-bar-social a {
-  color: <?php echo esc_attr($color_header_socials); ?>;
-}
-
-.external-link a {
+#header_contacts > span a {
   color: <?php echo esc_attr($a_color_header_txt); ?>;
 }
 
-.external-link a:hover {
+#header_contacts > span a:hover {
   color: <?php echo esc_attr($a_color_header_hov); ?>;
+}
+
+.top-bar-right a, .top-bar-right i {
+  color: <?php echo esc_attr($color_header_socials); ?>;
+  -webkit-transition: all .3s;
+  transition: all .3s
 }
 
 #desktop-menu .navbar-nav > .open > a, 
@@ -130,6 +125,7 @@
 #breadcrumbs a {
   color: <?php echo esc_attr($color_breadcrumbs_txt_a); ?>
 }
+
 #breadcrumbs a:hover {
   color: <?php echo esc_attr($color_breadcrumbs_txt_a_hover); ?>
 }

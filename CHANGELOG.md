@@ -20,4 +20,5 @@
 * Updated: Redux framework to version 3.5.3.1
 * Removed: `target=_blank` element form all external links
 * Fixed: Colors low contrast problems
-* Improved: Minor improvements to style.css 
+* Improved: Minor improvements to style.css
+* Improved: Theme option panel section layout
