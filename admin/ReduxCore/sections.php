@@ -157,8 +157,8 @@ $this->sections[] = array(
         array(
             'id'        =>'phone_text',
             'type'      => 'text',      
-            'title'     => __('Header Phone Number', RTD), 
-            'subtitle'  => __('Insert your phone number here.', RTD),
+            'title'     => __('Phone Number', RTD), 
+            'subtitle'  => __('Insert phone number here.', RTD),
             'desc'      => __('Leave it empty to hide it.', RTD),
             'required'  => array('hide_top_header', '=', true),
             'default'   => "1-800-987-654"          
@@ -166,26 +166,34 @@ $this->sections[] = array(
         array(
             'id'        =>'email_text',
             'type'      => 'text',      
-            'title'     => __('Header Email Address', RTD), 
-            'subtitle'  => __('Insert your email address here.', RTD),
+            'title'     => __('Email Address', RTD), 
+            'subtitle'  => __('Insert email address here.', RTD),
             'desc'      => __('Leave it empty to hide it.', RTD),
-            'default'   => "info@Radix.com",
+            'default'   => "info@radix.com",
             'required' => array('hide_top_header', '=', true),
             'validate'  => 'email'
             ),
         array(
-            'id'        =>'url_text',
+            'id'        =>'custom_url',
             'type'      => 'text',      
             'title'     => __('Custom Header Link', RTD), 
             'subtitle'  => __('Insert your custom link here.', RTD),
             'desc'      => __('Leave it empty to hide it.', RTD),
+            'required'  => array('hide_top_header', '=', true),
+            'default'   => '#'
+            ),
+        array(
+            'id'        =>'custom_url_text',
+            'type'      => 'text',      
+            'title'     => __('Custom Header Link text', RTD), 
+            'subtitle'  => __('Insert your custom link text here.', RTD),
             'required'  => array('hide_top_header', '=', true),
             'default'   => 'custom link'
             ),
         array(
             'id'        => 'color_header_bg',
             'type'      => 'color',
-            'title'     => __('Header Background color', RTD),
+            'title'     => __('Background color', RTD),
             'subtitle'  => __('Specify header background color', RTD),
             'transparent' => false,
             'required'  => array('hide_top_header', '=', true),
@@ -194,7 +202,7 @@ $this->sections[] = array(
         array(
             'id'        => 'a_color_header_txt',
             'type'      => 'color',
-            'title'     => __('Top Header links color', RTD),
+            'title'     => __('Left links color', RTD),
             'subtitle'  => __('Change the top header links color.', RTD),
             'transparent' => false,
             'required'  => array('hide_top_header', '=', true),
@@ -203,7 +211,7 @@ $this->sections[] = array(
         array(
             'id'        => 'a_color_header_hov',
             'type'      => 'color',
-            'title'     => __('Top Header links hover color', RTD),
+            'title'     => __('Left links hover color', RTD),
             'subtitle'  => __('Change the top header links hover color.', RTD),
             'transparent' => false,
             'required'  => array('hide_top_header', '=', true),

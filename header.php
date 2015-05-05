@@ -26,7 +26,7 @@
 <?php if (ro_get_option('sticky_header')) { ?>
 <header id="header-wrap" class="site" itemscope="itemscope" itemtype="http://schema.org/Organization" role="banner">
     <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', RTD ); ?></a>
-<?php } ?>
+    <?php } ?>
     <?php if (ro_get_option('hide_top_header')) { ?>
     <?php get_template_part( 'loop/top-header' ); ?>
     <?php } ?>
@@ -63,9 +63,9 @@
                     <?php Radix_main_nav(); ?>
                 </nav> <!-- desktop-menu -->
             <?php endif; ?>
-        </div>  <!-- navbar navbar-default -->
-    </nav> <!-- container -->
-</header>  <!-- wrap -->
+        </div>  <!-- container -->
+    </nav> <!-- site-nav -->
+</header>  <!-- header-wrap -->
 <?php if( !is_front_page()) { ?>
 <?php get_template_part( 'loop/sub-header'); ?>
 <?php } ?>

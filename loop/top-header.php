@@ -24,10 +24,10 @@
                         <a href="mailto:<?php echo ro_get_option('email_text'); ?>"><?php echo ro_get_option('email_text'); ?></a> 
                     </span>
                     <?php } ?>
-                    <?php $url_text = ro_get_option('url_text');
-                    if (!empty ($url_text) && ro_get_option('url_text')) { ?>         
+                    <?php $url_text = ro_get_option('custom_url_text');
+                    if (!empty ($url_text) && ro_get_option('custom_url_text')) { ?>         
                     <span class="header-link">
-                        <a itemprop="url" href="<?php echo esc_url( ro_get_option('custom_text_url') ); ?>"><span itemprop="name"><?php echo ro_get_option('url_text'); ?></span></a>
+                        <a itemprop="url" href="<?php echo esc_url( ro_get_option('custom_url') ); ?>"><span itemprop="name"><?php echo ro_get_option('custom_url_text'); ?></span></a>
                     </span>
                     <?php } ?>
                 </div><!-- #top-bar-content -->
