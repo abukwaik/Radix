@@ -11,6 +11,7 @@
 <div id="top-bar-wrap">
     <div id="top-bar"> 
         <div class="container clearfix">
+        <div class="row-fluid">
             <div class="top-bar-left" id="top-bar-content">
                 <?php $phone_text = ro_get_option('phone_text');
                 if (!empty ($phone_text) && ro_get_option('phone_text')) { ?>
@@ -32,10 +33,10 @@
                 </span>
                 <?php } ?>
             </div><!-- #top-bar-content -->
-
             <?php if (ro_get_option('header_socials')) { ?>
             <?php Radix_header_socials(); ?>
             <?php } ?>
+        </div>
         </div> <!-- .container -->
     </div> <!-- #top-bar -->
 </div>
