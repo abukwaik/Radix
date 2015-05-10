@@ -9,7 +9,6 @@
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
  * @package Radix
- * @author Abukwaik http://www.croti.com
  * @since Radix 1.0
  *
  */
@@ -20,8 +19,7 @@ $col= 'col-md-12';
 if ( is_active_sidebar( 'sidebar' ) ) {
     $col = 'col-md-9';
 } ?>
-
-<div class="row-fluid">      
+ 
 	<div id="primary" class="content-area <?php echo $col; ?>">
 		<?php if ( have_posts() ) : ?>
 		<?php /* Start the Loop */ ?>
@@ -40,5 +38,4 @@ if ( is_active_sidebar( 'sidebar' ) ) {
 		<?php endif; ?>
     	</div><!-- #primary -->
     <?php get_sidebar(); ?>
-</div> <!-- row-fluid -->
 <?php get_footer(); ?>

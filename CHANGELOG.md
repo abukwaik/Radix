@@ -22,3 +22,15 @@
 * Fixed: Colors low contrast problems
 * Improved: Minor improvements to style.css
 * Improved: Theme option panel section layout
+
+## 1.0.3
+* Updated: Web Font loader to 1.5.18
+* Updated: perttyPhoto to v 3.1.6
+* Improved: Minor improvements to style.css
+* Improved: Minor improvements to HTML structure.
+* Fixed: Minor bugs fixed
+
+## 1.0.4
+* Improved: Minor improvements to style.css
+* Fixed: Minor bugs fixed
+* Fixed: body classes bugs fixed

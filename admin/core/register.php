@@ -4,7 +4,6 @@
  * Register Menus, Sidebars, Footer widgets
  *
  * @package Radix
- * @author Abukwaik http://www.croti.com
  * @since Radix 1.0
  */
 
@@ -50,10 +49,8 @@ function Radix_add_search_box($items, $args) {
                 <li>
                     <form class="navbar-form" role="search" action="'. esc_url( get_home_url( '/' ) ) . '">     
                         <div class="input-group">
-                            <label for="nav-search">
-                                <span class="screen-reader-text">' . __('Search', RTD) . '</span>
-                                <input type="text" name="s" id="nav-search" class="search-pop form-control" value="" placeholder="' . __( 'Search', RTD) . '"/>
-                            </label>
+                        <label for="nav-search" class="screen-reader-text">' . sprintf ( __('Search', RTD) ) . '</label>
+                            <input type="text" name="s" id="nav-search" class="search-pop form-control" value="" placeholder="' . sprintf (__('Search', RTD) ) . '"/>
                             <span class="input-group-btn">
                                 <button type="submit" class="btn btn-default pull-right"><i class="fa fa-search" aria-hidden="true"></i></button>
                             </span>

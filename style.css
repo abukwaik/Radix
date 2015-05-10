@@ -4,7 +4,7 @@ Theme URI: http://starter.croti.com/
 Author: Abukwaik
 Author URI: http://www.croti.com/
 Description: Fully Responsive starter WordPress Theme based on twitter bootstrap 3. Radix is built with clean HTML5 and CSS3. Simple, super flexible theme designed for Multi-Purpose, and comes packed with powerful options panel.
-Version: 1.0.2
+Version: 1.0.4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: theme-options, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, sticky-post, threaded-comments, translation-ready
@@ -16,8 +16,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 /* RADIX CORE */
 .main-content-area {
-  margin-bottom: 50px;
-  margin-top: 50px;
+  margin: 5% 0;
 }
 
 .wow { visibility:hidden }
@@ -212,15 +211,16 @@ embed,
 iframe,
 object,
 video {
-  margin-bottom: 25px;
-  max-width: 100%
+  margin-bottom: 1.6em;
+  max-width: 100%;
+  vertical-align: middle;
 }
 
 p > embed,
 p > iframe,
 p > object,
 p > video {
-  margin-bottom: 0
+  margin-bottom: 0;
 }
 
 .wp-audio-shortcode,
@@ -423,7 +423,7 @@ p > video {
 
 .btn-default {
   color: #fff;
-  background-color: #757399;
+  background-color: #69668a;
   border-color: #644C80
 }
 
@@ -506,7 +506,7 @@ img.alignleft {
 #mobile-menu .navbar-nav > li a:hover,
 #mobile-menu .navbar-nav > li a:focus,
 #mobile-menu .navbar-nav > li a:active{
-  background-color: #757399;
+  background-color: #69668a;
   color: #fff
 }
 
@@ -516,7 +516,7 @@ img.alignleft {
 
 #mobile-menu .navbar-collapse .navbar-nav > li > a:focus, 
 #mobile-menu .navbar-collapse .navbar-nav > li > a:hover {
-  background-color: #757399;
+  background-color: #69668a;
   color: #fff
 }
 
@@ -557,7 +557,7 @@ ul li span.menu-toggler {
 }
 
 .pager li > a:focus, .pager li > a:hover {
-  background-color: #757399;
+  background-color: #69668a;
   color: #fff
 }
 
@@ -567,7 +567,7 @@ ul li span.menu-toggler {
 .pager > .active > span, 
 .pager > .active > span:focus, 
 .pager > .active > span:hover {
-  background-color: #757399;
+  background-color: #69668a;
   border-color: #eee;
   color: #fff
 }
@@ -659,7 +659,9 @@ ul li span.menu-toggler {
 #breadcrumbs {
   text-align: right;
   font-size: 11px;
-  font-weight: 600
+  font-weight: 600;
+  margin-bottom: 10px;
+  margin-top: 10px
 }
 
 #breadcrumbs a, .current {
@@ -736,7 +738,7 @@ ul li span.menu-toggler {
 }
 
 .page-links span {
-  background-color: #644c80;
+  background-color: #69668a;
   border: 1px solid #ccc;
   border-radius: 3px;
   color: #fff;
@@ -1106,7 +1108,7 @@ ul.author-social-bar li a:hover { color: #fff }
 }
 
 .widget-title:before {
-  border-bottom: 1px solid #757399;
+  border-bottom: 1px solid #69668a;
   bottom: -1px;
   content: "";
   position: absolute;

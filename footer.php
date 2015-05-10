@@ -4,12 +4,14 @@
  * Contains the closing of the #content main and all content after
  *
  * @package Radix
- * @author Abukwaik http://www.croti.com
  * @since Radix 1.0
  */
 ?>
-        </div> <!-- container -->
-    </div><!--/.main-content-area-->
+<?php if( !is_page_template( 'page-fullwidth.php' ) ) { ?>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div><!--/.main-content-area-->
+<?php } ?>
 </main><!--/#content-->
 <?php if(ro_get_option('footer_display')) : ?>
     <footer class="footer-wrapper">

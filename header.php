@@ -3,7 +3,6 @@
  * Displays all of the <head> section and everything up till <div id="main">
  *
  * @package Radix
- * @author Abukwaik http://www.croti.com
  * @since Radix 1.0
  */
 ?>
@@ -66,10 +65,10 @@
         </div>  <!-- container -->
     </nav> <!-- site-nav -->
 </header>  <!-- header-wrap -->
-<?php if( !is_front_page()) { ?>
+<main id="content" class="site-content"> 
+<?php if( !is_page_template( 'page-fullwidth.php' ) ) { ?>
 <?php get_template_part( 'loop/sub-header'); ?>
-<?php } ?>
-    <main id="content" class="site-content"> 
-        <div class="main-content-area">
-            <div class="container-fluid clearfix">
-
+	<div class="main-content-area">
+		<div class="container-fluid clearfix">
+			<div class="row-fluid">
+				<?php } ?>

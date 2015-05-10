@@ -17,7 +17,7 @@
 define('RTD', 'RADIX_THEME_SLUG'); // Define text domain by changing the Theme Slug
 define('RADIX_THEME_NAME', 'Radix');
 define('RADIX_THEME_SLUG', 'radix');
-define('RADIX_THEME_VERSION', '1.0.1');
+define('RADIX_THEME_VERSION', '1.0.4');
 define('RADIX_THEME_OPTIONS', 'ro_settings');
 define('RADIX_THEME_DIR', get_template_directory());
 define('RADIX_THEME_URI', get_template_directory_uri());

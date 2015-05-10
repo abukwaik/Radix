@@ -3,7 +3,6 @@
  * Custom sinppets functions that act independently of any themes
  *
  * @package Radix
- * @author Abukwaik http://www.croti.com
  * @since Radix 1.0
  * 
  */
@@ -13,27 +12,17 @@
   Add classes to body tag 
 */
 function Radix_body_class($classes) {
-  global $is_lynx, $is_gecko, $is_IE, $is_opera, $is_NS4, $is_safari, $is_chrome, $is_iphone;
+  global $is_lynx, $is_gecko, $is_IE, $is_opera, $is_safari, $is_chrome, $is_iphone;
 
   if($is_lynx) $classes[] = 'lynx';
-  elseif($is_gecko) $classes[] = 'gecko';
-  elseif($is_opera) $classes[] = 'opera';
-  elseif($is_NS4) $classes[] = 'ns4';
+  elseif($is_gecko)  $classes[] = 'gecko';
+  elseif($is_opera)  $classes[] = 'opera';
   elseif($is_safari) $classes[] = 'safari';
   elseif($is_chrome) $classes[] = 'chrome';
-  elseif($is_IE) $classes[] = 'ie';
+  elseif($is_IE)     $classes[] = 'ie';
+  if($is_iphone)     $classes[] = 'iphone';
+  
   else $classes[] = 'unknown';
-
-  if($is_iphone) $classes[] = 'iphone';
-
-  if( ($content_class = ro_get_option('main_content_style')) != 'default'){
-    $classes[] = $content_class;
-  }
-
-  if( ($sidebar_class = ro_get_option('sidebar_style')) != 'default'){
-    $classes[] = $sidebar_class;
-  }
-
   return $classes;
 }
 add_filter('body_class','Radix_body_class');

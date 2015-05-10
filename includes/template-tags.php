@@ -5,7 +5,6 @@
  * Eventually, some of the functionality here could be replaced by core features.
  *
  * @package Radix
- * @author Abukwaik http://www.croti.com
  * @since Radix 1.0
  */
 

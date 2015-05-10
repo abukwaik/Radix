@@ -2,7 +2,6 @@
 
 /**
 * @package Radix enqueued scripts
-* @author Abukwaik http://www.croti.com
 * @since Radix 1.0
 *
 */
@@ -13,10 +12,10 @@
 
 function Radix_scripts() {
 
-	wp_enqueue_script('Radix-modernizr',      RADIX_JS_URI . '/modernizr.min.js', 	array(), '', true);
-	wp_enqueue_script('Radix-bootstrapjs',    RADIX_JS_URI . '/bootstrap.min.js', 	array('jquery'), '', true);
+	wp_enqueue_script('Radix-modernizr',      RADIX_JS_URI . '/modernizr.min.js', 	array(), '2.8.3', true);
+	wp_enqueue_script('Radix-bootstrapjs',    RADIX_JS_URI . '/bootstrap.min.js', 	array('jquery'), '3.3.4', true);
 	wp_enqueue_script('Radix-plugins',        RADIX_JS_URI . '/plugins.min.js', 	array(), '', true);
-	wp_enqueue_script('Radix-scripts',   	  RADIX_JS_URI . '/scripts.min.js', 	array(), '', true);
+	wp_enqueue_script('Radix-scripts',   	  RADIX_JS_URI . '/scripts.min.js', 	array(), '1.0.3', true);
 
 	if ( is_singular() && wp_attachment_is_image() ) {
 		wp_enqueue_script('keyboard-image-navigation',   RADIX_JS_URI . '/keyboard-image-navigation.js');
@@ -28,8 +27,8 @@ function Radix_scripts() {
 
 	// We dont need these in Frontpage
 	if (!is_front_page()) { 
-		wp_enqueue_script('Radix-prettyphoto',     		RADIX_JS_URI  . '/jquery.prettyPhoto.js',  array('jquery'), '', true );
-		wp_enqueue_style ('Radix-prettyphoto-css',   	RADIX_CSS_URI . '/prettyPhoto.css');
+		wp_enqueue_script('Radix-prettyphoto',     		RADIX_JS_URI  . '/jquery.prettyPhoto.min.js',  array('jquery'), '', true );
+		wp_enqueue_style ('Radix-prettyphoto-css',   	RADIX_CSS_URI . '/prettyPhoto.min.css');
 	}
 	// Animate.css - font-awesome
 	wp_enqueue_style('Radix-all-css',   		RADIX_CSS_URI 	. '/all.min.css');

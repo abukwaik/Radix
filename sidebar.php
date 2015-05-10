@@ -3,7 +3,6 @@
  * The sidebar containing the main widget area
  *
  * @package Radix
- * @author Abukwaik http://www.croti.com
  * @since Radix 1.0
  *
  */

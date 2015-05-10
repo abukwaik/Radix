@@ -3,12 +3,10 @@
  * The template for displaying image attachments.
  *
  * @package Radix
- * @author Abukwaik http://www.croti.com
  * @since Radix 1.0
  */
 
 get_header(); ?>
-<div class="row-fluid">
 	<div class="col-md-12">
 		<?php while ( have_posts() ) : the_post(); ?>
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?> itemtype="http://schema.org/BlogPosting" itemscope="itemscope">
@@ -62,5 +60,4 @@ get_header(); ?>
 		<?php comments_template(); ?>
 		<?php endwhile; // end of the loop. ?>
 	</div>
-</div>
 <?php get_footer(); ?>

@@ -3,7 +3,6 @@
  * The template for displaying 404 pages (not found).
  *
  * @package Radix
- * @author Abukwaik http://www.croti.com
  * @since Radix 1.0
  *
  */
