@@ -14,7 +14,7 @@ Nothing special that much:
 * Custom headers
 * Custom search result
 * 100% SEO Optimized
-* Page speed optimized, Score between 95-100/100 [link](https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fstarter.croti.com%2F)
+* Page speed optimized.
 * HTML5 validation ready [link](http://validator.w3.org/check?uri=http%3A%2F%2Fstarter.croti.com%2F&charset=%28detect+automatically%29&doctype=Inline&group=0)
 * CSS3
 * HTML Markup [schema-ready](https://support.google.com/webmasters/answer/99170?hl=en) Validated by [structured testing tool](https://developers.google.com/structured-data/testing-tool/)
