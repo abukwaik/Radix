@@ -1,7 +1,6 @@
 <?php
 /**
  * @package Radix
- * @author Abukwaik http://www.croti.com
  * @since Radix 1.0
  */
 
@@ -123,7 +122,7 @@ $this->sections[] = array(
             'title'     => __('Menu Background color', RTD),
             'subtitle'  => __('Specify menu background color', RTD),
             'transparent' => false,
-            'default'   => '#69668a'
+            'default'   => '#48365c'
             ), 
         array(
             'id'        => 'color_nav_a',
@@ -197,7 +196,7 @@ $this->sections[] = array(
             'subtitle'  => __('Specify header background color', RTD),
             'transparent' => false,
             'required'  => array('hide_top_header', '=', true),
-            'default'   => '#eee'
+            'default'   => '#f3f3f3'
             ),                                                                       
         array(
             'id'        => 'a_color_header_txt',
@@ -206,7 +205,7 @@ $this->sections[] = array(
             'subtitle'  => __('Change the top header links color.', RTD),
             'transparent' => false,
             'required'  => array('hide_top_header', '=', true),
-            'default'   => '#333'
+            'default'   => '#222'
             ),
         array(
             'id'        => 'a_color_header_hov',
@@ -215,7 +214,7 @@ $this->sections[] = array(
             'subtitle'  => __('Change the top header links hover color.', RTD),
             'transparent' => false,
             'required'  => array('hide_top_header', '=', true),
-            'default'   => '#69668a'
+            'default'   => '#48365c'
             ),
         array(
             'id'    => 'info_warning',
@@ -255,7 +254,7 @@ $this->sections[] = array(
             'url'       => true,
             'title'     => __('Custom background', RTD),
             'subtitle'  => __('Choose background image for page title area.', RTD),
-            'default'   => array('url' => RADIX_IMG_URI .'/bg-section.jpg'),
+            'default'   => '',
             'required'  => array('hide_sub_header', '=', true),
             ),                          
         array(
@@ -264,9 +263,9 @@ $this->sections[] = array(
             'title'     => __('Background color', RTD),
             'subtitle'  => __('If there is no Background image, specify the sub header background color', RTD),
             'transparent' => false,
-            'desc'      => __('The default value is #615e95.', RTD),
+            'desc'      => __('The default value is #3a394d.', RTD),
             'required'  => array('hide_sub_header', '=', true),
-            'default'   => '#69668a'
+            'default'   => '#48365c'
             ),
         array(
             'id'        => 'color_sub_header_txt',
@@ -285,6 +284,14 @@ $this->sections[] = array(
             'style'     => 'info',
             'raw'       => __('<h4 style="margin: 3px;">Breadcrumbs</h4>'),
             ),
+        array(
+            'id'        => 'hide_page_title',
+            'type'      => 'switch',
+            'title'     => __('Show Page title ', RTD),
+            'subtitle'  => __('Check if you want to page title from the sup header', RTD),
+            'required'  => array('hide_sub_header', '=', true),
+            'default'   => true
+            ),  
         array(
             'id'        => 'hide_breadcrumb',
             'type'      => 'switch',
@@ -350,7 +357,7 @@ $this->sections[] = array(
             'title' => __('a link color', RTD),
             'subtitle' => __('Color for all links', RTD),
             'transparent' => false,
-            'default' => '#69668a'
+            'default' => '#48365c'
             ),         
         array(
             'id' => 'color_a_hov',
@@ -358,7 +365,7 @@ $this->sections[] = array(
             'title' => __('a link color hover', RTD),
             'subtitle' => __('Hover color for all links', RTD),
             'transparent' => false,
-            'default' => '#b2afe8'
+            'default' => '#8877a3'
             ),                
 
     )
@@ -409,7 +416,7 @@ $this->sections[] = array(
             'title' => __('Post title color', RTD),
             'subtitle' => __('This color will apply to post title heading, which is (H2) by default.', RTD),
             'transparent' => false,
-            'default' => '#333'
+            'default' => '#222'
             ),       
         array(
             'id' => 'color_content_txt',
@@ -417,7 +424,7 @@ $this->sections[] = array(
             'title' => __('Content text color', RTD),
             'subtitle' => __('This color will apply to text color in the content area only', RTD),
             'transparent' => false,
-            'default' => '#333'
+            'default' => '#222'
             ),
         array(
             'id' => 'color_content_meta',
@@ -425,7 +432,7 @@ $this->sections[] = array(
             'title' => __('Meta text color', RTD),
             'subtitle' => __('This color will apply to your meta data (secondary text)', RTD),
             'transparent' => false,
-            'default' => '#888'
+            'default' => '#7a7a7a'
             ),
 
         array(
@@ -449,7 +456,7 @@ $this->sections[] = array(
             'subtitle' => __('Specify content area background color', RTD),
             'transparent' => false,
             'required'  => array('blog_author_bio', '=', true),
-            'default' => '#3a394d',
+            'default' => '#48365c',
             ),
         array(
             'id' => 'author_txt_color',
@@ -536,7 +543,7 @@ $this->sections[] = array(
             'title' => __('Sidebar titles color', RTD),
             'subtitle' => __('This color will apply to your sidebar titles.', RTD),
             'transparent' => false,
-            'default' => '#333'
+            'default' => '#222'
             ),
         array(
             'id' => 'color_sidebar_txt',
@@ -544,7 +551,7 @@ $this->sections[] = array(
             'title' => __('a links color', RTD),
             'subtitle' => __('This color will apply to sidebar links.', RTD),
             'transparent' => false,
-            'default' => '#69668a'
+            'default' => '#48365c'
             ),       
         array(
             'id' => 'color_sidebar_txt_hov',
@@ -552,7 +559,7 @@ $this->sections[] = array(
             'title' => __('a links color hover', RTD),
             'subtitle' => __('This color will apply to sidebar links hover.', RTD),
             'transparent' => false,
-            'default' => '#b2afe8'
+            'default' => '#8877a3'
             ),
     )
 );
@@ -596,7 +603,7 @@ $this->sections[] = array(
             'subtitle'  => __('Specify the footer background color', RTD),
             'transparent' => false,
             'required' => array('footer_display', '=', true),
-            'default'   => '#333',
+            'default'   => '#222',
             ),
         array(
             'id'        => 'color_footer_txt_h',
@@ -614,7 +621,7 @@ $this->sections[] = array(
             'subtitle'  => __('This color will apply to footer text.', RTD),
             'transparent' => false,
             'required' => array('footer_display', '=', true),
-            'default'   => '#aaa'
+            'default'   => '#bbb'
             ),      
         array(
             'id'        => 'color_footer_txt_a',
@@ -623,7 +630,7 @@ $this->sections[] = array(
             'subtitle'  => __('This color will apply to footer links.', RTD),
             'transparent' => false,
             'required' => array('footer_display', '=', true),
-            'default'   => '#aaa'
+            'default'   => '#bab8cc'
             ),       
         array(
             'id'        => 'color_footer_txt_hov',
@@ -632,7 +639,7 @@ $this->sections[] = array(
             'subtitle'  => __('This color will apply to footer links hover.', RTD),
             'transparent' => false,
             'required'  => array('footer_display', '=', true),
-            'default'   => '#b2afe8'
+            'default'   => '#d5d4e0'
             ),
          array(
             'id'        => 'enable_footer_social',
@@ -691,7 +698,7 @@ $this->sections[] = array(
             'subtitle'    => __('Typography option with each property can be called individually.', RTD),
             'default'     => array(
                 'google'        => true,
-                'font-weight'   => '300', 
+                'font-weight'   => '400', 
                 'font-family'   => 'Open Sans',
                 'font-size'     => '',
                 'color'     => '',
@@ -882,7 +889,7 @@ $this->sections[] = array(
             'subtitle'      => __('Typography option with each property can be called individually.', RTD),
             'default'       => array(
                 'google'        => true,
-                'font-weight'   => '300', 
+                'font-weight'   => '', 
                 'font-family'   => 'Open Sans',
                 'font-size' => '',
                 ),

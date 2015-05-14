@@ -4,9 +4,8 @@
  * Redux framework functions
  *
  * @package admin panel functions
- * @author Abukwaik http://www.croti.com
+ * @author Abukwaik http://www.radixtheme.com
  * @copyright Copyright (c) 2015, Radix
- * @link http://www.croti.com
  * @since Radix 1.0
  */
 

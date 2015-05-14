@@ -9,24 +9,23 @@
 
 
 /**
-  Add classes to body tag 
+  Add browsers class to body class
 */
-function Radix_body_class($classes) {
-  global $is_lynx, $is_gecko, $is_IE, $is_opera, $is_safari, $is_chrome, $is_iphone;
 
-  if($is_lynx) $classes[] = 'lynx';
-  elseif($is_gecko)  $classes[] = 'gecko';
+function Radix_body_class($classes) {
+
+  global $is_gecko, $is_IE, $is_opera, $is_safari, $is_chrome;
+
+  if($is_gecko)      $classes[] = 'gecko';
   elseif($is_opera)  $classes[] = 'opera';
   elseif($is_safari) $classes[] = 'safari';
   elseif($is_chrome) $classes[] = 'chrome';
   elseif($is_IE)     $classes[] = 'ie';
-  if($is_iphone)     $classes[] = 'iphone';
-  
-  else $classes[] = 'unknown';
+  else               $classes[] = 'unknown';
+
   return $classes;
 }
 add_filter('body_class','Radix_body_class');
-
 
 /**
   Filter in a link to a content ID attribute for the next/previous image links on image attachment pages
@@ -46,16 +45,28 @@ add_filter( 'attachment_link', 'Radix_enhanced_image_navigation', 10, 2 );
 /**
   password protected post form 
 */
+
 function Radix_custom_password_form() {
   global $post;
   $label = 'pwbox-'.( empty( $post->ID ) ? rand() : $post->ID );
-  $o = '<form class="protected-post-form" action="' . get_option('siteurl') . '/wp-login.php?action=postpass" method="post"><div class="row"><div class="col-lg-10">' . '<p>' . __( "This post is password protected. To view it please enter your password below:" , RTD) . '</p>'. '<label for="' . $label . '">' . __( "Password:" ,RTD) . ' </label><div class="input-group"><label><span class="screen-reader-text">' . __('Password', RTD) . '</span><input class="form-control" value="' . get_search_query() . '" name="post_password" id="' . $label . '" type="password"></label><span class="input-group-btn"><button type="submit" class="btn btn-default" name="submit" id="searchsubmit" value="' . esc_attr__( "Submit",RTD ) . '">' . __( "Submit" ,RTD) . '</button></span></div></div></div></form>';
-  return $o;
+    $output  = '<form class="protected-post-form" action="' . get_option('siteurl') . '/wp-login.php?action=postpass" method="post">';
+    $output .= '<div class="col-lg-10">';
+    $output .= '<p>' . __( "This post is password protected. To view it please enter your password below:" , RTD) . '</p>';
+    $output .= '<div class="input-group">';
+    $output .= '<label for="' . $label . '" class="screen-reader-text">' . sprintf( __('Password', RTD) ) . '</label>';
+    $output .= '<input id="' . $label . '" class="form-control" name="post_password" type="password"/>';
+    $output .= '<span class="input-group-btn"><button type="submit" class="btn btn-default" name="submit" id="searchsubmit" value="' . esc_attr__( "Submit",RTD ) . '">' . __( "Submit" ,RTD) . '</button></span>';
+    $output .= '</div>';
+    $output .= '</div>';
+    $output .= '</form>';
+  return $output;
 }
+
 add_filter( 'the_password_form', 'Radix_custom_password_form' );
 
+
 /** 
-  Wrap embed iframes
+  Add responsive container to embeds
 */
 function Radix_embed_wrap($html, $url, $attr = '', $post_ID = '') {
   if ( strpos($html, 'class="twitter-tweet"') ) {
@@ -64,7 +75,7 @@ function Radix_embed_wrap($html, $url, $attr = '', $post_ID = '') {
     return '<div class="embed-asset embed-responsive embed-responsive-16by9">' . str_replace( array('frame') , array('frame class="embed-responsive-item"'), $html) . '</div>';
   }
 }
-add_filter('embed_oembed_html', 'Radix_embed_wrap', 10, 4);
+add_filter('embed_oembed_html', 'Radix_embed_wrap', 10, 3);
 
 
 /**

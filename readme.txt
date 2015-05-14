@@ -1,6 +1,6 @@
 === Radix ===
 Author: Abukwaik
-Theme URI: http://starter.croti.com/
+Theme URI: http://starter.radixtheme.com/
 Tags: theme-options, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, sticky-post, threaded-comments, translation-ready
 Requires at least: 4.1
 Tested up to: 4.1
@@ -23,8 +23,8 @@ Fully Responsive starter WordPress Theme based on twitter bootstrap 3. Radix is 
 * Custom headers
 * Custom search result
 * 100% SEO Optimized
-* Page speed optimized, Score between 95-100/100 https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fstarter.croti.com%2F
-* HTML5 validation ready http://validator.w3.org/check?uri=http%3A%2F%2Fstarter.croti.com%2F&charset=%28detect+automatically%29&doctype=Inline&group=0
+* Page speed optimized, Score between 95-100/100 https://developers.google.com/speed/pagespeed/insights/?url=http%3A%2F%2Fstarter.radixtheme.com%2F
+* HTML5 validation ready http://validator.w3.org/check?uri=http%3A%2F%2Fstarter.radixtheme.com%2F&charset=%28detect+automatically%29&doctype=Inline&group=0
 * CSS3
 * HTML Markup [schema-ready](https://support.google.com/webmasters/answer/99170?hl=en) Validated by: structured testing tool https://developers.google.com/structured-data/testing-tool
 

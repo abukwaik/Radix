@@ -7,7 +7,7 @@
  * see http://codex.wordpress.org/Plugin_API
  * 
  * @package Radix
- * @author Abukwaik http://www.croti.com
+ * @author Abukwaik http://www.radixtheme.com
  * @copyright Copyright (c) 2015, RADIX
  * @license http://opensource.org/licenses/gpl-2.0.php GPL v2 or later
  * @since Radix 1.0
@@ -17,7 +17,7 @@
 define('RTD', 'RADIX_THEME_SLUG'); // Define text domain by changing the Theme Slug
 define('RADIX_THEME_NAME', 'Radix');
 define('RADIX_THEME_SLUG', 'radix');
-define('RADIX_THEME_VERSION', '1.0.4');
+define('RADIX_THEME_VERSION', '1.0.5');
 define('RADIX_THEME_OPTIONS', 'ro_settings');
 define('RADIX_THEME_DIR', get_template_directory());
 define('RADIX_THEME_URI', get_template_directory_uri());

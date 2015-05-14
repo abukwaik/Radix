@@ -31,6 +31,12 @@
 * Fixed: Minor bugs fixed
 
 ## 1.0.4
+* Added: iPhone class to body classes
 * Improved: Minor improvements to style.css
 * Fixed: Minor bugs fixed
-* Fixed: body classes bugs fixed
+
+## 1.0.5
+* Modified: page title and breadcrumbs elements has wrapped in the same row
+* Added: Option to hide page title section
+* Improved: Post password protection behavior 
+* Improved: cleanup CSS code

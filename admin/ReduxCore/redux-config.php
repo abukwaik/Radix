@@ -225,7 +225,7 @@
                     // Choose an priority for the admin bar menu
                     'global_variable'      => '',
                     // Set a different name for your global variable other than the opt_name
-                    'dev_mode'             => true,
+                    'dev_mode'             => false,
                     'disable_tracking'     => true,
                     // Show the time the page took to load, etc
                     'update_notice'        => false,

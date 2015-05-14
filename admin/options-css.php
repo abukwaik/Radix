@@ -109,16 +109,11 @@
 
 #sub-header {
   <?php if(!empty($sub_header_bg_img)): ?>
-  background-image: url('<?php echo esc_url($sub_header_bg_img); ?>');
-  background-size: cover; 
-  background-repeat: no-repeat; 
-  background-position: 50% 0px; 
-  background-attachment: fixed; 
-  min-height: 0;
+  background: url('<?php echo esc_url($sub_header_bg_img); ?>') center center / cover no-repeat fixed;
   <?php else: ?>
   background-color: <?php echo esc_attr($sub_header_bg_color); ?>;
   <?php endif; ?>
-  color : <?php echo esc_attr($color_sub_header_txt); ?>;
+  color: <?php echo esc_attr($color_sub_header_txt); ?>;
 }
 
 #breadcrumbs a {
@@ -205,6 +200,9 @@ a:hover, a:active, a:focus {
 
 .footer-wrapper, #footer-socials, .footer-bottom-wrapper {
   background-color: <?php echo esc_attr($color_footer_bg); ?>;
+}
+
+.footer-wrapper, .footer-bottom-wrapper {
   color: <?php echo esc_attr($color_footer_txt); ?>;
 }
 

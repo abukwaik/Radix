@@ -8,9 +8,9 @@
  */
 ?>
 <?php if( !is_page_template( 'page-fullwidth.php' ) ) { ?>
-                </div> <!-- row -->
-            </div> <!-- container -->
-        </div><!--/.main-content-area-->
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </div><!--/.main-content-area-->
 <?php } ?>
 </main><!--/#content-->
 <?php if(ro_get_option('footer_display')) : ?>

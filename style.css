@@ -1,10 +1,10 @@
 /*
 Theme Name: Radix
-Theme URI: http://starter.croti.com/
+Theme URI: http://starter.radixtheme.com/
 Author: Abukwaik
-Author URI: http://www.croti.com/
+Author URI: http://www.radixtheme.com/
 Description: Fully Responsive starter WordPress Theme based on twitter bootstrap 3. Radix is built with clean HTML5 and CSS3. Simple, super flexible theme designed for Multi-Purpose, and comes packed with powerful options panel.
-Version: 1.0.4
+Version: 1.0.5
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: theme-options, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, sticky-post, threaded-comments, translation-ready
@@ -19,6 +19,14 @@ Use it to make something cool, have fun, and share what you've learned with othe
   margin: 5% 0;
 }
 
+.clear     { clear: both; width: 100%; height: 20px }
+.margin    { margin-top: 2.5em }
+.padding   { padding-top: 2.5em }
+.no-margin { margin: 0; padding: 0 }
+.center    { float: none; margin: 0 auto }
+.remove    { display: none }
+.hide      { visibility: hidden }
+
 .wow { visibility:hidden }
 
 ol.unstyled, 
@@ -26,9 +34,6 @@ ul.unstyled {
   list-style: none none;
   margin: 0
 }
-
-.no-margin { margin: 0 !important }
-.no.padding { padding: 0 !important }
 
 a:hover,
 a:active {
@@ -100,14 +105,14 @@ img.aligncenter {
 }
 
 .screen-reader-text {
-  clip: rect(1px,1px,1px,1px);
-  position: absolute!important;
-  width: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+  height: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  width: 1px
 }
 
-.screen-reader-text:active,
-.screen-reader-text:focus,
-.screen-reader-text:hover {
+.screen-reader-text:focus {
   background-color: #f1f1f1;
   border-radius: 3px;
   box-shadow: 0 0 2px 2px rgba(0,0,0,.6);
@@ -423,7 +428,7 @@ p > video {
 
 .btn-default {
   color: #fff;
-  background-color: #69668a;
+  background-color: #48365c;
   border-color: #644C80
 }
 
@@ -461,6 +466,10 @@ img.alignleft {
   min-height: 0;
   position: relative;
   border-radius: 0;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: inherit;
 }
 
 .navbar-form input {
@@ -506,7 +515,7 @@ img.alignleft {
 #mobile-menu .navbar-nav > li a:hover,
 #mobile-menu .navbar-nav > li a:focus,
 #mobile-menu .navbar-nav > li a:active{
-  background-color: #69668a;
+  background-color: #48365c;
   color: #fff
 }
 
@@ -516,7 +525,7 @@ img.alignleft {
 
 #mobile-menu .navbar-collapse .navbar-nav > li > a:focus, 
 #mobile-menu .navbar-collapse .navbar-nav > li > a:hover {
-  background-color: #69668a;
+  background-color: #48365c;
   color: #fff
 }
 
@@ -545,7 +554,7 @@ ul li span.menu-toggler {
 
 .very-muted {
   text-transform: uppercase;
-  color: #aaa!important;
+  color: #bbb!important;
   font-weight: 700;
   display: inline-block;
   font-size: 11px
@@ -557,7 +566,7 @@ ul li span.menu-toggler {
 }
 
 .pager li > a:focus, .pager li > a:hover {
-  background-color: #69668a;
+  background-color: #48365c;
   color: #fff
 }
 
@@ -567,8 +576,8 @@ ul li span.menu-toggler {
 .pager > .active > span, 
 .pager > .active > span:focus, 
 .pager > .active > span:hover {
-  background-color: #69668a;
-  border-color: #eee;
+  background-color: #48365c;
+  border-color: #f3f3f3;
   color: #fff
 }
 
@@ -658,8 +667,7 @@ ul li span.menu-toggler {
 
 #breadcrumbs {
   text-align: right;
-  font-size: 11px;
-  font-weight: 600;
+  font-size: 12px;
   margin-bottom: 10px;
   margin-top: 10px
 }
@@ -719,7 +727,7 @@ ul li span.menu-toggler {
 }
 
 .sticky-pin:before {
-  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAMAAABhq6zVAAAAdVBMVEUAAAD///8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABnRQBiQQAAAAAAAAAAAAAAAAAAAAAAAAA7JwDcmADtogDlnADTkADXkwDNjQDsoQDLjADroADelwDclgDalQDlnADkmwDhmQDwpADwpADwpACYC0YSAAAAJnRSTlMAAAMFCQsOERUhJCUlJygqLzA8QUFocqGjsrq6vMPL0NLZ2t3z/XhFW2IAAABJSURBVAjXY2BEAgxMrOKqakCgIsbAyMDCKacGBtJADpuAAoQjC+IIkslRlkFwlESEpSAcAXlFXg5+IUkwh0+Ch5mJnZtLlIERAJzKC8yA9G2GAAAAAElFTkSuQmCC);
+  background-image: url(data:image/png;base64,iVBORw0KGgobbbANSUhEUgbbbAwbbbAMCAMbbbBhq6zVbbbAdVBMVEUbbbD///8bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbBnRQBiQQbbbbbbbbbbbbbbbbbbbbbbbbA7JwDcmADtogDlnADTkADXkwDNjQDsoQDLjADroADelwDclgDalQDlnADkmwDhmQDwpADwpADwpACYC0YSbbbAJnRSTlMbbbMFCQsOERUhJCUlJygqLzA8QUFocqGjsrq6vMPL0NLZ2t3z/XhFW2IbbbBJSURBVAjXY2BEAgxMrOKqakCgIsbAyMDCKacGBtJADpuAAoQjC+IIkslRlkFwlESEpSAcAXlFXg5+IUkwh0+Ch5mJnZtLlIERAJzKC8yA9G2GbbbAAElFTkSuQmCC);
   background-repeat: no-repeat;
   content: "";
   padding: 10px;
@@ -738,7 +746,7 @@ ul li span.menu-toggler {
 }
 
 .page-links span {
-  background-color: #69668a;
+  background-color: #48365c;
   border: 1px solid #ccc;
   border-radius: 3px;
   color: #fff;
@@ -775,7 +783,7 @@ ul li span.menu-toggler {
 }
 
 .page-title {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #f3f3f3;
   padding: 10px 0;
   position: relative
 }
@@ -791,11 +799,11 @@ ul li span.menu-toggler {
 }
 
 .entry-meta {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid #f3f3f3;
 }
 
 .entry-meta, .entry-footer {
-  border-top: 1px solid #eee;
+  border-top: 1px solid #f3f3f3;
   font-size: 11px;
   font-weight: 600;
   position: relative;
@@ -830,7 +838,7 @@ ul li span.menu-toggler {
 }
 
 .entry-content pre {
-  background: #eee;
+  background: #f3f3f3;
   border: 1px solid #cecece;
   padding: 10px
 }
@@ -932,12 +940,12 @@ ul li span.menu-toggler {
 }
 
 .author-bio .bio-name a {
-  color: #b2afe8
+  color: #bab8cc
 }
 
 .author-bio .bio-name a:hover, 
 .author-bio .bio-name a:focus  {
-  color: #fff
+  color: #d5d4e0
 }
 
 .author-socials {
@@ -1104,11 +1112,12 @@ ul.author-social-bar li a:hover { color: #fff }
 
 #sidebar .widget_archive li a:hover,
 #sidebar .widget_categories li a:hover {
-  padding: 2px
+ position: relative;
+ top: 1px;
 }
 
 .widget-title:before {
-  border-bottom: 1px solid #69668a;
+  border-bottom: 1px solid #48365c;
   bottom: -1px;
   content: "";
   position: absolute;
@@ -1176,7 +1185,8 @@ ul.author-social-bar li a:hover { color: #fff }
 .social-bar-text {
   margin-right: 5px;
   text-transform: uppercase;
-  font-size: 12px
+  font-size: 12px;
+  color: #bbb
 }
 
 .social-bar a {

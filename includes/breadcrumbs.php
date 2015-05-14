@@ -144,3 +144,24 @@ function Radix_breadcrumb() {
         echo '</div>';
     }
 }
+
+
+/**
+     Radix Page title
+**/
+
+function Radix_page_title() {
+    $page_title = get_option('page_for_posts') ? __('Blog', RTD) : get_the_title(get_option('page_for_posts')) ;
+    $current_category = single_cat_title('', false);
+    
+    if (is_home()) {
+        echo '<h4 class="sub-header-title" itemprop="headline">' . $page_title . ' </h4>';
+    } elseif (is_category()) {
+        echo '<h4 class="sub-header-title" itemprop="headline">' . $current_category . ' </h4>';
+    } elseif (is_search()) {
+        echo '<h4 class="sub-header-title" itemprop="headline">' . __('Search', RTD) . ' </h4>';
+    } else {
+        echo '<h4 class="sub-header-title" itemprop="headline">' . get_the_title() . ' </h4>';
+    }  
+} 
+

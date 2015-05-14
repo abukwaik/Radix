@@ -15,7 +15,7 @@ Nothing special that much:
 * Custom search result
 * 100% SEO Optimized
 * Page speed optimized.
-* HTML5 validation ready [link](http://validator.w3.org/check?uri=http%3A%2F%2Fstarter.croti.com%2F&charset=%28detect+automatically%29&doctype=Inline&group=0)
+* HTML5 validation ready [link](http://validator.w3.org/check?uri=http%3A%2F%2Fstarter.radixtheme.com%2F&charset=%28detect+automatically%29&doctype=Inline&group=0)
 * CSS3
 * HTML Markup [schema-ready](https://support.google.com/webmasters/answer/99170?hl=en) Validated by [structured testing tool](https://developers.google.com/structured-data/testing-tool/)
 * Optimized breadcrumbs for SEO
@@ -39,10 +39,10 @@ Third-Party Plugins:
 ![screenshot](http://cdn.croti.com/Radix-screenshot.png)
 
 ## Demo
-[Demo](http://starter.croti.com/)
+[Demo](http://starter.radixtheme.com/)
 
 ## Changelog
-* 10-05-2015 [v1.0.4](https://github.com/abukwaik/Radix/blob/master/CHANGELOG.md#106)
+* 14-05-2015 [v1.0.5](https://github.com/abukwaik/Radix/blob/master/CHANGELOG.md#106)
 
 ## Credit
 
