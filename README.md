@@ -42,7 +42,7 @@ Third-Party Plugins:
 [Demo](http://starter.radixtheme.com/)
 
 ## Changelog
-* 14-05-2015 [v1.0.5](https://github.com/abukwaik/Radix/blob/master/CHANGELOG.md#106)
+* 24-05-2015 [v1.0.7](https://github.com/abukwaik/Radix/blob/master/CHANGELOG.md#106)
 
 ## Credit
 
