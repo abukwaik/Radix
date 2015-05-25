@@ -51,7 +51,6 @@ Third-Party Plugins:
 * [bones](https://github.com/eddiemachado/bones)
 * [Redux framework](https://github.com/ReduxFramework/redux-framework)
 * [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
-* [jQuery Easing](https://github.com/gdsmith/jquery.easing)
 * [WOW.js](https://github.com/matthieua/WOW)
 * [jQuery nicescroll](https://github.com/inuyaksa/jquery.nicescroll)
 * [animate.css](http://daneden.github.io/animate.css/)
