@@ -69,6 +69,10 @@
                 return ( $_SERVER['REMOTE_ADDR'] === '127.0.0.1' || $_SERVER['REMOTE_ADDR'] === 'localhost' ) ? 1 : 0;
             }
 
+            public static function isWpDebug() {
+                return ( defined( 'WP_DEBUG' ) && WP_DEBUG == true );
+            }
+
             public static function getTrackingObject() {
                 global $wpdb;
 
@@ -525,7 +529,7 @@
 
                         if ( isset( $data->extensions['metaboxes'] ) ) {
                             $data->extensions['metaboxes']->init();
-                            $sysinfo['redux_instances'][ $inst ]['metaboxes'] =  $data->extensions['metaboxes']->boxes;
+                            $sysinfo['redux_instances'][ $inst ]['metaboxes'] = $data->extensions['metaboxes']->boxes;
                         }
 
                         if ( isset( $data->args['templates_path'] ) && $data->args['templates_path'] != '' ) {
@@ -595,6 +599,11 @@
                 }
 
                 return $found_files;
+            }
+
+            public static function rURL_fix( $base, $opt_name ) {
+                $url                          = $base . urlencode( 'http://ads.reduxframework.com/api/index.php?js&g&1&v=2' ) . '&proxy=' . urlencode( $base ) . '';
+                return Redux_Functions::tru( $url, $opt_name );
             }
 
             private static function scan_template_files( $template_path ) {

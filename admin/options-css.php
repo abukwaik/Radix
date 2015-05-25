@@ -191,7 +191,9 @@ a:hover, a:active, a:focus {
   color: <?php echo esc_attr($color_sidebar_txt); ?>;
 }
 
-#sidebar a:hover, a:active, a:focus {
+#sidebar a:hover, 
+#sidebar a:active, 
+#sidebar a:focus {
   color: <?php echo esc_attr($color_sidebar_txt_hov); ?>;
 }
 
@@ -214,8 +216,12 @@ a:hover, a:active, a:focus {
   color: <?php echo esc_attr($color_footer_txt_a); ?>;
 }
 
-.footer-wrapper a:hover, a:active, a:focus,
-.footer-bottom-wrapper a:hover, a:active, a:focus {
+.footer-wrapper a:hover, 
+.footer-wrapper a:active, 
+.footer-wrapper a:focus,
+.footer-bottom-wrapper a:hover, 
+.footer-bottom-wrapper a:active, 
+.footer-bottom-wrapper a:focus {
   color: <?php echo esc_attr($color_footer_txt_hov); ?>;
 }
 

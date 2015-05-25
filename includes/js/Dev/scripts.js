@@ -29,7 +29,7 @@
         wow.init();
 
     // To top
-        var offset = 1000;
+        var offset = 100;
         var duration = 1000;
         $(window).scroll(function() {
             if ($(this).scrollTop() > offset) {
@@ -42,9 +42,10 @@
             event.preventDefault();
             $("html, body").animate({
                 scrollTop: 0
-            }, duration, "jswing");
-            return false;
+          }, 1000);
+          return false;
         });
+
 
     // Sticky nav
         var navOffset, scrollPos = 0;

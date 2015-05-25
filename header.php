@@ -15,25 +15,21 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-<!--[if lt IE 9]>
-<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/includes/js/html5shiv-printshiv.min.js"></script>
-<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/includes/js/respond.min.js"></script>
-<![endif]-->
 <?php wp_head(); ?>
 </head>
 <body <?php body_class(); ?> itemscope="itemscope" itemtype="http://schema.org/WebPage">
 <?php if (ro_get_option('sticky_header')) { ?>
 <header id="header-wrap" class="site" itemscope="itemscope" itemtype="http://schema.org/Organization" role="banner">
-    <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', RTD ); ?></a>
+    <a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'radix' ); ?></a>
     <?php } ?>
     <?php if (ro_get_option('hide_top_header')) { ?>
-    <?php get_template_part( 'loop/top-header' ); ?>
+    <?php get_template_part( 'loop/top-header'); ?>
     <?php } ?>
     <nav id="site-nav" class="navbar navbar-default navbar-main">
         <div class="container clearfix">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                    <span class="sr-only"><?php _e('Toggle navigation', RTD); ?></span>
+                    <span class="sr-only"><?php _e('Toggle navigation', 'radix' ); ?></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>

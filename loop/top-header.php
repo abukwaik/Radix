@@ -14,13 +14,13 @@
                     <?php $phone_text = ro_get_option('phone_text');
                     if (!empty ($phone_text) && ro_get_option('phone_text')) { ?>
                     <span class="header-phone" itemprop="telephone">
-                        <a href="tel:<?php echo ro_get_option('phone_text'); ?>"><?php echo ro_get_option('phone_text'); ?></a>
+                        <a href="tel:<?php echo esc_url( ro_get_option('phone_text') ); ?>"><?php echo ro_get_option('phone_text'); ?></a>
                     </span> 
                     <?php } ?>
                     <?php $email_text = ro_get_option('email_text');
                     if (!empty ($email_text) && ro_get_option('email_text')) { ?>
                     <span class="header-email" itemprop="email">
-                        <a href="mailto:<?php echo ro_get_option('email_text'); ?>"><?php echo ro_get_option('email_text'); ?></a> 
+                        <a href="mailto:<?php echo esc_url( ro_get_option('email_text') ); ?>"><?php echo ro_get_option('email_text'); ?></a> 
                     </span>
                     <?php } ?>
                     <?php $url_text = ro_get_option('custom_url_text');

@@ -14,10 +14,9 @@
  *
  */
 
-define('RTD', 'RADIX_THEME_SLUG'); // Define text domain by changing the Theme Slug
 define('RADIX_THEME_NAME', 'Radix');
 define('RADIX_THEME_SLUG', 'radix');
-define('RADIX_THEME_VERSION', '1.0.5');
+define('RADIX_THEME_VERSION', '1.0.8');
 define('RADIX_THEME_OPTIONS', 'ro_settings');
 define('RADIX_THEME_DIR', get_template_directory());
 define('RADIX_THEME_URI', get_template_directory_uri());
@@ -57,13 +56,13 @@ if ( !function_exists( 'Radix_setup' ) ) {
     // Register Menus
     register_nav_menus(
       array(
-        'primary'     => __( 'Primary', RTD ),
-        'footer-menu' => __( 'Footer Menu', RTD ),
+        'primary'     => __( 'Primary', 'radix' ),
+        'footer-menu' => __( 'Footer Menu', 'radix' ),
         ) 
       );
 
     // allows users to set a custom background.
-    add_theme_support( 'custom-background', apply_filters( 'twentyfourteen_custom_background_args', array(
+    add_theme_support( 'custom-background', apply_filters( 'radix_custom_background_args', array(
       'default-color' => 'f5f5f5',
       )));
 

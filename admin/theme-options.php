@@ -38,13 +38,15 @@ function ro_generate_option_css(){
 /* add to head including favicons and custom css */
 function ro_generate_option_to_head(){
 	// Add favicons
-	if($favicon = ro_get_option_media('favicon')) {
-		echo '<link rel="shortcut icon" href="' . $favicon . '" type="image/x-icon" />';
+	$favicon = ro_get_option_media('favicon');
+	if(!empty($favicon)) { 
+		echo '<link rel="shortcut icon" href="' . esc_url( $favicon ) . '" type="image/x-icon" />';
 	}
 
 	// Add apple touch icon
-	if($apple_touch_icon = ro_get_option_media('apple_touch_icon')) {
-		echo '<link rel="apple-touch-icon" href="' . $apple_touch_icon . '" />';
+	$apple_touch_icon = ro_get_option_media('apple_touch_icon');
+	if(!empty($apple_touch_icon)) { 
+		echo '<link href="' . esc_url( $apple_touch_icon ) . '" rel="apple-touch-icon" />';
 	}
 
 	// Theme option CSS output
@@ -91,8 +93,8 @@ function ro_update_option($key = false, $value = false){
 
 /* Maintenance mode.*/
 function ro_maintenance_mode(){  
-  if( ro_get_option ('maintenance_mode') ){  
-    wp_die('Maintenance, please come back soon.', 'Maintenance - please come back soon.', array('response' => '503'));  
+  if( ro_get_option ('maintenance_mode') && !is_user_logged_in() ) {  
+    wp_die(__('Maintenance, please come back soon.', 'radix'), __('Maintenance - please come back soon.', 'radix'), array('response' => '503'));  
   }  
 }
 add_action('get_header', 'ro_maintenance_mode');
@@ -108,11 +110,6 @@ function ro_wp_footer(){
 				' . $custom_js . '
 			/* ]]> */
 			</script>';
-	}
-
-	//Google Analytics (tracking)
-	if($ga = ro_get_option('ga')) {
-		echo $ga;
 	}
 }
 add_action('wp_footer', 'ro_wp_footer', 99);

@@ -4,7 +4,7 @@ Theme URI: http://starter.radixtheme.com/
 Author: Abukwaik
 Author URI: http://www.radixtheme.com/
 Description: Fully Responsive starter WordPress Theme based on twitter bootstrap 3. Radix is built with clean HTML5 and CSS3. Simple, super flexible theme designed for Multi-Purpose, and comes packed with powerful options panel.
-Version: 1.0.5
+Version: 1.0.8
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: theme-options, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, sticky-post, threaded-comments, translation-ready
@@ -454,18 +454,19 @@ p > video {
 }
 
 img.alignleft {
-    float: left;
-    margin: 0 1em 1em 0;
+  float: left;
+  margin: 0 1em 1em 0;
 }
 
 .navbar {
   padding: 10px 0;
   z-index: 999;
-  background: rgba(255,255,255,.9);
+  background-color: rgba(255, 255, 255, 0);
   margin-bottom: 0;
   min-height: 0;
   position: relative;
   border-radius: 0;
+  transition: background-color 1s ease 0s;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -498,42 +499,6 @@ img.alignleft {
   }
 }
 
-/* MOBILE MENU */
-#mobile-menu .navbar-collapse {
-  max-height: 420px;
-  height: 100%;
-  overflow-y: auto
-}
-
-#mobile-menu .navbar-collapse .navbar-nav > li a {
-  color: #777;
-  display: block;
-  padding: 5px 10px;
-  cursor: pointer
-}
-
-#mobile-menu .navbar-nav > li a:hover,
-#mobile-menu .navbar-nav > li a:focus,
-#mobile-menu .navbar-nav > li a:active{
-  background-color: #48365c;
-  color: #fff
-}
-
-#mobile-menu .navbar-collapse .navbar-nav > .active > a, 
-#mobile-menu .navbar-collapse .navbar-nav > .active > a:focus, 
-#mobile-menu .navbar-collapse .navbar-nav > .active > a:hover,
-
-#mobile-menu .navbar-collapse .navbar-nav > li > a:focus, 
-#mobile-menu .navbar-collapse .navbar-nav > li > a:hover {
-  background-color: #48365c;
-  color: #fff
-}
-
-#mobile-menu .navbar-collapse .navbar-nav ul {
-  list-style: none;
-  padding: 5px 0 0 20px
-}
-
 ul li span.menu-toggler {
   cursor: pointer;
   right: 10px;
@@ -545,20 +510,6 @@ ul li span.menu-toggler {
   background: #fcf8e3;
   color: #8a6d3b
 }
-
-/*.text-muted {
-  color: inherit;
-  text-decoration: none;
-  font-weight: 700
-}
-
-.very-muted {
-  text-transform: uppercase;
-  color: #bbb!important;
-  font-weight: 700;
-  display: inline-block;
-  font-size: 11px
-}*/
 
 .pager li > a, 
 .pager li > span {
@@ -644,21 +595,14 @@ ul li span.menu-toggler {
 .logo .site-title { margin: 5px 0 }
 
 .is-sticky {
+  background-color: rgba(255, 255, 255, 0.9);
   z-index: 9999;
   left: 0;
   position: fixed;
   top: 0;
   width: 100%;
   box-shadow: 0 0 20px 0 rgba(0,0,0,.2);
-  border-top: 3px solid #644C80;
-  -webkit-animation:fadeIn ease-in 1;
-  animation:fadeIn ease-in 1;
-
-  -webkit-animation-fill-mode:forwards;
-  animation-fill-mode:forwards;
-
-  -webkit-animation-duration:.5s;
-  animation-duration:.5s
+  border-top: 2px solid #644C80;
 }
 
 #sub-header {
@@ -805,7 +749,7 @@ ul li span.menu-toggler {
 .entry-meta, .entry-footer {
   border-top: 1px solid #f3f3f3;
   font-size: 11px;
-  font-weight: 600;
+  font-weight: 500;
   position: relative;
   text-transform: uppercase
 }

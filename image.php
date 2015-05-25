@@ -17,10 +17,10 @@ get_header(); ?>
 						<?php 
 							$metadata = wp_get_attachment_metadata();
 							$size_link = sprintf ( 
-								'<span class="attachment-meta full-size-link"><a href="%1$s" title="%2$s">' . __( '%3$s (%4$s &times; %5$s)', RTD ) . '</a></span>',
+								'<span class="attachment-meta full-size-link"><a href="%1$s" title="%2$s">' . __( '%3$s (%4$s &times; %5$s)', 'radix' ) . '</a></span>',
 								esc_url( wp_get_attachment_url() ),
-								esc_attr__( 'Link to full-size image', RTD ),
-								__( 'Full resolution', RTD ),
+								esc_attr__( 'Link to full-size image', 'radix' ),
+								__( 'Full resolution', 'radix' ),
 								$metadata['width'],
 								$metadata['height']
 								); 
@@ -29,8 +29,8 @@ get_header(); ?>
 					</div><!-- .entry-meta -->
 					<nav role="navigation" id="image-navigation" class="image-navigation">
 						<ul class="pager">
-							<li><?php previous_image_link( false, __( '<i class="fa fa-chevron-left" aria-hidden="true"></i> Previous', RTD ) ); ?></li>
-							<li><?php next_image_link( false, __( 'Next <i class="fa fa-chevron-right" aria-hidden="true"></i>', RTD ) ); ?></li>
+							<li><?php previous_image_link( false, __( '<i class="fa fa-chevron-left" aria-hidden="true"></i> Previous', 'radix' ) ); ?></li>
+							<li><?php next_image_link( false, __( 'Next <i class="fa fa-chevron-right" aria-hidden="true"></i>', 'radix' ) ); ?></li>
 						</ul>
 					</nav> <!-- #image-navigation -->
 				</header><!-- .entry-header -->
@@ -46,7 +46,7 @@ get_header(); ?>
 						<?php the_content(); ?>
 						<?php
 							wp_link_pages( array(
-								'before'      	 => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', RTD ) . '</span>',
+								'before'      	 => '<div class="page-links"><span class="page-links-title">' . __( 'Pages:', 'radix' ) . '</span>',
 								'after'       	 => '</div>',
 								'link_before' 	 => '<span>',
 								'link_after'  	 => '</span>',

@@ -41,7 +41,7 @@
     padding: 2px 5px 2px 0;
 }
 
-.external:before {
+.external:after {
     font-family: 'FontAwesome';
     content: " \f08e";
     margin-right: 5px;

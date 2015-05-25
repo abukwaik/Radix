@@ -49,13 +49,13 @@ add_filter( 'attachment_link', 'Radix_enhanced_image_navigation', 10, 2 );
 function Radix_custom_password_form() {
   global $post;
   $label = 'pwbox-'.( empty( $post->ID ) ? rand() : $post->ID );
-    $output  = '<form class="protected-post-form" action="' . get_option('siteurl') . '/wp-login.php?action=postpass" method="post">';
+    $output  = '<form class="protected-post-form" action="' . esc_url( home_url( '/wp-login.php?action=postpass' ) ) . '" method="post">';
     $output .= '<div class="col-lg-10">';
-    $output .= '<p>' . __( "This post is password protected. To view it please enter your password below:" , RTD) . '</p>';
+    $output .= '<p>' . __( "This post is password protected. To view it please enter your password below:" , 'radix') . '</p>';
     $output .= '<div class="input-group">';
-    $output .= '<label for="' . $label . '" class="screen-reader-text">' . sprintf( __('Password', RTD) ) . '</label>';
+    $output .= '<label for="' . $label . '" class="screen-reader-text">' . sprintf( __('Password', 'radix') ) . '</label>';
     $output .= '<input id="' . $label . '" class="form-control" name="post_password" type="password"/>';
-    $output .= '<span class="input-group-btn"><button type="submit" class="btn btn-default" name="submit" id="searchsubmit" value="' . esc_attr__( "Submit",RTD ) . '">' . __( "Submit" ,RTD) . '</button></span>';
+    $output .= '<span class="input-group-btn"><button type="submit" class="btn btn-default" name="submit" id="searchsubmit" value="' . esc_attr__( "Submit",'radix' ) . '">' . __( "Submit" ,'radix') . '</button></span>';
     $output .= '</div>';
     $output .= '</div>';
     $output .= '</form>';

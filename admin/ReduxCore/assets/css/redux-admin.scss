@@ -1,3 +1,11 @@
+.spinner {
+    visibility: hidden;
+    display: block;
+}
+.spinner.is-active{
+    visibility: visible;
+}
+
 .redux-main .description {
     margin-top: 7px;
 }
@@ -99,10 +107,10 @@
                 bottom: auto;
                 width: auto;
             }
-            
+
             span {
                 color: #888;
-                
+
                 &.redux-dev-mode-notice {
                     //position: absolute;
                     background-color: #f0ad4e;
@@ -571,13 +579,6 @@
         display: inline-block;
         margin-bottom: 6px;
     }
-
-    #redux-object-browser {
-        overflow: auto;
-        word-wrap: break-word;
-        max-height: 600px;
-        max-width: 100%;
-    }
 }
 
 /* main */
@@ -714,7 +715,7 @@
 
     #redux-header {
         text-align: center;
-        
+
         .display_header {
             float: none;
         }
@@ -791,7 +792,7 @@
     margin-top: 0;
 }
 
-@media screen and (max-width: 1124px) {
+@media screen and (max-width: 600px) {
     .redux-sidebar {
         width: 44px;
 
@@ -864,7 +865,13 @@
 }
 
 //mp6 fixes
-@media screen and (max-width: 783px) {
+@media screen and (max-width: 782px) {
+    .form-table>tbody>tr>th {
+        width: 100%;
+    }
+    .redux_field_th {
+        padding-bottom:0;
+    }
     .mp6 {
         .redux-container {
             #info_bar {
@@ -877,6 +884,17 @@
             }
         }
     }
+    .redux-container-switch label {
+        padding: 5px 10px !important;
+
+    }
+    .redux-container-button_set label {
+        padding: 12px 10px;
+    }
+    .redux-container #redux-footer #redux-share {
+        line-height: 34px;
+    }
+
 }
 
 pre {
@@ -959,7 +977,7 @@ pre {
         border-color: #767676 !important;
     }
     .redux-container-switch .cb-enable.selected,
-    .redux-container .ui-buttonset .ui-state-active {
+    .redux-field-container .ui-buttonset .ui-state-active {
         @include backgroundGradient($accentColor);
         border-color: darken($accentColor, 15%) !important;
         border-color: darken($accentColor, 10%) !important;
@@ -1186,7 +1204,7 @@ pre {
 }
 
 /* Light fresh theme */
-.admin-color-fresh {
+.admin-color-fresh, .wp-customizer {
     @include adminThemeColorOverrides(#a0a5aa, #0073aa, #23282d, #1e8cbe);
 }
 
@@ -1225,21 +1243,29 @@ pre {
     @include adminThemeColorOverrides(#f0c8c6, #dd823b, #b43c38, #cc6c23);
 }
 
-@media screen and (max-width: 1124px) {
+@media screen and (max-width: 600px) {
     // .redux-group-tab-link-a span { margin-top: -2px; }
-    .redux-group-tab-link-a span {
-        //background: #222;
-        //color: white;
-        padding: 11px 12px;
-        color: #555;
-        -webkit-transition: all 0.3s;
-        -moz-transition: all 0.3s;
-        transition: all 0.3s;
-        &:hover {
-            //color: #2ea2cc;
-            //background: black;
-            background: #e5e5e5;
+    .redux-group-tab-link-a {
+        min-height: 15px;
+        span {
+            //background: #222;
+            //color: white;
+            padding: 11px 12px;
+            color: #555;
+            -webkit-transition: all 0.3s;
+            -moz-transition: all 0.3s;
+            transition: all 0.3s;
+            &:hover {
+                //color: #2ea2cc;
+                //background: black;
+                background: #e5e5e5;
+            }
+            text-shadow: none !important;
         }
+    }
+
+    .redux-sidebar a {
+
     }
 }
 
@@ -1264,7 +1290,7 @@ pre {
 
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 600px) {
     #redux-footer #redux-share,
     .redux-hint-qtip {
         display: none;
@@ -1272,16 +1298,6 @@ pre {
 
     .redux-container .redux-action_bar {
         float: none;
-    }
-}
-
-@media screen and (max-width: 476px) {
-    .redux-container .expand_options {
-        display: none;
-    }
-
-    #redux-footer, .redux-container #info_bar {
-        text-align: center;
     }
 }
 
@@ -1308,8 +1324,26 @@ pre {
         display: block;
     }
 }
+@media screen and (max-width: 640px) {
+    #redux-defaults-section {
+        display: none;
+    }
+}
+@media screen and (max-width: 730px) {
+    #redux-share {
+        display:none;
+    }
+}
+@media screen and (max-width: 730px) {
+    #redux-defaults-section2 {
+        display: none;
+    }
+    #redux-share {
+        display:none;
+    }
+}
 
-@media screen and (max-width: 1124px) {
+@media screen and (max-width: 600px) {
     .form-table > tbody > tr > th {
         padding-bottom: 0 !important;
     }
@@ -1323,6 +1357,9 @@ pre {
         .redux-field-container {
             padding-top: 0;
             padding-bottom: 0;
+        }
+        .subsection a {
+            min-height: 15px;
         }
     }
 }
@@ -1379,6 +1416,9 @@ pre {
 
         .redux-hint-qtip {
             float: left !important;
+        }
+        .redux-action_bar .button {
+            margin-top: -1px;
         }
     }
 }
@@ -1503,4 +1543,8 @@ pre {
         margin-right: -20px;
         margin-bottom: -10px;
     }
+}
+.redux-qtip {
+    z-index: 999999 !important;
+
 }
