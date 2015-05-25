@@ -29,7 +29,6 @@ Third-Party Plugins:
 
 * Animate.css
 * Font Awesome v4.3
-* jQuery Easing Plugin v1.3
 * WOW.js v1.1.2
 * jQuery nicescroll v3.6.0
 * prettyPhoto v3.1.6
