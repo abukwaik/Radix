@@ -1,0 +1,16 @@
+/* MAIN */
+body#tinymce.wp-editor { margin: 20px; }
+body#tinymce.wp-editor a { color: #3b86b0; }
+body#tinymce.wp-editor hr { float: none; width: 100%; height: 40px; margin: 0; background: url("../images/tinymce/line.png") left bottom repeat-x; clear: both; outline: none; border: none;-webkit-margin-before: 0; -webkit-margin-after: 0; }
+body#tinymce.wp-editor h2 { margin: 40px 0 20px; }
+body#tinymce.wp-editor .thin-font { font-weight: 300 !important; }
+/* PRE TAGS */
+body#tinymce.wp-editor pre { position: relative; background: #f6f6f6; border: 1px solid #ddd; color: #555; font-size: 12px; margin: 30px 0px; padding: 20px; line-height: 1.7em; white-space: pre-wrap; white-space: -moz-pre-wrap; white-space: -pre-wrap; white-space: -o-pre-wrap; word-wrap: break-word; border-radius: 3px; box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.06); }
+/* HIGHLIGHT */
+body#tinymce.wp-editor .text-highlight { background-image: url("../images/tinymce/highlight-left.png"),url("../images/tinymce/highlight-center.png"), url("../images/tinymce/highlight-right.png"); background-repeat: repeat-x;background-repeat: no-repeat, repeat-x, no-repeat;background-position: center;background-position: left,center,right;background-clip: padding-box, content-box, padding-box;color: #A5651A;padding: 0 20px; margin: 0 -6px; }
+/* THEME BUTTON */
+body#tinymce.wp-editor .theme-button {display: inline-block;background: #f3f3f3;background-image: -webkit-gradient(linear,left top,left bottom,from(#fefefe),to(#f4f4f4));background-image: -webkit-linear-gradient(top,#fefefe,#f4f4f4);background-image: -moz-linear-gradient(top,#fefefe,#f4f4f4);background-image: -o-linear-gradient(top,#fefefe,#f4f4f4);background-image: linear-gradient(to bottom,#fefefe,#f4f4f4);border: 1px solid #bbb;color: #333;text-shadow: 0 1px 0 #fff;border-radius: 4px;padding: 3px 8px;text-decoration: none !important; }
+/* HR */
+body#tinymce.wp-editor hr { border: solid #e4e4e4; border-width: 1px 0 0; clear: both; margin: 40px 0; height: 0; }
+/* FANCY HEADER */
+body#tinymce.wp-editor .theme-heading { color: #000; font-weight: 600; font-size: 14px; padding-bottom: 3px; border-bottom: 1px solid #e4e4e4; margin: 20px 0; }

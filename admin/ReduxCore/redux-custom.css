@@ -1,0 +1,49 @@
+.admin-color-fresh #redux-header {background: none repeat scroll 0 0 #48365c; border-color: #333}
+#redux-header .display_header {width: 99%}
+#redux-header .display_header h2 { float: left}
+.redux-container #redux-header .display_header span.redux-dev-mode-notice { bottom: 0 }
+#redux-intro-text{display: none}
+.redux-container .redux-section-field h3,
+.redux-group-tab > h3 {
+	background: #f1f1f1;
+	padding: 15px;
+	margin: 20px 0 0;
+	color: #333;
+	border: none !important
+}
+
+.admin-color-fresh #redux-header .display_header span {
+    color: #fff;
+    display: block;
+    margin: 15px 0;
+}
+
+.redux-container .redux-group-tab .redux-section-desc {
+	background: #f5f5f5;
+	padding: 10px;
+	position: relative
+}
+.redux-container .redux-group-tab .redux-section-desc:before {
+	font-family: 'Elusive-Icons';
+	content: "\f180";
+	font-size: 18px;
+	margin: 0 5px 0 0;
+	color: #999;
+	float: left
+}
+.redux-notice-field {
+	background-color: #f5f5f5;
+	padding: 10px;
+	position: relative
+}
+
+.redux-container-image_select ul.redux-image-select li {
+    padding: 2px 5px 2px 0;
+}
+
+.external:after {
+    font-family: 'FontAwesome';
+    content: " \f08e";
+    margin-right: 5px;
+    font-size: 11px
+}
