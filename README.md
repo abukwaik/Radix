@@ -35,7 +35,7 @@ Third-Party Plugins:
 
 
 ## Screenshot
-![screenshot](http://cdn.croti.com/Radix-screenshot.png)
+![screenshot](https://i0.wp.com/themes.svn.wordpress.org/radix/1.0.9/screenshot.png?w=1142&strip=all)
 
 ## Demo
 [Demo](http://starter.radixtheme.com/)
