@@ -66,3 +66,15 @@
 
 * Updated: Redux framework to version v3.5.4.12
 * Improved: IE script is enqueued now using wp_head hook
+
+## 1.1.0
+06.06.2015
+
+* Improved: Re-build Top Header structure 
+* Improved: Re-build Footer structure
+* Modified: "Sticky Menu" effect for better look
+* Modified: Rearrange sections in theme option panel for better usability
+* Fixed: Disable "Sticky Menu" option not work properly
+* Fixed: Minor bugs fixed
+* Cleanup some codes
+* Updated Theme/Author URI
