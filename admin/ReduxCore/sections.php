@@ -310,19 +310,27 @@ $this->sections[] = array(
         array(
             'id'        => 'color_nav_bg',
             'type'      => 'color',
-            'title'     => __('Background color', 'radix'),
+            'title'     => __('Background Color', 'radix'),
             'subtitle'  => __('Specify menu background color', 'radix'),
             'transparent' => false,
-            'default'   => '#48365c'
+            'default'   => '#fff'
             ), 
         array(
             'id'        => 'color_nav_a',
             'type'      => 'color',
-            'title'     => __('Link color', 'radix'),
+            'title'     => __('Link Color', 'radix'),
             'subtitle'  => __('Specify menu link color', 'radix'),
             'transparent' => false,
-            'default'   => '#fff'
+            'default'   => '#777'
             ), 
+        array(
+            'id'        => 'color_nav_a_hov',
+            'type'      => 'color',
+            'title'     => __('Link Hover Color', 'radix'),
+            'subtitle'  => __('Specify menu link hover color', 'radix'),
+            'transparent' => false,
+            'default'   => '#48365c'
+            ),
         array(
             'id'        => 'navbar_search',
             'type'      => 'switch',

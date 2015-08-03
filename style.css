@@ -4,7 +4,7 @@ Theme URI: http://www.radixtheme.com/
 Author: Abukwaik
 Author URI: http://github.com/abukwaik/
 Description: Fully Responsive starter WordPress Theme based on twitter bootstrap 3. Radix is built with clean HTML5 and CSS3. Simple, super flexible theme designed for Multi-Purpose, and comes packed with powerful options panel.
-Version: 1.1.0
+Version: 1.1.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: theme-options, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, sticky-post, threaded-comments, translation-ready
@@ -27,12 +27,13 @@ Use it to make something cool, have fun, and share what you've learned with othe
 .remove    { display: none }
 .hide      { visibility: hidden }
 
-.wow { visibility:hidden }
+.wow { visibility: hidden }
 
 ol.unstyled, 
 ul.unstyled {
   list-style: none none;
-  margin: 0
+  margin: 0;
+  padding: 0
 }
 
 a:hover,
@@ -545,7 +546,6 @@ p > video {
   margin-bottom: 0;
   border-radius: 0;
   border: 0;
-  background: #fff;
   padding-bottom: 10px;
   padding-top: 10px;
   -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -618,12 +618,22 @@ ul.header-contact li > a {
   line-height: 32px;
 }
 
+#header-social {
+  text-align: right;
+}
+
 #header-social > ul > li {
   display: inline-block
 }
 
 #header-social > ul > li > a {
   display: inline-block;
+  font-size: 1em;
+  display: block;
+  width: 34px;
+  height: 33px;
+  line-height: 33px;
+  text-align: center;
 }
 
 #header-social > ul > li > a:hover {
@@ -640,21 +650,17 @@ ul.header-contact li > a {
 #header-social > ul > li a.vimeo:hover     { background-color: #87D3E0 }
 #header-social > ul > li a.rss:hover       { background-color: #ffac3d }
 
-#header-social > ul > li > a > i {
-  font-size: 1em;
-  display: block;
-  width: 34px;
-  height: 33px;
-  line-height: 33px;
-  text-align: center;
-}
-
 .site-title {
   margin: 5px 0 0;
 }
 
 #sub-header {
   padding: 2em 1em
+}
+
+.sub-header-title, .bio-name {
+  font-size: 18px;
+  margin-top: 10px
 }
 
 #breadcrumbs {

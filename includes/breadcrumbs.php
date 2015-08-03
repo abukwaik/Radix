@@ -155,13 +155,13 @@ function Radix_page_title() {
     $current_category = single_cat_title('', false);
     
     if (is_home()) {
-        echo '<h4 class="sub-header-title" itemprop="headline">' . $page_title . ' </h4>';
+        echo '<h2 class="sub-header-title" itemprop="headline">' . $page_title . ' </h2>';
     } elseif (is_category()) {
-        echo '<h4 class="sub-header-title" itemprop="headline">' . $current_category . ' </h4>';
+        echo '<h2 class="sub-header-title" itemprop="headline">' . $current_category . ' </h2>';
     } elseif (is_search()) {
-        echo '<h4 class="sub-header-title" itemprop="headline">' . __('Search', 'radix') . ' </h4>';
+        echo '<h2 class="sub-header-title" itemprop="headline">' . __('Search', 'radix') . ' </h2>';
     } else {
-        echo '<h4 class="sub-header-title" itemprop="headline">' . get_the_title() . ' </h4>';
+        echo '<h2 class="sub-header-title" itemprop="headline">' . get_the_title() . ' </h2>';
     }  
 } 
 

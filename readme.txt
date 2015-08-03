@@ -29,21 +29,20 @@ Fully Responsive starter WordPress Theme based on twitter bootstrap 3. Radix is 
 * HTML5 validation ready http://validator.w3.org/check?uri=http%3A%2F%2Fstarter.radixtheme.com%2F&charset=%28detect+automatically%29&doctype=Inline&group=0
 * CSS3
 * HTML Markup [schema-ready](https://support.google.com/webmasters/answer/99170?hl=en) Validated by: structured testing tool https://developers.google.com/structured-data/testing-tool
-
 * Optimized breadcrumbs for SEO
 * Pagination
 * 404 Template
 * Clean commented code
 * Google Fonts
+* Accessibility ready
 * Translation ready
 
 Third-Party Plugins:
 
 * Animate.css
 * Font Awesome v4.3
-* jQuery Easing Plugin v1.3
 * WOW.js v1.1.2
-* jQuery nicescroll v3.4.0
+* jQuery nicescroll v3.6.0
 * prettyPhoto v3.1.6
 
 
@@ -92,13 +91,14 @@ All of the images bundled with this theme are licensed as CC0 1.0. This means th
 == CHANGELOG ==
 
 = 1.1.0 =
-06.06.2015
+08.06.2015
 
 * Improved: Re-build Top Header structure 
 * Improved: Re-build Footer structure
 * Modified: "Sticky Menu" effect for better look
 * Modified: Rearrange sections in theme option panel for better usability
 * Fixed: Disable "Sticky Menu" option not work properly
+* Updated: jQuery nicescroll to v3.6.0
 * Fixed: Minor bugs fixed
 * Cleanup some codes
 * Updated Theme/Author URI

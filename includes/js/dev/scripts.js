@@ -1,7 +1,3 @@
-/**
- * Radix jQuery functions
- */
-
 (function($){
     $(document).ready(function(){
 
@@ -108,8 +104,6 @@
             });
         }
         $("#search_dropdown").on("click", searchClick);
-        
-    // prettyPhoto
 
     });
 })(jQuery); 

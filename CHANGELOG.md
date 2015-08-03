@@ -78,3 +78,9 @@
 * Fixed: Minor bugs fixed
 * Cleanup some codes
 * Updated Theme/Author URI
+
+## 1.1.1
+03.08.2015
+
+* Fixed: "Navigation Menu" background color option not work properly
+* Fixed: Minor bugs fixed

@@ -21,6 +21,7 @@
   $a_color_header_hov = ro_get_option('a_color_header_hov');
   $color_nav_bg = ro_get_option('color_nav_bg');
   $color_nav_a = ro_get_option('color_nav_a');
+  $color_nav_a_hov = ro_get_option('color_nav_a_hov');
 
   // Sub Header
   $sub_header_bg_img = ro_get_option_media('sub_header_bg_img');
@@ -74,6 +75,16 @@
   color: <?php echo esc_attr($a_color_header_hov); ?>;
 }
 
+
+.navbar {
+  background: <?php echo esc_attr($color_nav_bg); ?>;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: <?php echo esc_attr($color_nav_a); ?>;
+}
+
+
 #site-menu .navbar-nav > .open > a, 
 #site-menu .navbar-nav > .open > a:focus, 
 #site-menu .navbar-nav > .open > a:hover, 
@@ -95,8 +106,8 @@
 .dropdown-menu > .active > a, 
 .dropdown-menu > .active > a:focus, 
 .dropdown-menu > .active > a:hover {
-  background-color: <?php echo esc_attr($color_nav_bg); ?>;
-  color: <?php echo esc_attr($color_nav_a); ?>;
+  background-color: <?php echo esc_attr($color_nav_a_hov); ?>;
+  color: <?php echo esc_attr($color_nav_bg); ?>;
 }
 
 #sub-header {

@@ -20,22 +20,22 @@ if ( is_active_sidebar( 'sidebar' ) ) {
     $col = 'col-md-9';
 } ?>
  
-	<div id="primary" class="content-area <?php echo $col; ?>">
-		<?php if ( have_posts() ) : ?>
+<div id="primary" class="content-area <?php echo $col; ?>">
+	<?php if ( have_posts() ) : ?>
 		<?php /* Start the Loop */ ?>
 		<?php while ( have_posts() ) : the_post(); ?>
-		<?php
+			<?php
 			/* Include the Post-Format-specific template for the content.
 			* If you want to overload this in a child theme then include a file
 			* called content-___.php (where ___ is the Post Format name) and that will be used instead.
 			*/
 			get_template_part( 'loop/content', get_post_format() );
-		?>
+			?>
 		<?php endwhile; ?>
 		<?php echo Radix_pagination(); ?>
-		<?php else : ?>
+	<?php else : ?>
 		<?php get_template_part( 'loob/content', 'none' ); ?>
-		<?php endif; ?>
-    	</div><!-- #primary -->
-    <?php get_sidebar(); ?>
+	<?php endif; ?>
+</div><!-- #primary -->
+<?php get_sidebar(); ?>
 <?php get_footer(); ?>
