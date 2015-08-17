@@ -16,7 +16,7 @@
 
 define('RADIX_THEME_NAME', 'Radix');
 define('RADIX_THEME_SLUG', 'radix');
-define('RADIX_THEME_VERSION', '1.1.1');
+define('RADIX_THEME_VERSION', '1.1.2');
 define('RADIX_THEME_OPTIONS', 'ro_settings');
 define('RADIX_THEME_DIR', get_template_directory());
 define('RADIX_THEME_URI', get_template_directory_uri());

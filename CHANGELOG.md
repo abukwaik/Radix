@@ -84,3 +84,11 @@
 
 * Fixed: "Navigation Menu" background color option not work properly
 * Fixed: Minor bugs fixed
+
+## 1.1.2
+17.08.2015
+
+* Fixed: Large logo images falls out of the header container
+* Updated: Bootstrap v3.3.5
+* Updated: FontAwesome v4.4
+* Updated: Animate.css "Added compiled CSS"

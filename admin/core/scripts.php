@@ -13,10 +13,10 @@
 function Radix_scripts() {
 
 	wp_enqueue_script('Radix-modernizr',      RADIX_JS_URI . '/modernizr.min.js', 	array(), '2.8.3', true);
-	wp_enqueue_script('Radix-bootstrapjs',    RADIX_JS_URI . '/bootstrap.min.js', 	array('jquery'), '3.3.4', true);
+	wp_enqueue_script('Radix-bootstrapjs',    RADIX_JS_URI . '/bootstrap.min.js', 	array('jquery'), '3.3.5', true);
 	// jquery.nicescroll + WOW.js
-	wp_enqueue_script('Radix-plugins',        RADIX_JS_URI . '/plugins.min.js', 	array(), '1.1.0', true);
-	wp_enqueue_script('Radix-scripts',   	  RADIX_JS_URI . '/scripts.min.js', 	array(), '1.1.0', true);
+	wp_enqueue_script('Radix-plugins',        RADIX_JS_URI . '/plugins.min.js', 	array(), '1.1.2', true);
+	wp_enqueue_script('Radix-scripts',   	  RADIX_JS_URI . '/scripts.min.js', 	array(), '1.1.2', true);
 
 	if ( is_singular() && wp_attachment_is_image() ) {
 		wp_enqueue_script('keyboard-image-navigation',   RADIX_JS_URI . '/keyboard-image-navigation.js');

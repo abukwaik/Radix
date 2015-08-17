@@ -4,7 +4,7 @@ Theme URI: http://www.radixtheme.com/
 Author: Abukwaik
 Author URI: http://github.com/abukwaik/
 Description: Fully Responsive starter WordPress Theme based on twitter bootstrap 3. Radix is built with clean HTML5 and CSS3. Simple, super flexible theme designed for Multi-Purpose, and comes packed with powerful options panel.
-Version: 1.1.1
+Version: 1.1.2
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: theme-options, responsive-layout, accessibility-ready, custom-background, custom-colors, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, sticky-post, threaded-comments, translation-ready
@@ -550,6 +550,10 @@ p > video {
   padding-top: 10px;
   -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
   transition: background .5s ease-in-out,padding .5s ease-in-out;
+}
+
+.navbar-brand {
+  height: 100%;
 }
 
 .navbar-form input {
