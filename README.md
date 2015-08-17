@@ -5,7 +5,7 @@ Clean WordPress Starter Theme based on bootstrap 3 for use as a starting templat
 Nothing special that much:
 
 * Based on [_s](https://github.com/Automattic/_s)
-* Based on [bootstrap 3.3.4](http://twitter.github.com/bootstrap/)
+* Based on [bootstrap 3.3.5](http://twitter.github.com/bootstrap/)
 * Based on [bones](https://github.com/eddiemachado/bones)
 * 2 navigation menus (header-footer).
 * A powerful theme option panel based on [Redux framework](https://github.com/ReduxFramework/redux-framework) with tons of options.
@@ -28,7 +28,7 @@ Nothing special that much:
 Third-Party Plugins:
 
 * Animate.css
-* Font Awesome v4.3
+* Font Awesome v4.4
 * WOW.js v1.1.2
 * jQuery nicescroll v3.6.0
 * prettyPhoto v3.1.6
