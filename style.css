@@ -508,9 +508,8 @@ p > video {
   }
 }
 
-.btn-excerpt {
-  display: block;
-  margin-top: 15px
+.btn-excerpt > a {
+  border: 0;
 }
 
 .pager li > a, 

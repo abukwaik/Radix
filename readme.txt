@@ -108,6 +108,8 @@ All of the images bundled with this theme are licensed as CC0 1.0. This means th
 17.08.2015
 
 * Fixed: Large logo images falls out of the header container
+* Fixed: Search pop-up animation not work properly 
+* Modified: Add `<p>` element to excerpt button
 * Updated: Bootstrap v3.3.5
 * Updated: FontAwesome v4.4
 * Updated: Animate.css "Added compiled CSS"

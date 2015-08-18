@@ -59,7 +59,7 @@ function Radix_custom_excerpt_length( $length ) {
 
 // Read more link on all excerpts
 function Radix_new_excerpt_more( $more ) {
-	return ' <a class="btn btn-default btn-sm" href="' . get_permalink( get_the_ID() ) . '">' . __( 'Read More', 'radix' ) . '</a>';
+	return '</p><p class="btn-excerpt"><a class="btn btn-default btn-sm " href="' . get_permalink( get_the_ID() ) . '">' . __( 'Read More', 'radix' ) . '</a>';
 }
 
 /*

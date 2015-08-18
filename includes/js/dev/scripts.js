@@ -97,13 +97,12 @@
         // add dropdown class to search dropdown button
         function searchClick(){
             var $animationEnd = 'webkitAnimationEnd animationend';
-            $('#search_dropdown').addClass('dropdown');
             $('#dropdown_animation').addClass("search-animation").one($animationEnd, function() {
                 $(this).removeClass('search-animation');
                 $('.search-pop').focus();
             });
         }
-        $("#search_dropdown").on("click", searchClick);
+        $("#search_dropdown").find('a').on("click", searchClick);
 
     });
 })(jQuery); 
